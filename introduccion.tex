@@ -55,12 +55,71 @@ La justificación explica por qué es importante y relevante llevar a cabo la in
 \subsubsection{Alcances}
 \label{subsec:alcances}
 
-Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+\paragraph{Sobre el sistema en general}
+\begin{itemize}
+    \item El sistema consistirá en un chatbot con inteligencia artificial para atención al cliente, consulta de productos y generación automática de cotizaciones.
+    \item La plataforma será multiempresa, permitiendo que múltiples negocios operen de manera independiente dentro del mismo sistema.
+    \item El sistema incluirá un panel administrativo web para la gestión de empresas, usuarios, productos, conversaciones y reportes.
+\end{itemize}
+\paragraph{Sobre los canales de comunicación}
+\begin{itemize}
+    \item El chatbot estará disponible a través de un widget web embebible en los sitios de las empresas.
+    \item El chatbot estará disponible a través del WhatsApp de cada empresa.
+    \item Ambos canales de comunicación (WhatsApp y widget web) compartirán el mismo motor de IA y registrarán las conversaciones en la base de datos.
+\end{itemize}
+\paragraph{Sobre los perfiles de usuario}
+\begin{itemize}
+    \item El sistema contará con tres perfiles internos: administrador general, administrador de empresa y usuario de empresa.
+    \item Los clientes finales interactuarán únicamente a través del widget web o WhatsApp, sin acceso al panel administrativo.
+    \item El administrador general tendrá visibilidad y control sobre todas las empresas del sistema.
+    \item El administrador de empresa podrá gestionar únicamente su propia empresa, sus productos y sus usuarios.
+    \item El usuario de empresa podrá gestionar productos y visualizar reportes, con permisos restringidos.
+\end{itemize}
+\paragraph{Sobre la gestión de productos}
+\begin{itemize}
+    \item El sistema permitirá el registro manual de productos mediante formulario.
+    \item El sistema permitirá la importación masiva de productos mediante archivos CSV.
+    \item El sistema permitirá la importación asistida con IA para archivos sin formato predefinido.
+    \item Se podrán editar, activar, desactivar o eliminar productos.
+    \item Se podrán gestionar categorías, precios, descripciones, imágenes, stock y unidad de medida.
+\end{itemize}
+\paragraph{Sobre las conversaciones y cotizaciones}
+\begin{itemize}
+    \item El chatbot responderá exclusivamente con base en el catálogo de productos real de cada empresa.
+    \item El sistema generará cotizaciones automáticas a partir de los productos seleccionados por el cliente durante la conversación.
+    \item Las cotizaciones incluirán cálculo de cantidades, precios, subtotales y totales.
+    \item Las cotizaciones podrán ser guardadas, consultadas en el historial y exportadas a PDF.
+    \item Se registrará el historial completo de mensajes de cada conversación.
+\end{itemize}
+\paragraph{Sobre los reportes y auditoría}
+\begin{itemize}
+    \item El sistema generará reportes de uso por empresa: tokens consumidos, conversaciones atendidas, productos consultados y cotizaciones generadas.
+    \item Los reportes podrán filtrarse por rango de fechas.
+    \item Los reportes podrán exportarse a Excel y PDF.
+    \item Se registrarán logs de auditoría incluyendo fecha, hora, usuario o empresa asociada, y resultado de la acción.
+\end{itemize}
+\paragraph{Sobre el widget web}
+\begin{itemize}
+    \item Se generará un script embebible por empresa para integrar el widget en sitios web externos.   
+    \item El widget permitirá configuración visual personalizada: color principal, logo, nombre del asistente, mensaje inicial, posición en pantalla, estilo de burbuja, mensajes de error y carga.
+    \item Se implementará protección contra abuso o llamadas excesivas al widget.
+\end{itemize}
+\paragraph{Fronteras}
+\begin{itemize}
+    \item No se incluyen otros canales de comunicación como Messenger, Telegram, SMS o correo electronico.
+    \item No se soportan imagenes, videos, audios ni documentos en el chat, unicamente texto.
+    \item No se contempla app móvil, el acceso es via web para el panel administrativo y via widget/WhatsApp para el chatbot.
+    \item El sistema unicamente operará en español, no se contemplan otros idiomas.
+\end{itemize}
 
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+\begin{itemize}
+    \item El desarrollo del sistema debe completarse dentro del período establecido por el calendario académico (Mayo-Agosto 2026), lo que puede restringir la profundidad de ciertos módulos o la implementación de funcionalidades adicionales no críticas.
+    \item La calidad de las respuestas del chatbot depende de la calidad y completitud del catálogo de productos ingresado por cada empresa. Datos incompletos o inconsistentes pueden afectar el rendimiento de la IA.
+    \item El despliegue inicial contempla un solo Droplet de Digital Ocean, lo que podría limitar la capacidad de respuesta ante picos de demanda superiores a los 200 conversaciones simultáneas estimadas como base.
+\end{itemize}
 
 \subsection{Ejemplos de Tablas e Inclusión de Imágenes}
 \label{sec:ejemplos_elementos}
