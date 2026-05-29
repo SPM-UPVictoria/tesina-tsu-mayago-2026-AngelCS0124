@@ -19,6 +19,356 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{wang2026building}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6bf0d8a8573aa1ba9713d0e20811cdb7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=037c021de29931197ea9e89f1ed91009}{%
+           family={Fatima},
+           familyi={F\bibinitperiod},
+           given={Noor},
+           giveni={N\bibinitperiod}}}%
+        {{hash=db2790fc4631f5bc313a7a6d27475501}{%
+           family={Shahbaz},
+           familyi={S\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=68a6ee8d45c38eb65d4d574d0e783b38}{%
+           family={Asif},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{4f61dd145273bf84be9817f79e887469}
+      \strng{fullhash}{21473ba42e0ebe9da71e069bc06ec089}
+      \strng{fullhashraw}{21473ba42e0ebe9da71e069bc06ec089}
+      \strng{bibnamehash}{4f61dd145273bf84be9817f79e887469}
+      \strng{authorbibnamehash}{4f61dd145273bf84be9817f79e887469}
+      \strng{authornamehash}{4f61dd145273bf84be9817f79e887469}
+      \strng{authorfullhash}{21473ba42e0ebe9da71e069bc06ec089}
+      \strng{authorfullhashraw}{21473ba42e0ebe9da71e069bc06ec089}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Building user trust in AI chatbots for customer service through human-like cues and perceived reliability}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{7860}
+      \range{pages}{1}
+    \endentry
+    \entry{ding2024interactivity}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ac4017b40d7880239a6a765952f4bb51}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b87b455444d0910a1fa286f0a0088526}{%
+           family={Najaf},
+           familyi={N\bibinitperiod},
+           given={Muzammil},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b9abcca8755c56c478f6e8858347dee}
+      \strng{fullhash}{2b9abcca8755c56c478f6e8858347dee}
+      \strng{fullhashraw}{2b9abcca8755c56c478f6e8858347dee}
+      \strng{bibnamehash}{2b9abcca8755c56c478f6e8858347dee}
+      \strng{authorbibnamehash}{2b9abcca8755c56c478f6e8858347dee}
+      \strng{authornamehash}{2b9abcca8755c56c478f6e8858347dee}
+      \strng{authorfullhash}{2b9abcca8755c56c478f6e8858347dee}
+      \strng{authorfullhashraw}{2b9abcca8755c56c478f6e8858347dee}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Psychology}
+      \field{title}{Interactivity, humanness, and trust: a psychological approach to AI chatbot adoption in e-commerce}
+      \field{volume}{12}
+      \field{year}{2024}
+    \endentry
+    \entry{nandkumar2025enhancing}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bc3cbd9c588e30512802a89dce6f35e3}{%
+           family={Nandkumar},
+           familyi={N\bibinitperiod},
+           given={Chandran},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3549df2ba99d4d92a0a8385fbae95268}{%
+           family={Peternel},
+           familyi={P\bibinitperiod},
+           given={Luka},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{201538cfb97993e8ce59b7881c2e63a5}
+      \strng{fullhash}{201538cfb97993e8ce59b7881c2e63a5}
+      \strng{fullhashraw}{201538cfb97993e8ce59b7881c2e63a5}
+      \strng{bibnamehash}{201538cfb97993e8ce59b7881c2e63a5}
+      \strng{authorbibnamehash}{201538cfb97993e8ce59b7881c2e63a5}
+      \strng{authornamehash}{201538cfb97993e8ce59b7881c2e63a5}
+      \strng{authorfullhash}{201538cfb97993e8ce59b7881c2e63a5}
+      \strng{authorfullhashraw}{201538cfb97993e8ce59b7881c2e63a5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Robotics and AI}
+      \field{title}{Enhancing supermarket robot interaction: an equitable multi-level LLM conversational interface for handling diverse customer intents}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{1576348}
+      \range{pages}{1}
+    \endentry
+    \entry{wang2024smart}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5df9150966f05e463a7a0bbfb0e98015}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=28b6504d56c03d7d44c0ecca06ae0869}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6de70071dc69600750975e4662707311}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Changxia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9e4f8aa7b2b65074bef29bd20b3c16cf}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Dengchao},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{d698f0ad4c26f99de2829f5bd556e9dc}
+      \strng{fullhash}{cf4744181ed06ed8b36e183f0a08ae8e}
+      \strng{fullhashraw}{cf4744181ed06ed8b36e183f0a08ae8e}
+      \strng{bibnamehash}{d698f0ad4c26f99de2829f5bd556e9dc}
+      \strng{authorbibnamehash}{d698f0ad4c26f99de2829f5bd556e9dc}
+      \strng{authornamehash}{d698f0ad4c26f99de2829f5bd556e9dc}
+      \strng{authorfullhash}{cf4744181ed06ed8b36e183f0a08ae8e}
+      \strng{authorfullhashraw}{cf4744181ed06ed8b36e183f0a08ae8e}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Smart customer service in unmanned retail store enhanced by large language model}
+      \field{volume}{14}
+      \field{year}{2024}
+    \endentry
+    \entry{russell2020artificial}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial Intelligence: A Modern Approach}
+      \field{year}{2020}
+    \endentry
+    \entry{jurafsky2020speech}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=bd33d7a70284b5ead9c7985cb5c9929c}{%
+           family={Jurafsky},
+           familyi={J\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ed8bee488b2703da341cded66bf83cb}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{fullhash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{fullhashraw}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{bibnamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorbibnamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authornamehash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorfullhash}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \strng{authorfullhashraw}{b5e6a2accdc2023c51f42c6ec010d19b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speech and Language Processing}
+      \field{year}{2020}
+    \endentry
+    \entry{vaswani2017attention}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhashraw}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhashraw}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Attention is all you need}
+      \field{volume}{30}
+      \field{year}{2017}
+    \endentry
+    \entry{brown2020language}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ad9f5a3d8c696d78ce2a831ce8ac7524}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{fullhash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{fullhashraw}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{bibnamehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{authorbibnamehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{authornamehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{authorfullhash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{authorfullhashraw}{85437fe07696e4c57f916c83d4ba5581}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Language models are few-shot learners}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{pages}{1877\bibrangedash 1901}
+      \range{pages}{25}
+    \endentry
+    \entry{lewis2020retrieval}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ecbe786a5668bf643d74bb24fe1c3cfe}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{fullhash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{fullhashraw}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{bibnamehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{authorbibnamehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{authornamehash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{authorfullhash}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \strng{authorfullhashraw}{f238c3bfc4b30650dd17e65c4aadfc66}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Retrieval-augmented generation for knowledge-intensive nlp tasks}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{pages}{9459\bibrangedash 9474}
+      \range{pages}{16}
+    \endentry
+    \entry{gao2023retrieval}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=572def57560315de76cedfc3e17c2eb2}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yunfan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{fullhash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{fullhashraw}{f1678cfa142d8029151d4faacf40f176}
+      \strng{bibnamehash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{authorbibnamehash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{authornamehash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{authorfullhash}{f1678cfa142d8029151d4faacf40f176}
+      \strng{authorfullhashraw}{f1678cfa142d8029151d4faacf40f176}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2312.10997}
+      \field{title}{Retrieval-augmented generation for large language models: A survey}
+      \field{year}{2023}
+    \endentry
+    \entry{meta2024whatsapp}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+           family={Meta},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developers.facebook.com/docs/whatsapp}}
+      \field{title}{WhatsApp Business Platform API Documentation}
+      \field{year}{2024}
+    \endentry
     \entry{Sistema:2018:Ivan}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=0e7391700c78d80b544872599602b115}{%
@@ -68,8 +418,8 @@
       \strng{authornamehash}{a99ce1573b42821945806f73f25db5a4}
       \strng{authorfullhash}{a99ce1573b42821945806f73f25db5a4}
       \strng{authorfullhashraw}{a99ce1573b42821945806f73f25db5a4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{16}
@@ -103,8 +453,8 @@
       \strng{authornamehash}{9fd377970fb33bc09a57d0749b982599}
       \strng{authorfullhash}{9fd377970fb33bc09a57d0749b982599}
       \strng{authorfullhashraw}{9fd377970fb33bc09a57d0749b982599}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{13}
@@ -143,8 +493,8 @@
       \strng{authornamehash}{b2ae417fff4b84476940e7fc33a990a5}
       \strng{authorfullhash}{b2ae417fff4b84476940e7fc33a990a5}
       \strng{authorfullhashraw}{b2ae417fff4b84476940e7fc33a990a5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{11}
@@ -175,8 +525,8 @@
       \strng{authornamehash}{b1a1def5a04b82a913bee6308ec6e425}
       \strng{authorfullhash}{b1a1def5a04b82a913bee6308ec6e425}
       \strng{authorfullhashraw}{b1a1def5a04b82a913bee6308ec6e425}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Harvard Business Review}
@@ -214,8 +564,8 @@
       \strng{authornamehash}{335df3d0c8ae943487bc1142bfe638d0}
       \strng{authorfullhash}{335df3d0c8ae943487bc1142bfe638d0}
       \strng{authorfullhashraw}{335df3d0c8ae943487bc1142bfe638d0}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -249,8 +599,8 @@
       \strng{authornamehash}{94562000719e09265f5e4a9713eb7b4b}
       \strng{authorfullhash}{94562000719e09265f5e4a9713eb7b4b}
       \strng{authorfullhashraw}{94562000719e09265f5e4a9713eb7b4b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{6}
@@ -276,8 +626,8 @@
       \strng{authornamehash}{20a37077b38188b2a8310b554035e35d}
       \strng{authorfullhash}{20a37077b38188b2a8310b554035e35d}
       \strng{authorfullhashraw}{20a37077b38188b2a8310b554035e35d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Medical Informatics}
@@ -305,8 +655,8 @@
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://code.visualstud io.com/.}}

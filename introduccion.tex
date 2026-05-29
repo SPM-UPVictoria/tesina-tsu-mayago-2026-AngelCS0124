@@ -10,12 +10,9 @@ A lo largo de este documento se definen todos los procesos e información releva
 \subsection{Objetivos}
 \label{sec:objetivos}
 
-Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
-
 \subsubsection{Objetivo General}
 \label{subsec:objetivo_general}
 
-El objetivo general expresa el propósito fundamental del estudio en términos amplios. Es la meta principal que se busca lograr y generalmente abarca la totalidad de la investigación. Debe ser coherente con la definición del problema.
 \begin{itemize}
     \item \textbf{Objetivo:} Desarrollar un sistema cotizador de productos a través de Inteligencia Artificial que automatice el proceso de consulta, análisis y generación de cotizaciones, permitiendo mejorar la rapidez, precisión y atención al usuario, y teniendo como entregable un sistema funcional evaluado.
 \end{itemize}
@@ -23,14 +20,13 @@ El objetivo general expresa el propósito fundamental del estudio en términos a
 \subsubsection{Objetivos Específicos}
 \label{subsec:objetivos_especificos}
 
-Los objetivos específicos detallan los pasos o las acciones concretas que se llevarán a cabo para alcanzar el objetivo general. Son tareas más pequeñas y desglosadas que, al ser cumplidas, permiten la consecución del objetivo principal.
 \begin{itemize}
     \item \textbf{Objetivo 1:} Analizar los requerimientos funcionales y tecnológicos del sistema, generando como entregable un documento de especificación de requisitos.
     \item \textbf{Objetivo 2:} Diseñar y desarrollar el sistema cotizador con Inteligencia Artificial, generando como entregable un prototipo funcional con sus módulos principales de operación.
     \item \textbf{Objetivo 3:} Validar el desempeño del sistema mediante pruebas de eficiencia, precisión y satisfacción del usuario, generando como entregable un informe de resultados y propuestas de mejora.
 \end{itemize}
 
-\subsection{Planteamiento del Problema}
+\subsection{Planteamiento del problema}
 \label{sec:problema}
 
 El problema que se busca resolver es la ineficiencia en el proceso de cotización de productos en empresas medianas y pequeñas. En la actualidad, dicho proceso se realiza principalmente a través de mensajería instantánea, sin una correcta automatización. Son los propios trabajadores de las empresas quienes atienden manualmente las solicitudes de cotización, lo que genera retardos significativos en el intervalo entre la solicitud del cliente y la respuesta. Esta situación afecta directamente diversos aspectos de la atención al cliente, como la velocidad de respuesta, la disponibilidad fuera del horario laboral y la consistencia de la información proporcionada.
@@ -42,10 +38,14 @@ Con base en lo anterior, la pregunta de investigación que guía este trabajo es
 \subsection{Antecedentes}
 \label{sec:antecedentes}
 
-En esta sección, se presenta una revisión concisa y pertinente de investigaciones previas, literatura existente y el estado del arte relacionado con el tema de la tesis. El objetivo es situar el trabajo actual dentro del conocimiento acumulado, identificar vacíos en la investigación y demostrar la originalidad y la necesidad del estudio propuesto. Se deben citar adecuadamente las fuentes, mostrando cómo el trabajo se construye sobre cimientos previos o cómo aborda aspectos no resueltos.
+En los últimos años, el uso de chatbots impulsados por inteligencia artificial ha aumentado en diversos sectores como el comercio electrónico y la atención al cliente. \cite{wang2026building} exploraron cómo las señales de humanización y la fiabilidad percibida influyen en la confianza que los usuarios tienen hacia los chatbots de servicio al cliente, identificando que elementos como la naturalidad conversacional, la empatía y la personalización son clave para generar confianza afectiva. De manera similar, \cite{ding2024interactivity} demostraron que la interactividad y la percepción de humanidad en los chatbots impactan positivamente en la confianza del usuario, lo que a su vez aumenta el uso de esta tecnología en entornos de comercio electrónico. Ambos estudios coinciden en que la confianza es un factor crítico para la aceptación de chatbots automatizados.
 
-\subsection{Antecedentes de la empresa}
-\label{sec:antecedentes_de_la_empresa}
+En el ámbito de entornos físicos de venta, \cite{nandkumar2025enhancing} desarrollaron un sistema conversacional para supermercados basado en múltiples modelos de lenguaje, capaz de atender tanto consultas básicas o específicas como peticiones más complejas. Su propuesta incluyó un clasificador de intenciones y un sistema de recuperación de información para ofrecer respuestas personalizadas. Por otro lado, \cite{wang2024smart} propusieron un framework para tiendas de autoservicio no tripuladas que integra reconocimiento visual de productos con modelos de lenguaje para recomendar artículos basados en las necesidades del cliente, utilizando técnicas de fine-tuning eficientes para adaptar los modelos a datos limitados.
+
+Como se ha visto, aunque estos trabajos han avanzado en la integración de chatbots con IA en contextos comerciales, ninguno aborda completamente un sistema multiempresa que unifique la atención por widget web y WhatsApp, con un panel administrativo centralizado para la gestión de productos, cotizaciones y reportes. El presente proyecto se diferencia al proponer una solución completa que no solo automatiza la atención al cliente en el proceso de cotización mediante IA, sino que también ofrece una herramienta unificada de administración para múltiples negocios, atendiendo una necesidad no cubierta por las investigaciones previas.
+
+\subsubsection{Antecedentes de la empresa}
+\label{subsec:antecedentes_de_la_empresa}
 
 \textbf{\UnidadEconomica} es una empresa enfocada en brindar servicios de soporte técnico y formación profesional en el área de tecnologías de la información. Su trabajo principal consiste en resolver problemas operativos de hardware y software para empresas y particulares, además de ofrecer cursos prácticos para mejorar el uso de herramientas digitales.
 
@@ -55,28 +55,37 @@ En cuanto a sus actividades, la empresa combina el mantenimiento técnico con la
 
 Actualmente me encuentro trabajando en uno de sus proyectos que consiste en el \textbf{\NombreProyecto}, siendo esta una de las soluciones tecnológicas que ofrecen a distintas empresas y/o negocios.
 
-\subsection{Antecedentes teóricos}
-\label{sec:antecedentes_teoricos}
+\subsubsection{Antecedentes teóricos}
+\label{subsec:antecedentes_teoricos}
 
-\subsubsection{Inteligencia Artificial y Procesamiento de Lenguaje Natural}
-\label{subsec:inteligencia_artificial}
+\paragraph{Inteligencia Artificial y Procesamiento de Lenguaje Natural}
 
-\subsubsection{Arquitectura RAG (Retrieval-Augmented Generation)}
-\label{subsec:arquitectura_rag}
+La inteligencia artificial (IA) es una rama de la computación que busca desarrollar sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el razonamiento, el aprendizaje y la comprensión del lenguaje \cite{russell2020artificial}. Dentro de la IA, el Procesamiento de Lenguaje Natural (NLP, por sus siglas en inglés) se enfoca en la interacción entre computadoras y lenguaje humano, permitiendo a las máquinas interpretar, procesar y generar texto de manera autónoma \cite{jurafsky2020speech}.
 
-\subsubsection{WhatsApp Business Platform}
-\label{subsec:whatsapp_business_platform}
+En los últimos años, los modelos de lenguaje de gran tamaño (LLMs), basados en arquitecturas Transformer \cite{vaswani2017attention}, han revolucionado el campo al demostrar capacidades avanzadas en tareas de conversación y generación de texto \cite{brown2020language}. Modelos como GPT-4o-mini, utilizado en el presente proyecto, ofrecen un equilibrio entre rendimiento y costo computacional, siendo ideales para aplicaciones conversacionales en entornos comerciales. Estos modelos, sin embargo, son propensos a generar información no veraz (conocida como alucinaciones) si no se les restringe adecuadamente mediante fuentes de información confiables.
+
+\paragraph{Arquitectura RAG (Retrieval-Augmented Generation)}
+
+La arquitectura RAG (Retrieval-Augmented Generation) fue propuesta por \cite{lewis2020retrieval} como un enfoque para mejorar la precisión y relevancia de las respuestas generadas por modelos de lenguaje. RAG combina un sistema de recuperación de información con un modelo generativo: ante una consulta del usuario, se recuperan documentos o datos relevantes desde una fuente externa (como una base de datos), y estos se inyectan como contexto adicional en el prompt del modelo generativo \cite{gao2023retrieval}.
+
+Este enfoque reduce las alucinaciones del modelo, ya que las respuestas se basan en información recuperada en lugar de depender exclusivamente del conocimiento interno del modelo. En el presente proyecto, la arquitectura RAG se implementa para que el chatbot consulte la base de datos PostgreSQL de productos de cada empresa y genere respuestas basadas exclusivamente en el catálogo real disponible.
+
+\paragraph{Integración con WhatsApp Business Platform}
+
+WhatsApp Business Platform es la solución oficial de Meta para que empresas puedan integrar servicios de mensajería automatizada a través de WhatsApp. A diferencia de la aplicación WhatsApp Business convencional, la plataforma está diseñada para entornos de alto volumen y permite la automatización mediante APIs, webhooks y mensajes plantilla \cite{meta2024whatsapp}.
+
+Los webhooks permiten que el sistema reciba notificaciones en tiempo real cuando un cliente envía un mensaje. Las APIs REST facilitan el envío de respuestas automáticas. Adicionalmente, la plataforma impone políticas de uso, como la ventana de 24 horas para respuestas gratuitas y el uso de mensajes plantilla para comunicaciones iniciadas por la empresa fuera de dicho período \cite{meta2024whatsapp}. En este proyecto, la integración con WhatsApp Business Platform permite que el chatbot atienda solicitudes de cotización a través de este canal, registrando cada conversación en la base de datos y manteniendo la relación entre cada número de WhatsApp y la empresa correspondiente.
 
 \subsection{Tabla comparativa}
 \label{sec:tabla_comparativa}
 
 Con el fin de evidenciar las mejoras que introduce el presente proyecto, en la Tabla \ref{tab:comparativa} se contrastan los procesos realizados de manera tradicional (sin automatización) frente a la operación del sistema propuesto, abarcando aspectos como el tiempo de respuesta, disponibilidad, registro de conversaciones y gestión de productos.
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Comparativa entre el proceso tradicional y el sistema propuesto}
 \label{tab:comparativa}
-\begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+\begin{tabular}{|p{3.5cm}|p{5cm}|p{5cm}|}
 \hline
 \textbf{Aspecto} & \textbf{Antes (sin el sistema)} & \textbf{Después (con el sistema)} \\
 \hline
@@ -186,6 +195,16 @@ Debido a lo anterior, invertir tiempo y recursos en este proyecto vale la pena p
 
 \subsection{Temas tentativos del marco teórico}
 \label{sec:temas_tentativos_marco_teorico}
+
+\begin{itemize}
+    \item Inteligencia Artificial y sus aplicaciones en sistemas conversacionales
+    \item Procesamiento de Lenguaje Natural (NLP): NLU y NLG
+    \item Alucinaciones en modelos de lenguaje y estrategias de mitigación
+    \item Arquitectura RAG (Retrieval-Augmented Generation) y su implementación en sistemas de recomendación
+    \item Inyección de contexto y system prompting para restricción de respuestas
+    \item Arquitectura multiempresa (multitenancy) en sistemas de software
+    \item Estrategias de caché para optimización de consultas
+\end{itemize}
 
 % \subsection{Ejemplos de Tablas e Inclusión de Imágenes}
 % \label{sec:ejemplos_elementos}
