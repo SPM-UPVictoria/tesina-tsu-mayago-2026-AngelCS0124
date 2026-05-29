@@ -1,45 +1,125 @@
 \section{Introducción}
 \label{ch:introduccion}
 
-La introducción es la primera sección sustantiva de la tesis y tiene como propósito principal guiar al lector a través del contexto y la relevancia del estudio. En ella, se presenta el problema de investigación, se establecen los objetivos, se justifica la realización del trabajo y se delinean los alcances y limitaciones. Debe ser escrita de forma clara y concisa, capturando el interés del lector y proporcionando una visión general de lo que se abordará en los capítulos subsiguientes.
+En el presente documento se presenta el proyecto  \textbf{\NombreProyecto}, un sistema de chat automatizado con inteligencia artificial diseñado para facilitar la cotización de productos a través de distintos canales digitales, así como la gestión administrativa de empresas y clientes. El sistema integra tecnologías de backend, frontend, base de datos e inteligencia artificial, ofreciendo un panel administrativo que consolida la información de múltiples empresas y el historial de cotizaciones generadas.
 
-\subsection{Antecedentes}
-\label{sec:antecedentes}
+El objetivo principal del proyecto es reducir el tiempo de atención al cliente en el proceso de cotización de productos, mejorando así la experiencia del usuario final mediante respuestas más rápidas y precisas. Esta propuesta resulta especialmente atractiva para empresas que aún no cuentan con un sistema de chat automatizado y buscan optimizar su servicio al cliente.
 
-En esta sección, se presenta una revisión concisa y pertinente de investigaciones previas, literatura existente y el estado del arte relacionado con el tema de la tesis. El objetivo es situar el trabajo actual dentro del conocimiento acumulado, identificar vacíos en la investigación y demostrar la originalidad y la necesidad del estudio propuesto. Se deben citar adecuadamente las fuentes, mostrando cómo el trabajo se construye sobre cimientos previos o cómo aborda aspectos no resueltos.
-
-\subsection{Definición del Problema}
-\label{sec:problema}
-
-Aquí se describe de manera clara y precisa el problema que la tesis busca resolver. Es fundamental articular el problema de forma que sea comprensible, relevante y factible de investigar. Esta sección debe responder a preguntas como: ¿Qué situación actual es insatisfactoria o genera una necesidad? ¿Qué aspectos de este problema no han sido abordados adecuadamente por investigaciones anteriores? La definición del problema puede ser formulada como una pregunta de investigación o una declaración clara de la brecha de conocimiento.
+A lo largo de este documento se definen todos los procesos e información relevante del proyecto, abordando desde el problema que se pretende resolver, los objetivos establecidos y la justificación de la propuesta, hasta los alcances y limitaciones que delimitan su desarrollo.
 
 \subsection{Objetivos}
 \label{sec:objetivos}
 
-Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
-
 \subsubsection{Objetivo General}
 \label{subsec:objetivo_general}
 
-El objetivo general expresa el propósito fundamental del estudio en términos amplios. Es la meta principal que se busca lograr y generalmente abarca la totalidad de la investigación. Debe ser coherente con la definición del problema.
 \begin{itemize}
-    \item \textbf{Ejemplo:} Desarrollar un sistema automatizado para la detección temprana de fallas en turbinas eólicas utilizando técnicas de aprendizaje automático.
+    \item \textbf{Objetivo:} Desarrollar un sistema cotizador de productos a través de Inteligencia Artificial que automatice el proceso de consulta, análisis y generación de cotizaciones, permitiendo mejorar la rapidez, precisión y atención al usuario, y teniendo como entregable un sistema funcional evaluado.
 \end{itemize}
 
 \subsubsection{Objetivos Específicos}
 \label{subsec:objetivos_especificos}
 
-Los objetivos específicos detallan los pasos o las acciones concretas que se llevarán a cabo para alcanzar el objetivo general. Son tareas más pequeñas y desglosadas que, al ser cumplidas, permiten la consecución del objetivo principal.
 \begin{itemize}
-    \item \textbf{Ejemplo 1:} Recopilar y preprocesar un conjunto de datos de vibraciones y parámetros operativos de turbinas eólicas.
-    \item \textbf{Ejemplo 2:} Implementar y evaluar diferentes algoritmos de aprendizaje automático para la clasificación de estados operativos (normal, pre-falla, falla).
-    \item \textbf{Ejemplo 3:} Diseñar una interfaz de usuario para la visualización de alertas y el monitoreo en tiempo real del estado de las turbinas.
+    \item \textbf{Objetivo 1:} Analizar los requerimientos funcionales y tecnológicos del sistema, generando como entregable un documento de especificación de requisitos.
+    \item \textbf{Objetivo 2:} Diseñar y desarrollar el sistema cotizador con Inteligencia Artificial, generando como entregable un prototipo funcional con sus módulos principales de operación.
+    \item \textbf{Objetivo 3:} Validar el desempeño del sistema mediante pruebas de eficiencia, precisión y satisfacción del usuario, generando como entregable un informe de resultados y propuestas de mejora.
 \end{itemize}
+
+\subsection{Planteamiento del problema}
+\label{sec:problema}
+
+El problema que se busca resolver es la ineficiencia en el proceso de cotización de productos en empresas medianas y pequeñas. En la actualidad, dicho proceso se realiza principalmente a través de mensajería instantánea, sin una correcta automatización. Son los propios trabajadores de las empresas quienes atienden manualmente las solicitudes de cotización, lo que genera retardos significativos en el intervalo entre la solicitud del cliente y la respuesta. Esta situación afecta directamente diversos aspectos de la atención al cliente, como la velocidad de respuesta, la disponibilidad fuera del horario laboral y la consistencia de la información proporcionada.
+
+Frente a esta problemática, la presente investigación propone automatizar el proceso de cotización mediante un sistema de respuesta automatizada basado en inteligencia artificial, complementado con un panel administrativo que permita a las empresas revisar y modificar la información relacionada con sus propios productos y las cotizaciones realizadas por los clientes.
+
+Con base en lo anterior, la pregunta de investigación que guía este trabajo es: ¿De qué manera la implementación de un sistema de chat automatizado con inteligencia artificial puede reducir el tiempo de respuesta en el proceso de cotización de productos en empresas de mediano y pequeño tamaño?
+
+\subsection{Antecedentes}
+\label{sec:antecedentes}
+
+En los últimos años, el uso de chatbots impulsados por inteligencia artificial ha aumentado en diversos sectores como el comercio electrónico y la atención al cliente. \cite{wang2026building} exploraron cómo las señales de humanización y la fiabilidad percibida influyen en la confianza que los usuarios tienen hacia los chatbots de servicio al cliente, identificando que elementos como la naturalidad conversacional, la empatía y la personalización son clave para generar confianza afectiva. De manera similar, \cite{ding2024interactivity} demostraron que la interactividad y la percepción de humanidad en los chatbots impactan positivamente en la confianza del usuario, lo que a su vez aumenta el uso de esta tecnología en entornos de comercio electrónico. Ambos estudios coinciden en que la confianza es un factor crítico para la aceptación de chatbots automatizados.
+
+En el ámbito de entornos físicos de venta, \cite{nandkumar2025enhancing} desarrollaron un sistema conversacional para supermercados basado en múltiples modelos de lenguaje, capaz de atender tanto consultas básicas o específicas como peticiones más complejas. Su propuesta incluyó un clasificador de intenciones y un sistema de recuperación de información para ofrecer respuestas personalizadas. Por otro lado, \cite{wang2024smart} propusieron un framework para tiendas de autoservicio no tripuladas que integra reconocimiento visual de productos con modelos de lenguaje para recomendar artículos basados en las necesidades del cliente, utilizando técnicas de fine-tuning eficientes para adaptar los modelos a datos limitados.
+
+Como se ha visto, aunque estos trabajos han avanzado en la integración de chatbots con IA en contextos comerciales, ninguno aborda completamente un sistema multiempresa que unifique la atención por widget web y WhatsApp, con un panel administrativo centralizado para la gestión de productos, cotizaciones y reportes. El presente proyecto se diferencia al proponer una solución completa que no solo automatiza la atención al cliente en el proceso de cotización mediante IA, sino que también ofrece una herramienta unificada de administración para múltiples negocios, atendiendo una necesidad no cubierta por las investigaciones previas.
+
+\subsubsection{Antecedentes de la empresa}
+\label{subsec:antecedentes_de_la_empresa}
+
+\textbf{\UnidadEconomica} es una empresa enfocada en brindar servicios de soporte técnico y formación profesional en el área de tecnologías de la información. Su trabajo principal consiste en resolver problemas operativos de hardware y software para empresas y particulares, además de ofrecer cursos prácticos para mejorar el uso de herramientas digitales.
+
+Su misión es impulsar la productividad de sus clientes mediante el dominio de la tecnología, buscando siempre que las personas y negocios sean más eficientes al utilizar herramientas digitales. Para lograr esto, se enfocan en cerrar la brecha técnica a través de la capacitación continua y la certificación oficial de competencias.
+
+En cuanto a sus actividades, la empresa combina el mantenimiento técnico con la enseñanza. Por un lado, se encargan de reparar equipos, optimizar sistemas y proteger la infraestructura informática de sus clientes. Por otro lado, operan como un centro de capacitación y certificación donde enseñan a manejar programas de oficina y diseño, validando profesionalmente los conocimientos adquiridos por sus alumnos.
+
+Actualmente me encuentro trabajando en uno de sus proyectos que consiste en el \textbf{\NombreProyecto}, siendo esta una de las soluciones tecnológicas que ofrecen a distintas empresas y/o negocios.
+
+\subsubsection{Antecedentes teóricos}
+\label{subsec:antecedentes_teoricos}
+
+\paragraph{Inteligencia Artificial y Procesamiento de Lenguaje Natural}
+
+La inteligencia artificial (IA) es una rama de la computación que busca desarrollar sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el razonamiento, el aprendizaje y la comprensión del lenguaje \cite{russell2020artificial}. Dentro de la IA, el Procesamiento de Lenguaje Natural (NLP, por sus siglas en inglés) se enfoca en la interacción entre computadoras y lenguaje humano, permitiendo a las máquinas interpretar, procesar y generar texto de manera autónoma \cite{jurafsky2020speech}.
+
+En los últimos años, los modelos de lenguaje de gran tamaño (LLMs), basados en arquitecturas Transformer \cite{vaswani2017attention}, han revolucionado el campo al demostrar capacidades avanzadas en tareas de conversación y generación de texto \cite{brown2020language}. Modelos como GPT-4o-mini, utilizado en el presente proyecto, ofrecen un equilibrio entre rendimiento y costo computacional, siendo ideales para aplicaciones conversacionales en entornos comerciales. Estos modelos, sin embargo, son propensos a generar información no veraz (conocida como alucinaciones) si no se les restringe adecuadamente mediante fuentes de información confiables.
+
+\paragraph{Arquitectura RAG (Retrieval-Augmented Generation)}
+
+La arquitectura RAG (Retrieval-Augmented Generation) fue propuesta por \cite{lewis2020retrieval} como un enfoque para mejorar la precisión y relevancia de las respuestas generadas por modelos de lenguaje. RAG combina un sistema de recuperación de información con un modelo generativo: ante una consulta del usuario, se recuperan documentos o datos relevantes desde una fuente externa (como una base de datos), y estos se inyectan como contexto adicional en el prompt del modelo generativo \cite{gao2023retrieval}.
+
+Este enfoque reduce las alucinaciones del modelo, ya que las respuestas se basan en información recuperada en lugar de depender exclusivamente del conocimiento interno del modelo. En el presente proyecto, la arquitectura RAG se implementa para que el chatbot consulte la base de datos PostgreSQL de productos de cada empresa y genere respuestas basadas exclusivamente en el catálogo real disponible.
+
+\paragraph{Integración con WhatsApp Business Platform}
+
+WhatsApp Business Platform es la solución oficial de Meta para que empresas puedan integrar servicios de mensajería automatizada a través de WhatsApp. A diferencia de la aplicación WhatsApp Business convencional, la plataforma está diseñada para entornos de alto volumen y permite la automatización mediante APIs, webhooks y mensajes plantilla \cite{meta2024whatsapp}.
+
+Los webhooks permiten que el sistema reciba notificaciones en tiempo real cuando un cliente envía un mensaje. Las APIs REST facilitan el envío de respuestas automáticas. Adicionalmente, la plataforma impone políticas de uso, como la ventana de 24 horas para respuestas gratuitas y el uso de mensajes plantilla para comunicaciones iniciadas por la empresa fuera de dicho período \cite{meta2024whatsapp}. En este proyecto, la integración con WhatsApp Business Platform permite que el chatbot atienda solicitudes de cotización a través de este canal, registrando cada conversación en la base de datos y manteniendo la relación entre cada número de WhatsApp y la empresa correspondiente.
+
+\subsection{Tabla comparativa}
+\label{sec:tabla_comparativa}
+
+Con el fin de evidenciar las mejoras que introduce el presente proyecto, en la Tabla \ref{tab:comparativa} se contrastan los procesos realizados de manera tradicional (sin automatización) frente a la operación del sistema propuesto, abarcando aspectos como el tiempo de respuesta, disponibilidad, registro de conversaciones y gestión de productos.
+
+\begin{table}[H]
+\centering
+\caption{Comparativa entre el proceso tradicional y el sistema propuesto}
+\label{tab:comparativa}
+\begin{tabular}{|p{3.5cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{Aspecto} & \textbf{Antes (sin el sistema)} & \textbf{Después (con el sistema)} \\
+\hline
+Proceso de cotización & Realizado manualmente por empleados vía WhatsApp o llamada telefónica & Proceso automatizado mediante chatbot con IA vía WhatsApp/widget \\
+\hline
+Tiempo de respuesta al cliente & Varía desde minutos hasta horas & Inmediato o en algunos segundos \\
+\hline
+Disponibilidad del servicio & Únicamente en horario laboral & Disponible las 24 horas de los 7 días de la semana \\
+\hline
+Registro de conversaciones & Nulo o bastante informal (capturas de pantalla) & Registro centralizado en base de datos \\
+\hline
+Cotizaciones generadas & Manualmente, propensas a tener errores de cálculo & Automáticamente, con cálculos precisos \\
+\hline
+Almacenamiento de cotizaciones & A papel, en archivos sueltos o mensajes de WhatsApp & En base de datos, con posibilidad de consultar y exportar a PDF \\
+\hline
+Gestión de productos & En Excel o a papel & Panel administrativo con CRUD \\
+\hline
+Disponibilidad de información & Distintas maneras de manejar la distinta información & Panel centralizado con la información necesaria \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsection{Justificación}
 \label{sec:justificacion}
 
-La justificación explica por qué es importante y relevante llevar a cabo la investigación. Se deben argumentar los beneficios y la utilidad del estudio desde diferentes perspectivas: teórica, práctica, social, económica, tecnológica, etc. Responde a la pregunta: ¿Por qué vale la pena invertir tiempo y recursos en esta investigación? Aquí se resaltan los aportes que la tesis generará al campo del conocimiento o a la solución de problemas específicos.
+El presente proyecto se justifica desde distintas perspectivas por los beneficios que puede aportar al automatizar el proceso de cotización de productos en empresas medianas y pequeñas.
+
+Desde el punto de vista tecnológico, el proyecto representa la integración de una tecnología emergente como lo es la inteligencia artificial en un sector productivo como lo son las empresas o negocios. La integración de un chatbot basado en IA se encarga de modernizar los canales de atención al cliente, ofreciendo un servicio más rápido y eficiente.
+
+Desde el punto de vista económico, la automatización del proceso de cotización reduce los intervalos de tiempo entre la solicitud del cliente y la respuesta, lo que puede traducirse en una optimización de los empleados de la empresa, liberándolos de tareas repetitivas.
+
+Desde el punto de vista práctico, el sistema genera un reporte que integra los productos cotizados y la información necesaria sobre estos, además de almacenar toda la información sobre los productos de cierto negocio, facilitando el seguimiento de las cotizaciones realizadas y la disponibilidad de los productos.
+
+Debido a lo anterior, invertir tiempo y recursos en este proyecto vale la pena porque ofrece una solución concreta a una situación real que enfrentan empresas o negocios en la actualidad.
 
 \subsection{Alcances y Limitaciones}
 \label{sec:alcances_limitaciones}
@@ -47,66 +127,138 @@ La justificación explica por qué es importante y relevante llevar a cabo la in
 \subsubsection{Alcances}
 \label{subsec:alcances}
 
-Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+\paragraph{Sobre el sistema en general}
+\begin{itemize}
+    \item El sistema consistirá en un chatbot con inteligencia artificial para atención al cliente, consulta de productos y generación automática de cotizaciones.
+    \item La plataforma será multiempresa, permitiendo que múltiples negocios operen de manera independiente dentro del mismo sistema.
+    \item El sistema incluirá un panel administrativo web para la gestión de empresas, usuarios, productos, conversaciones y reportes.
+\end{itemize}
+\paragraph{Sobre los canales de comunicación}
+\begin{itemize}
+    \item El chatbot estará disponible a través de un widget web embebible en los sitios de las empresas.
+    \item El chatbot estará disponible a través del WhatsApp de cada empresa.
+    \item Ambos canales de comunicación (WhatsApp y widget web) compartirán el mismo motor de IA y registrarán las conversaciones en la base de datos.
+\end{itemize}
+\paragraph{Sobre los perfiles de usuario}
+\begin{itemize}
+    \item El sistema contará con tres perfiles internos: administrador general, administrador de empresa y usuario de empresa.
+    \item Los clientes finales interactuarán únicamente a través del widget web o WhatsApp, sin acceso al panel administrativo.
+    \item El administrador general tendrá visibilidad y control sobre todas las empresas del sistema.
+    \item El administrador de empresa podrá gestionar únicamente su propia empresa, sus productos y sus usuarios.
+    \item El usuario de empresa podrá gestionar productos y visualizar reportes, con permisos restringidos.
+\end{itemize}
+\paragraph{Sobre la gestión de productos}
+\begin{itemize}
+    \item El sistema permitirá el registro manual de productos mediante formulario.
+    \item El sistema permitirá la importación masiva de productos mediante archivos CSV.
+    \item El sistema permitirá la importación asistida con IA para archivos sin formato predefinido.
+    \item Se podrán editar, activar, desactivar o eliminar productos.
+    \item Se podrán gestionar categorías, precios, descripciones, imágenes, stock y unidad de medida.
+\end{itemize}
+\paragraph{Sobre las conversaciones y cotizaciones}
+\begin{itemize}
+    \item El chatbot responderá exclusivamente con base en el catálogo de productos real de cada empresa.
+    \item El sistema generará cotizaciones automáticas a partir de los productos seleccionados por el cliente durante la conversación.
+    \item Las cotizaciones incluirán cálculo de cantidades, precios, subtotales y totales.
+    \item Las cotizaciones podrán ser guardadas, consultadas en el historial y exportadas a PDF.
+    \item Se registrará el historial completo de mensajes de cada conversación.
+\end{itemize}
+\paragraph{Sobre los reportes y auditoría}
+\begin{itemize}
+    \item El sistema generará reportes de uso por empresa: tokens consumidos, conversaciones atendidas, productos consultados y cotizaciones generadas.
+    \item Los reportes podrán filtrarse por rango de fechas.
+    \item Los reportes podrán exportarse a Excel y PDF.
+    \item Se registrarán logs de auditoría incluyendo fecha, hora, usuario o empresa asociada, y resultado de la acción.
+\end{itemize}
+\paragraph{Sobre el widget web}
+\begin{itemize}
+    \item Se generará un script embebible por empresa para integrar el widget en sitios web externos.   
+    \item El widget permitirá configuración visual personalizada: color principal, logo, nombre del asistente, mensaje inicial, posición en pantalla, estilo de burbuja, mensajes de error y carga.
+    \item Se implementará protección contra abuso o llamadas excesivas al widget.
+\end{itemize}
+\paragraph{Fronteras}
+\begin{itemize}
+    \item No se incluyen otros canales de comunicación como Messenger, Telegram, SMS o correo electronico.
+    \item No se soportan imagenes, videos, audios ni documentos en el chat, unicamente texto.
+    \item No se contempla app móvil, el acceso es via web para el panel administrativo y via widget/WhatsApp para el chatbot.
+    \item El sistema unicamente operará en español, no se contemplan otros idiomas.
+\end{itemize}
 
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+\begin{itemize}
+    \item El desarrollo del sistema debe completarse dentro del período establecido por el calendario académico (Mayo-Agosto 2026), lo que puede restringir la profundidad de ciertos módulos o la implementación de funcionalidades adicionales no críticas.
+    \item La calidad de las respuestas del chatbot depende de la calidad y completitud del catálogo de productos ingresado por cada empresa. Datos incompletos o inconsistentes pueden afectar el rendimiento de la IA.
+    \item El despliegue inicial contempla un solo Droplet de Digital Ocean, lo que podría limitar la capacidad de respuesta ante picos de demanda superiores a los 200 conversaciones simultáneas estimadas como base.
+\end{itemize}
 
-\subsection{Ejemplos de Tablas e Inclusión de Imágenes}
-\label{sec:ejemplos_elementos}
+\subsection{Temas tentativos del marco teórico}
+\label{sec:temas_tentativos_marco_teorico}
 
-Para ilustrar el uso de elementos visuales en su tesis, a continuación se presentan ejemplos básicos de cómo incluir tablas e imágenes en LaTeX.
+\begin{itemize}
+    \item Inteligencia Artificial y sus aplicaciones en sistemas conversacionales
+    \item Procesamiento de Lenguaje Natural (NLP): NLU y NLG
+    \item Alucinaciones en modelos de lenguaje y estrategias de mitigación
+    \item Arquitectura RAG (Retrieval-Augmented Generation) y su implementación en sistemas de recomendación
+    \item Inyección de contexto y system prompting para restricción de respuestas
+    \item Arquitectura multiempresa (multitenancy) en sistemas de software
+    \item Estrategias de caché para optimización de consultas
+\end{itemize}
 
-\subsubsection{Inclusión de Tablas}
+% \subsection{Ejemplos de Tablas e Inclusión de Imágenes}
+% \label{sec:ejemplos_elementos}
 
-Las tablas son herramientas fundamentales para presentar datos de manera organizada y comprensible.
-\begin{table}[H]
-    \centering
-    \caption{Clasificación de Sensores Comunes en Ingeniería.}
-    \label{tab:sensores_comunes}
-    \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Tipo de Sensor} & \textbf{Magnitud Medida} & \textbf{Principio de Funcionamiento} \\
-        \hline
-        Termopar & Temperatura & Efecto Seebeck \\
-        Extensómetro & Deformación & Resistencia eléctrica \\
-        Acelerómetro & Aceleración & Efecto piezoeléctrico \\
-        Encoder rotatorio & Posición angular & Óptico/Magnético \\
-        \hline
-    \end{tabular}
-    \caption*{Nota: Esta tabla es un ejemplo para demostrar la estructura básica de una tabla en LaTeX.}
-\end{table}
-Como se puede observar en la Tabla \ref{tab:sensores_comunes}, la información se presenta de forma clara y estructurada. Es importante añadir un \verb|`\caption`|  para describir la tabla y un  \verb|`\label`|  para referenciarla en el texto.
+% Para ilustrar el uso de elementos visuales en su tesis, a continuación se presentan ejemplos básicos de cómo incluir tablas e imágenes en LaTeX.
 
-\subsubsection{Inclusión de Imágenes}
+% \subsubsection{Inclusión de Tablas}
 
-Las imágenes, gráficos o diagramas son cruciales para complementar la explicación textual y facilitar la comprensión de conceptos complejos o resultados visuales.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{img/diagrama_proceso}
-    \caption{Diagrama de un proceso de control automático.}
-    \label{fig:diagrama_control}
-\end{figure}
-% La Figura \ref{fig:diagrama_control} ilustra un ejemplo de un diagrama de un proceso de control. Para incluir una imagen, se utiliza el entorno `figure` y el comando `\includegraphics`. Es fundamental especificar la ruta de la imagen (en este caso, `images/diagrama_proceso.png`) y un `width` para controlar su tamaño. Al igual que con las tablas, un `\caption` y un `\label` son indispensables. Es crucial que cada imagen tenga una calidad adecuada y que sea relevante para el texto.
+% Las tablas son herramientas fundamentales para presentar datos de manera organizada y comprensible.
+% \begin{table}[H]
+%     \centering
+%     \caption{Clasificación de Sensores Comunes en Ingeniería.}
+%     \label{tab:sensores_comunes}
+%     \begin{tabular}{|l|c|c|}
+%         \hline
+%         \textbf{Tipo de Sensor} & \textbf{Magnitud Medida} & \textbf{Principio de Funcionamiento} \\
+%         \hline
+%         Termopar & Temperatura & Efecto Seebeck \\
+%         Extensómetro & Deformación & Resistencia eléctrica \\
+%         Acelerómetro & Aceleración & Efecto piezoeléctrico \\
+%         Encoder rotatorio & Posición angular & Óptico/Magnético \\
+%         \hline
+%     \end{tabular}
+%     \caption*{Nota: Esta tabla es un ejemplo para demostrar la estructura básica de una tabla en LaTeX.}
+% \end{table}
+% Como se puede observar en la Tabla \ref{tab:sensores_comunes}, la información se presenta de forma clara y estructurada. Es importante añadir un \verb|`\caption`|  para describir la tabla y un  \verb|`\label`|  para referenciarla en el texto.
 
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos1}
-        \caption{Datos de Temperatura.}
-        \label{fig:subfig_temp}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos2}
-        \caption{Datos de Presión.}
-        \label{fig:subfig_pres}
-    \end{subfigure}
-    \caption{Comparación de datos operativos de un sistema (Temperatura vs. Presión).}
-    \label{fig:comparacion_datos}
-\end{figure}
-Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
+% \subsubsection{Inclusión de Imágenes}
 
-Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
+% Las imágenes, gráficos o diagramas son cruciales para complementar la explicación textual y facilitar la comprensión de conceptos complejos o resultados visuales.
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.7\textwidth]{img/diagrama_proceso}
+%     \caption{Diagrama de un proceso de control automático.}
+%     \label{fig:diagrama_control}
+% \end{figure}
+% % La Figura \ref{fig:diagrama_control} ilustra un ejemplo de un diagrama de un proceso de control. Para incluir una imagen, se utiliza el entorno `figure` y el comando `\includegraphics`. Es fundamental especificar la ruta de la imagen (en este caso, `images/diagrama_proceso.png`) y un `width` para controlar su tamaño. Al igual que con las tablas, un `\caption` y un `\label` son indispensables. Es crucial que cada imagen tenga una calidad adecuada y que sea relevante para el texto.
+
+% \begin{figure}[H]
+%     \centering
+%     \begin{subfigure}[b]{0.45\textwidth}
+%         \includegraphics[width=\textwidth]{img/grafico_datos1}
+%         \caption{Datos de Temperatura.}
+%         \label{fig:subfig_temp}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.45\textwidth}
+%         \includegraphics[width=\textwidth]{img/grafico_datos2}
+%         \caption{Datos de Presión.}
+%         \label{fig:subfig_pres}
+%     \end{subfigure}
+%     \caption{Comparación de datos operativos de un sistema (Temperatura vs. Presión).}
+%     \label{fig:comparacion_datos}
+% \end{figure}
+% Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
+
+% Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
