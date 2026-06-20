@@ -369,6 +369,77 @@
       \field{title}{WhatsApp Business Platform API Documentation}
       \field{year}{2024}
     \endentry
+    \entry{rivera2023inteligencias}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=519748d81300d222ecaee8011c297de9}{%
+           family={Rivera\bibnamedelima Berrío},
+           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Juan\bibnamedelima Guillermo},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Córdoba, España}%
+      }
+      \list{publisher}{1}{%
+        {Fondo Editorial RED Descartes}%
+      }
+      \strng{namehash}{519748d81300d222ecaee8011c297de9}
+      \strng{fullhash}{519748d81300d222ecaee8011c297de9}
+      \strng{fullhashraw}{519748d81300d222ecaee8011c297de9}
+      \strng{bibnamehash}{519748d81300d222ecaee8011c297de9}
+      \strng{authorbibnamehash}{519748d81300d222ecaee8011c297de9}
+      \strng{authornamehash}{519748d81300d222ecaee8011c297de9}
+      \strng{authorfullhash}{519748d81300d222ecaee8011c297de9}
+      \strng{authorfullhashraw}{519748d81300d222ecaee8011c297de9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inteligencias artificiales generativas a 2023}
+      \field{year}{2023}
+    \endentry
+    \entry{fondevila2024chatbot}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d9608c02d9ecc244f0c9014a24f3fc77}{%
+           family={Fondevila-Gascón},
+           familyi={F\bibinithyphendelim G\bibinitperiod},
+           given={Joan-Francesc},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=8c4843515b9b75673dcf2887ee2ad34f}{%
+           family={Huamanchumo},
+           familyi={H\bibinitperiod},
+           given={Abigail},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa7e206e5925fd9beb24a8b41a319618}{%
+           family={Martín-Guart},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7db511f1533fb0b28932f1c87d04695f}{%
+           family={Gutiérrez-Aragón},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Óscar},
+           giveni={Ó\bibinitperiod}}}%
+      }
+      \strng{namehash}{72c403018d42ebe9e76d877ac3b9535b}
+      \strng{fullhash}{0f08c4dc1c8dacb1d0af4530f90b7eb6}
+      \strng{fullhashraw}{0f08c4dc1c8dacb1d0af4530f90b7eb6}
+      \strng{bibnamehash}{72c403018d42ebe9e76d877ac3b9535b}
+      \strng{authorbibnamehash}{72c403018d42ebe9e76d877ac3b9535b}
+      \strng{authornamehash}{72c403018d42ebe9e76d877ac3b9535b}
+      \strng{authorfullhash}{0f08c4dc1c8dacb1d0af4530f90b7eb6}
+      \strng{authorfullhashraw}{0f08c4dc1c8dacb1d0af4530f90b7eb6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Correspondencias y Análisis}
+      \field{number}{19}
+      \field{title}{El chatbot como factor de éxito comunicativo, de marketing y empresarial: análisis empírico}
+      \field{year}{2024}
+      \field{pages}{47\bibrangedash 70}
+      \range{pages}{24}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
