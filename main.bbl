@@ -497,6 +497,309 @@
       \field{title}{Procesamiento del lenguaje natural como eje central de la inteligencia artificial generativa}
       \field{year}{2024}
     \endentry
+    \entry{navarro2025alucinaciones}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=238a5fdd3f1e8a327484dd1049edb572}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={Darío\bibnamedelima Saúl},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Nacional del Nordeste}%
+      }
+      \strng{namehash}{238a5fdd3f1e8a327484dd1049edb572}
+      \strng{fullhash}{238a5fdd3f1e8a327484dd1049edb572}
+      \strng{fullhashraw}{238a5fdd3f1e8a327484dd1049edb572}
+      \strng{bibnamehash}{238a5fdd3f1e8a327484dd1049edb572}
+      \strng{authorbibnamehash}{238a5fdd3f1e8a327484dd1049edb572}
+      \strng{authornamehash}{238a5fdd3f1e8a327484dd1049edb572}
+      \strng{authorfullhash}{238a5fdd3f1e8a327484dd1049edb572}
+      \strng{authorfullhashraw}{238a5fdd3f1e8a327484dd1049edb572}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Científica de la Facultad de Derecho y Ciencias Sociales y Políticas - UNNE}
+      \field{number}{2}
+      \field{title}{Alucinaciones de los grandes modelos de lenguaje y la importancia del control humano en el ámbito jurídico. Recomendaciones de uso a partir del caso “Roberto Mata vs. Avianca Airlines Inc.”}
+      \field{volume}{4}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.30972/rcd.428685
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.30972/rcd.428685
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.30972/rcd.428685
+      \endverb
+    \endentry
+    \entry{hu2025removal}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=6b79b36209912f914f72c6992232c59b}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wentao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a66d492beebfe88fbd4abcdd384ef30b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wengyu},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2c8951da0b21bb8e4cf5eae7823f791d}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yiyang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=963e7a51d9485ae28954defda5eeab7a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chen\bibnamedelima Jason},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0c44f2db489432243db0dbef10cbce51}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Xiaoyong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6cbba76f6350a8ee592fd33593391f58}{%
+           family={Qing},
+           familyi={Q\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{44e7d7b7abd1d7afe85aef2401b2dfee}
+      \strng{fullhash}{9b60599e96ba89c25d62e810fd898273}
+      \strng{fullhashraw}{9b60599e96ba89c25d62e810fd898273}
+      \strng{bibnamehash}{44e7d7b7abd1d7afe85aef2401b2dfee}
+      \strng{authorbibnamehash}{44e7d7b7abd1d7afe85aef2401b2dfee}
+      \strng{authornamehash}{44e7d7b7abd1d7afe85aef2401b2dfee}
+      \strng{authorfullhash}{9b60599e96ba89c25d62e810fd898273}
+      \strng{authorfullhashraw}{9b60599e96ba89c25d62e810fd898273}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics}
+      \field{title}{Removal of Hallucination on Hallucination: Debate-Augmented RAG}
+      \field{year}{2025}
+      \field{pages}{15839\bibrangedash 15853}
+      \range{pages}{15}
+    \endentry
+    \entry{yin2026mitigating}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=5b15e128619578487593ada6c608e019}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Taoye},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a084d05067c28e445942a8c6a0066964}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Haoyuan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4bc35abd146e6198de53ecde9595cb87}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Yaxin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6e23ac07f049c1c79bed09a5657f5eaf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xinhao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=984417260b56fd816132976231fdca7c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinya},
+           giveni={X\bibinitperiod}}}%
+        {{hash=626ad9b8307b4459b3cf1750b831b2d3}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5c032888428bc6c59f00faec4ed42fd7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Kezun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ee2b4a15025ecfaafcb95983b2d2623d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bb5b54be07e14f21a3ab7a0699c10a2}
+      \strng{fullhash}{942978533a9b645cc6870b57728bc8c9}
+      \strng{fullhashraw}{942978533a9b645cc6870b57728bc8c9}
+      \strng{bibnamehash}{7bb5b54be07e14f21a3ab7a0699c10a2}
+      \strng{authorbibnamehash}{7bb5b54be07e14f21a3ab7a0699c10a2}
+      \strng{authornamehash}{7bb5b54be07e14f21a3ab7a0699c10a2}
+      \strng{authorfullhash}{942978533a9b645cc6870b57728bc8c9}
+      \strng{authorfullhashraw}{942978533a9b645cc6870b57728bc8c9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2602.05723}
+      \field{title}{Mitigating Hallucination in Financial Retrieval-Augmented Generation via Fine-Grained Knowledge Verification}
+      \field{year}{2026}
+    \endentry
+    \entry{neumann2025position}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=9992965917a1ce9c08261abbcf64a42b}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=757cbdef786ea20a3d8937935531879a}{%
+           family={Kirsten},
+           familyi={K\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=651ed744d2d757bbdb4ef8519fdb9745}{%
+           family={Zafar},
+           familyi={Z\bibinitperiod},
+           given={Muhammad\bibnamedelima Bilal},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=09a44253e98a486f8cd6997ca3903272}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Jatinder},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9df368b158fb329365af6ac1237ff855}
+      \strng{fullhash}{c299611b22777789d32101cc8660335d}
+      \strng{fullhashraw}{c299611b22777789d32101cc8660335d}
+      \strng{bibnamehash}{9df368b158fb329365af6ac1237ff855}
+      \strng{authorbibnamehash}{9df368b158fb329365af6ac1237ff855}
+      \strng{authornamehash}{9df368b158fb329365af6ac1237ff855}
+      \strng{authorfullhash}{c299611b22777789d32101cc8660335d}
+      \strng{authorfullhashraw}{c299611b22777789d32101cc8660335d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Position is Power: System Prompts as a Mechanism of Bias in Large Language Models}
+      \field{year}{2025}
+    \endentry
+    \entry{omar2025multi}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=3e9abd50b08e6f49d6d645b10ac5f563}{%
+           family={Omar},
+           familyi={O\bibinitperiod},
+           given={Mahmud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9137c3a1ccdc6650b3f31d0e3957eb31}{%
+           family={Sorin},
+           familyi={S\bibinitperiod},
+           given={Vera},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5bdaf24ea244c6aa28cac77cda5be057}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Jeremy\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=fbc16d95b711fbc958450f76e47826b0}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b14f1c1c8f31bae439d9ed74234730fb}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=20746a5ab49a9777c23f89f627005a4e}{%
+           family={Gavin},
+           familyi={G\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=997eb921348421663f1e3c9fa6992f97}{%
+           family={Charney},
+           familyi={C\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=479eb062b32cbf00662f3af93bce414f}{%
+           family={Stump},
+           familyi={S\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e96497aa5f58540e74cc826243e35967}{%
+           family={Bragazzi},
+           familyi={B\bibinitperiod},
+           given={Nicola\bibnamedelima Luigi},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e5bbec96a5521e40ebb97e4d6c3f9dc5}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={Girish\bibnamedelima N.},
+           giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a6402e9a1b0b5eadf3fe93169afa8b39}{%
+           family={Klang},
+           familyi={K\bibinitperiod},
+           given={Eyal},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{8445e3ba364e6976280135448f193bf3}
+      \strng{fullhash}{c8caf615bae01c40107dfeecafbf04a0}
+      \strng{fullhashraw}{c8caf615bae01c40107dfeecafbf04a0}
+      \strng{bibnamehash}{8445e3ba364e6976280135448f193bf3}
+      \strng{authorbibnamehash}{8445e3ba364e6976280135448f193bf3}
+      \strng{authornamehash}{8445e3ba364e6976280135448f193bf3}
+      \strng{authorfullhash}{c8caf615bae01c40107dfeecafbf04a0}
+      \strng{authorfullhashraw}{c8caf615bae01c40107dfeecafbf04a0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications Medicine}
+      \field{title}{Multi-model assurance analysis showing large language models are highly vulnerable to adversarial hallucination attacks during clinical decision support}
+      \field{volume}{5}
+      \field{year}{2025}
+      \field{pages}{330}
+      \range{pages}{1}
+    \endentry
+    \entry{laparra2024retrieval}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=a5bc787c306b79dc0e9d826f0cebccba}{%
+           family={Laparra\bibnamedelima Osca},
+           familyi={L\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universitat Politècnica de València}%
+      }
+      \list{location}{1}{%
+        {Valencia, España}%
+      }
+      \strng{namehash}{a5bc787c306b79dc0e9d826f0cebccba}
+      \strng{fullhash}{a5bc787c306b79dc0e9d826f0cebccba}
+      \strng{fullhashraw}{a5bc787c306b79dc0e9d826f0cebccba}
+      \strng{bibnamehash}{a5bc787c306b79dc0e9d826f0cebccba}
+      \strng{authorbibnamehash}{a5bc787c306b79dc0e9d826f0cebccba}
+      \strng{authornamehash}{a5bc787c306b79dc0e9d826f0cebccba}
+      \strng{authorfullhash}{a5bc787c306b79dc0e9d826f0cebccba}
+      \strng{authorfullhashraw}{a5bc787c306b79dc0e9d826f0cebccba}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Retrieval-Augmented Generation para la Extracción de Información de Documentos Inteligente}
+      \field{type}{Trabajo Fin de Grado}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

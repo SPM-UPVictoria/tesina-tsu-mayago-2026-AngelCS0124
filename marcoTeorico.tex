@@ -75,8 +75,67 @@ En sistemas conversacionales como el propuesto en este documento, el GLN es un p
 \subsection{Alucinaciones en modelos de lenguaje y estrategias de mitigación}
 \label{sec:alucinaciones_modelos_lenguaje}
 
-\subsection{Arquitectura RAG (Retrieval-Augmented Generation) y su implementación en sistemas de recomendación}
+En esta sección, se define el concepto de alucinación en modelos de lenguaje, se describen las principales causas que las originan y se mencionan brevemente algunas estrategias para mitigarlas, las cuales serán desarrolladas con mayor profundidad en secciones posteriores.
+
+\subsubsection{Definición de alucinaciones en modelos de lenguaje}
+\label{subsec:definicion_alucinaciones}
+
+El término "alucinación" se utiliza como metáfora para denominar al contenido generado por una IA que carece de sentido o no es fiel al contenido fuente que le fue proporcionado \cite{navarro2025alucinaciones}. Debe tenerse claro que este término se utiliza como metáfora antropomórfica para describir lo que es un mero error de procesamiento y la obtención de resultados indeseados en un sistema informático \cite{navarro2025alucinaciones}.
+
+\subsubsection{Causas de las alucinaciones en modelos de lenguaje}
+\label{subsec:causas_alucinaciones}
+
+Las alucinaciones generadas por un modelo de Inteligencia Artificial (IA) pueden ser atribuidas a distintos motivos \cite{navarro2025alucinaciones}. Existen diversas adversidades que pueden influir a esto, tales como la complejidad del lenguaje humano, calidad deficiente de los datos de entrada, sesgo en los conjuntos de datos de entrenamiento y el diseño limitado de los datos \cite{navarro2025alucinaciones}.
+
+Como ya se mencionó, se definen distintas causas, a continuación se definen las principales:
+
+\begin{itemize}
+    \item \textbf{Sobre-optimización:} Tomando el ejemplo de modelos como GPT-3, los cuales fueron optimizados para producir texto coherente y contextualmente relevante \cite{navarro2025alucinaciones}. Esto los llevó a inventar información ajustada al contexto, incluso si no es verídica.
+    \item \textbf{Ausencia de verificación externa:} Hay posibilidad de que ocurra si el modelo carece de la capacidad de verificar la información en fuentes externas como internet \cite{navarro2025alucinaciones}.
+    \item \textbf{Inferencia contextual:} El hecho de que los modelos de lenguaje infieren el contexto a partir del texto precedente provoca que puedan interpretarlo incorrectamente, lo que llevaría a alucinaciones \cite{navarro2025alucinaciones}.
+\end{itemize}
+
+\subsubsection{Estrategias de mitigación de alucinaciones}
+\label{subsec:estrategias_mitigacion}
+
+Dado el riesgo que representan las alucinaciones en sistemas conversacionales, se han desarrollado diversas estrategias para mitigar su aparición. Estas estrategias buscan limitar la libertad del modelo para inventar información y asegurar que sus respuestas estén fundamentadas en fuentes confiables.
+
+Una de las estrategias más efectivas es la arquitectura RAG (Retrieval-Augmented Generation). Este enfoque, que se abordará con mayor detalle en la Sección \ref{sec:arquitectura_rag}, consiste en que el modelo consulte una fuente de información externa antes de generar una respuesta, basando su respuesta únicamente en el contenido recuperado \cite{hu2025removal, yin2026mitigating}. Esto reduce las alucinaciones al anclar las respuestas en datos verificables.
+
+Otra estrategia clave, que también se desarrollará más adelante en la Sección \ref{sec:inyeccion_contexto}, es el \textit{system prompting}. Esta técnica consiste en definir instrucciones claras y estrictas para el modelo desde el inicio de la conversación, restringiendo su comportamiento y evitando que invente información \cite{neumann2025position}. Adicionalmente, el ajuste del parámetro de temperatura permite controlar la creatividad de las respuestas: un valor bajo (cercano a 0) hace que el modelo sea más determinista y menos propenso a generar información no verídica \cite{omar2025multi}.
+
+\subsection{Arquitectura RAG (Retrieval-Augmented Generation) y su aplicación en sistemas conversacionales}
 \label{sec:arquitectura_rag}
+
+En esta sección, se define la arquitectura RAG, se describen sus componentes principales y se explican las ventajas de su implementación. Finalmente, se menciona su aplicación en el presente proyecto.
+
+\subsubsection{Definición de RAG}
+\label{subsec:definicion_rag}
+
+RAG (Retrieval-Augmented Generation) es una técnica de inteligencia artificial dentro del campo del procesamiento de lenguaje natural que combina la recuperación de información con la generación de texto a partir de modelos de lenguaje. Su funcionamiento se basa en el uso de documentos relevantes recuperados para proporcionar contexto adicional, lo que permite generar respuestas más precisas y detalladas, especialmente útil en aplicaciones donde se requiere obtener información exacta y completa \cite{laparra2024retrieval}.
+
+\subsubsection{Componentes de RAG}
+\label{subsec:componentes_rag}
+
+Un sistema RAG se compone de dos fases principales: la recuperación de información y la generación de la respuesta.
+
+En la fase de recuperación, la consulta del usuario se utiliza para realizar una búsqueda en una base de datos indexada o en fuentes externas. Para esto se emplean técnicas como la búsqueda semántica o la coincidencia de palabras clave, que permiten encontrar la información más relevante para la consulta. La información recuperada se convierte en vectores que se almacenan en una base de datos vectorial, facilitando la búsqueda eficiente de similaridades \cite{laparra2024retrieval}. Los documentos con las puntuaciones más altas se seleccionan para su posterior procesamiento.
+
+En la fase de generación, la información recuperada se procesa para ayudar a generar una respuesta. Un modelo de lenguaje basado en deep learning, como un LLM, utiliza la información recuperada para generar las respuestas de texto. Estas respuestas suelen ser más precisas y contextuales, ya que han sido moldeadas por la información de recuperación \cite{laparra2024retrieval}.
+
+\subsubsection{Ventajas de RAG}
+\label{subsec:ventajas_rag}
+
+RAG presenta ventajas sobre los modelos de lenguaje que funcionan de forma aislada. Permite que los modelos accedan a fuentes de datos externas más recientes y actualizadas de forma eficiente, ya que no es necesario reentrenar el modelo para mejorar la precisión o la relevancia en las respuestas \cite{laparra2024retrieval}.
+
+Además, RAG ayuda a reducir el problema de las alucinaciones en los modelos de lenguaje. Al contar con un paso previo de recuperación de información, el modelo no depende solamente de lo que hay en la base de datos que se ha utilizado para entrenarlo, sino que también cuenta con los documentos indexados de forma externa, ofreciendo una información añadida que permite generar una respuesta más completa y precisa \cite{laparra2024retrieval}.
+
+\subsubsection{Aplicación en sistemas conversacionales}
+\label{subsec:aplicacion_rag}
+
+En el contexto de un sistema conversacional como el propuesto en este proyecto, la arquitectura RAG juega un papel fundamental. El chatbot necesita responder preguntas sobre productos y generar cotizaciones basadas en el catálogo real de cada empresa. Sin RAG, el modelo de lenguaje podría inventar productos o precios que no existen en la base de datos.
+
+Básicamente, RAG permite que el chatbot consulte la base de datos de productos y precios antes de generar una respuesta. Esto asegura que las respuestas sean precisas y estén basadas en información verificada, reduciendo significativamente el riesgo de alucinaciones y mejorando la experiencia del usuario.
 
 \subsection{Inyección de contexto y system prompting para restricción de respuestas}
 \label{sec:inyeccion_contexto}
