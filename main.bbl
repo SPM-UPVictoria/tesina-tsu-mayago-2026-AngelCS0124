@@ -800,6 +800,48 @@
       \field{type}{Trabajo Fin de Grado}
       \field{year}{2024}
     \endentry
+    \entry{mukherjee2025augmenting}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=b65de7534f5466c47979d156974c7112}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Soham},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1773f0479190c7685ac4439c75f6de45}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5c1b9e0937a1a88963c3456a6734ea75}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Chau},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e99e1eb6a1072fe76ce0168280d20d39}{%
+           family={Vu},
+           familyi={V\bibinitperiod},
+           given={Thai},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{90784d2a93ffb714a99dbefffdafaa27}
+      \strng{fullhash}{407d86014a0cf2fa4519d86684083aac}
+      \strng{fullhashraw}{407d86014a0cf2fa4519d86684083aac}
+      \strng{bibnamehash}{90784d2a93ffb714a99dbefffdafaa27}
+      \strng{authorbibnamehash}{90784d2a93ffb714a99dbefffdafaa27}
+      \strng{authornamehash}{90784d2a93ffb714a99dbefffdafaa27}
+      \strng{authorfullhash}{407d86014a0cf2fa4519d86684083aac}
+      \strng{authorfullhashraw}{407d86014a0cf2fa4519d86684083aac}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Preprints}
+      \field{title}{Augmenting Large Language Models with External Data Sources: A Systematic Review of Methodologies, Performance Metrics, and Information Fidelity}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.20944/preprints202604.0717.v1
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -140,8 +140,49 @@ Básicamente, RAG permite que el chatbot consulte la base de datos de productos 
 \subsection{Inyección de contexto y system prompting para restricción de respuestas}
 \label{sec:inyeccion_contexto}
 
-\subsection{Arquitectura multiempresa (multitenancy) en sistemas de software}
+En esta sección, se definen los conceptos de inyección de contexto y system prompting, se explica cómo se complementan y se menciona su aplicación en el presente proyecto.
+
+\subsubsection{Definición de inyección de contexto}
+\label{subsec:inyeccion_contexto_definicion}
+
+La inyección de contexto consiste en añadir información relevante y específica al prompt de un modelo de lenguaje antes de que este genere una respuesta. El objetivo es proporcionar al modelo el conocimiento necesario para responder de manera precisa y fundamentada, reduciendo así la dependencia de su memoria interna y mitigando el riesgo de alucinaciones \cite{mukherjee2025augmenting}. Esta técnica es especialmente útil en aplicaciones donde se requiere información actualizada o de dominio específico \cite{mukherjee2025augmenting}.
+
+\subsubsection{Definición de system prompting}
+\label{subsec:system_prompting_definicion}
+
+El system prompting se refiere al uso de directrices predefinidas que se colocan al inicio de la conversación para guiar el comportamiento del modelo. Estas instrucciones tienen prioridad sobre las indicaciones del usuario y se utilizan para establecer reglas, definir roles y restringir el comportamiento del modelo a lo largo de toda la interacción \cite{neumann2025position}. Los system prompts permiten que el modelo mantenga una conducta consistente, como aplicar guardrails o ceñirse a un tema específico \cite{neumann2025position}.
+
+\subsubsection{Diferencias y complementariedad}
+\label{subsec:diferencias_complementariedad}
+
+Ambos conceptos se complementan en el diseño de sistemas conversacionales. El system prompting establece las reglas generales de comportamiento, definiendo el rol del asistente y las restricciones que debe cumplir en todas las interacciones \cite{neumann2025position}. La inyección de contexto, por su parte, proporciona la información específica y actualizada que el modelo necesita para responder a una consulta particular \cite{mukherjee2025augmenting}. Mientras que el system prompt define cómo debe comportarse el modelo, la inyección de contexto le proporciona el conocimiento para hacerlo correctamente.
+
+\subsubsection{Aplicación en el proyecto}
+\label{subsec:inyeccion_contexto_aplicacion}
+
+En el presente proyecto, el system prompting se utiliza para definir el rol del chatbot como un asistente de ventas. A través de instrucciones iniciales, se le indica al modelo que debe responder únicamente con base en la información proporcionada, que no debe inventar productos y que debe limitarse a las reglas de negocio definidas.
+
+La inyección de contexto se implementa mediante la arquitectura RAG descrita en la sección anterior. Antes de generar una respuesta, el sistema consulta la base de datos PostgreSQL para recuperar la información real de los productos solicitados y la inyecta en el prompt. De esta forma, el modelo genera respuestas precisas y verificables, reduciendo significativamente el riesgo de alucinaciones.
+
+\subsection{Arquitectura multiempresa (multitenant) en sistemas de software}
 \label{sec:arquitectura_multitenant}
+
+En esta sección, se define la arquitectura multiempresa (multitenant), se describen los modelos de aislamiento de datos, se mencionan sus ventajas y desafíos, y se explica su aplicación en el presente proyecto.
+
+\subsubsection{Definición de arquitectura multiempresa}
+\label{subsec:definicion_multitenant}
+
+\subsubsection{Modelos de aislamiento de datos}
+\label{subsec:modelos_aislamiento}
+
+\subsubsection{Ventajas de la arquitectura multiempresa}
+\label{subsec:ventajas_multitenant}
+
+\subsubsection{Desafíos de la arquitectura multiempresa}
+\label{subsec:desafios_multitenant}
+
+\subsubsection{Aplicación en el proyecto}
+\label{subsec:multitenant_aplicacion}
 
 \subsection{Estrategias de caché para optimización de consultas}
 \label{sec:estrategias_cache}
