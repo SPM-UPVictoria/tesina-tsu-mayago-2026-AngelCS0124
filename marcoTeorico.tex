@@ -172,17 +172,47 @@ En esta sección, se define la arquitectura multiempresa (multitenant), se descr
 \subsubsection{Definición de arquitectura multiempresa}
 \label{subsec:definicion_multitenant}
 
+La arquitectura multiempresa, también conocida como multitenant, es el enfoque de diseño de software en el cual una única instancia de una aplicación sirve a varios clientes o inquilinos (tenants) \cite{ibm2021multitenant}.
+
+Se define como inquilino a un usuario individual o a un grupo de usuarios, como una empresa, dentro de la cual comparten acceso y privilegios dentro de la instancia de la aplicación \cite{ibm2021multitenant}.
+
+Lo que hace que esta arquitectura sea utilizada es que asegura que los datos de cada inquilino están aislados y son invisibles para otros inquilinos con los que se comparte instancia de aplicación, esto garantiza la seguridad y privacidad de los datos de los inquilinos \cite{ibm2021multitenant}.
+
 \subsubsection{Modelos de aislamiento de datos}
 \label{subsec:modelos_aislamiento}
+
+Ha sido mencionada la importancia de mantener los datos de cada inquilino aislados y seguros. Para ello existen distintos enfoques para el aislamiento de datos según diversos factores. A continuación se listan los tres modelos más comunes:
+
+\begin{itemize}
+    \item \textbf{Esquema compartido con ID de inquilino:} Todos los inquilinos comparten la misma base de datos y esquema, cada registro de datos se identifica mediante un ID de inquilino. Es el modelo más eficiente en cuanto a uso de recursos, sin embargo requiere un estricto uso de consultas y controles de acceso \cite{futureprocessing2025multitenant}.
+    \item \textbf{Esquema independiente por inquilino:} Cada inquilino tiene un esquema propio dentro de una misma base de datos, esto permite mayor flexibilidad en la estructura de datos y una separación lógica más sencilla. En comparación al modelo anterior este mejora la seguridad pero añade complejidad a la gestión \cite{futureprocessing2025multitenant}.
+    \item \textbf{Base de datos independiente por inquilino:} Cada inquilino accede a una base de datos completamente aislada, esto ofrece el máximo nivel de seguridad de datos en esta arquitectura. En comparación a los modelos anteriores permite una estricta protección de los datos aunque a costa de un mayor uso de infraestructura \cite{futureprocessing2025multitenant}.
+\end{itemize}
 
 \subsubsection{Ventajas de la arquitectura multiempresa}
 \label{subsec:ventajas_multitenant}
 
+\begin{itemize}
+    \item \textbf{Costos más bajos:} Los costos tienden a ser más bajos debido a que se puede servir múltiples inquilinos desde una sola aplicación, además de que estos comparten infraestructura y centro de almacenamiento de datos \cite{ibm2021multitenant, futureprocessing2025multitenant}.
+    \item \textbf{Escalabilidad:} Una única instancia de aplicación puede hacer que se pueda recibir a más inquilinos sin necesidad de una gran reconfiguración \cite{futureprocessing2025multitenant}.
+    \item \textbf{Mantenimiento continuo:} Los cambios que se hagan, las características o arreglos que se agreguen se realizan una sola vez debido a que existe una única instancia de aplicación \cite{ibm2021multitenant,futureprocessing2025multitenant}.
+    \item \textbf{Eficiencia:} Los recursos compartidos y gestión centralizada se traduce en menos sistemas aislados y un mayor aprovechamiento de las capacidades de procesamiento y almacenamiento \cite{futureprocessing2025multitenant}.
+\end{itemize}
+
 \subsubsection{Desafíos de la arquitectura multiempresa}
 \label{subsec:desafios_multitenant}
 
+\begin{itemize}
+    \item \textbf{Fuga de datos:} Como ya se mencionó, la seguridad y privacidad de los datos de cada inquilino es fundamental, si el aislamiento de datos no se implementa de manera correcta, existe el riesgo de acceso no autorizado o fuga de datos entre los inquilinos \cite{futureprocessing2025multitenant}.
+    \item \textbf{Contención de recursos:} El uso intensivo por parte de un inquilino puede degradar el rendimiento y la experiencia de los demás, esto debido a que comparten la misma infraestructura. Para ello, se requiere una cuidadosa asignación de recursos y monitorización \cite{futureprocessing2025multitenant}.
+    \item \textbf{Personalización limitada:} El hecho de compartir infraestructura y lógica puede dificultar o limitar directamente un amplio espectro de opciones de personalización \cite{futureprocessing2025multitenant}.
+    \item \textbf{Complejidad en el control de acceso:} Esta arquitectura requiere un desarrollo adicional para poder gestionar correctamente la identificación de los usuarios, la administración de permisos y la segregación de datos \cite{futureprocessing2025multitenant}.
+\end{itemize}
+
 \subsubsection{Aplicación en el proyecto}
 \label{subsec:multitenant_aplicacion}
+
+Actualmente, en el proyecto desarrollado se trabaja con el modelo de "Esquema compartido con ID de inquilino", esto debido a la facilidad de implementación que ofrece este modelo de separación de datos. Aunque proporciona un menor nivel de aislamiento que los modelos anteriores, se trabaja arduamente en asegurar la seguridad y protección de los datos de cada inquilino. Cada tabla que almacena datos correspondientes a una empresa, como \texttt{products}, \texttt{conversations} o \texttt{quotations}, incluye un campo llamado \texttt{company\_id} que los relaciona con la empresa a la que pertenecen. Además, todas las consultas a la base de datos se filtran según el rol del usuario y la empresa a la que pertenece, lo que asegura que los datos permanezcan aislados y seguros.
 
 \subsection{Estrategias de caché para optimización de consultas}
 \label{sec:estrategias_cache}

@@ -842,6 +842,54 @@
       \verb 10.20944/preprints202604.0717.v1
       \endverb
     \endentry
+    \entry{ibm2021multitenant}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.ibm.com/mx-es/think/topics/multi-tenant}}
+      \field{month}{10}
+      \field{note}{Consultado el 24 de junio de 2026}
+      \field{title}{¿Qué es múltiples inquilinos?}
+      \field{year}{2021}
+    \endentry
+    \entry{futureprocessing2025multitenant}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=520ec0a0d42f4f58ea4b5a8de6413034}{%
+           family={{Future Processing}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \strng{fullhash}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \strng{fullhashraw}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \strng{bibnamehash}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \strng{authorbibnamehash}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \strng{authornamehash}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \strng{authorfullhash}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \strng{authorfullhashraw}{520ec0a0d42f4f58ea4b5a8de6413034}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.future-processing.com/blog/multi-tenant-architecture/}}
+      \field{month}{10}
+      \field{note}{Consultado el 24 de junio de 2026}
+      \field{title}{Multi-tenant architecture explained: benefits, risks and performance}
+      \field{year}{2025}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
