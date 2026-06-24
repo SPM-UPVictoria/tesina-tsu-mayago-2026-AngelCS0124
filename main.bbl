@@ -440,6 +440,63 @@
       \field{pages}{47\bibrangedash 70}
       \range{pages}{24}
     \endentry
+    \entry{ricoh2024ohla}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1756d23d0eb2b335751132a660378e1}{%
+           family={Ricoh},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1756d23d0eb2b335751132a660378e1}
+      \strng{fullhash}{d1756d23d0eb2b335751132a660378e1}
+      \strng{fullhashraw}{d1756d23d0eb2b335751132a660378e1}
+      \strng{bibnamehash}{d1756d23d0eb2b335751132a660378e1}
+      \strng{authorbibnamehash}{d1756d23d0eb2b335751132a660378e1}
+      \strng{authornamehash}{d1756d23d0eb2b335751132a660378e1}
+      \strng{authorfullhash}{d1756d23d0eb2b335751132a660378e1}
+      \strng{authorfullhashraw}{d1756d23d0eb2b335751132a660378e1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Caso de éxito}
+      \field{title}{OHLA integra la inteligencia artificial conversacional para mejorar la eficiencia operativa y reducir el tiempo dedicado a la búsqueda de información y la toma de decisiones}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.ricoh.es
+      \endverb
+      \verb{url}
+      \verb https://www.ricoh.es
+      \endverb
+    \endentry
+    \entry{munoz2024procesamiento}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=83d0e330e886a63c16eb92406d1c1c9d}{%
+           family={Muñoz\bibnamedelima Guillena},
+           familyi={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Logroño, España}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de La Rioja, Servicio de Publicaciones}%
+      }
+      \strng{namehash}{83d0e330e886a63c16eb92406d1c1c9d}
+      \strng{fullhash}{83d0e330e886a63c16eb92406d1c1c9d}
+      \strng{fullhashraw}{83d0e330e886a63c16eb92406d1c1c9d}
+      \strng{bibnamehash}{83d0e330e886a63c16eb92406d1c1c9d}
+      \strng{authorbibnamehash}{83d0e330e886a63c16eb92406d1c1c9d}
+      \strng{authornamehash}{83d0e330e886a63c16eb92406d1c1c9d}
+      \strng{authorfullhash}{83d0e330e886a63c16eb92406d1c1c9d}
+      \strng{authorfullhashraw}{83d0e330e886a63c16eb92406d1c1c9d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procesamiento del lenguaje natural como eje central de la inteligencia artificial generativa}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
