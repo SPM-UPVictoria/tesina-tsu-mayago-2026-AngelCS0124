@@ -890,6 +890,107 @@
       \field{title}{Multi-tenant architecture explained: benefits, risks and performance}
       \field{year}{2025}
     \endentry
+    \entry{muycomputer2024cache}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0729a678c4e0deb8d66aa1f2081742ff}{%
+           family={{MuyComputer}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0729a678c4e0deb8d66aa1f2081742ff}
+      \strng{fullhash}{0729a678c4e0deb8d66aa1f2081742ff}
+      \strng{fullhashraw}{0729a678c4e0deb8d66aa1f2081742ff}
+      \strng{bibnamehash}{0729a678c4e0deb8d66aa1f2081742ff}
+      \strng{authorbibnamehash}{0729a678c4e0deb8d66aa1f2081742ff}
+      \strng{authornamehash}{0729a678c4e0deb8d66aa1f2081742ff}
+      \strng{authorfullhash}{0729a678c4e0deb8d66aa1f2081742ff}
+      \strng{authorfullhashraw}{0729a678c4e0deb8d66aa1f2081742ff}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.muycomputer.com/2024/07/03/memoria-cache-que-es-y-que-diferencias-hay-entre-los-tipos-l1-l2-y-l3/}}
+      \field{journaltitle}{MuyComputer}
+      \field{month}{7}
+      \field{note}{Consultado el 26 de junio de 2026}
+      \field{title}{Memoria caché: qué es y qué diferencias hay entre los tipos L1, L2, L3 y L4}
+      \field{year}{2024}
+    \endentry
+    \entry{heroku2026postgres}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fa901ef3c1bee7f91caec3f79cbb9734}{%
+           family={{Heroku Dev Center}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \strng{fullhash}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \strng{fullhashraw}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \strng{bibnamehash}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \strng{authorbibnamehash}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \strng{authornamehash}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \strng{authorfullhash}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \strng{authorfullhashraw}{fa901ef3c1bee7f91caec3f79cbb9734}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://devcenter-heroku-com.translate.goog/articles/understanding-postgres-data-caching?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sge}}
+      \field{month}{1}
+      \field{note}{Consultado el 26 de junio de 2026}
+      \field{title}{Understanding Heroku Postgres Data Caching}
+      \field{year}{2026}
+    \endentry
+    \entry{redis2025whatis}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0a29837f9093bc1715914f29f19f9660}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a29837f9093bc1715914f29f19f9660}
+      \strng{fullhash}{0a29837f9093bc1715914f29f19f9660}
+      \strng{fullhashraw}{0a29837f9093bc1715914f29f19f9660}
+      \strng{bibnamehash}{0a29837f9093bc1715914f29f19f9660}
+      \strng{authorbibnamehash}{0a29837f9093bc1715914f29f19f9660}
+      \strng{authornamehash}{0a29837f9093bc1715914f29f19f9660}
+      \strng{authorfullhash}{0a29837f9093bc1715914f29f19f9660}
+      \strng{authorfullhashraw}{0a29837f9093bc1715914f29f19f9660}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://redis.io/tutorials/what-is-redis/}}
+      \field{journaltitle}{Redis Tutorials}
+      \field{month}{11}
+      \field{note}{Consultado el 26 de junio de 2026}
+      \field{title}{What is Redis?: An Overview}
+      \field{year}{2025}
+    \endentry
+    \entry{adaline2025promptcaching}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6982c742caa103aeb2de34dc850fbe76}{%
+           family={{Adaline Labs}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6982c742caa103aeb2de34dc850fbe76}
+      \strng{fullhash}{6982c742caa103aeb2de34dc850fbe76}
+      \strng{fullhashraw}{6982c742caa103aeb2de34dc850fbe76}
+      \strng{bibnamehash}{6982c742caa103aeb2de34dc850fbe76}
+      \strng{authorbibnamehash}{6982c742caa103aeb2de34dc850fbe76}
+      \strng{authornamehash}{6982c742caa103aeb2de34dc850fbe76}
+      \strng{authorfullhash}{6982c742caa103aeb2de34dc850fbe76}
+      \strng{authorfullhashraw}{6982c742caa103aeb2de34dc850fbe76}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://labs-adaline-ai.translate.goog/p/what-is-prompt-caching-how-can-product?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc&_x_tr_hist=true}}
+      \field{journaltitle}{Adaline Labs}
+      \field{month}{3}
+      \field{note}{Consultado el 26 de junio de 2026}
+      \field{title}{What is prompt caching? How can product managers leverage it to develop user-friendly products?}
+      \field{year}{2025}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

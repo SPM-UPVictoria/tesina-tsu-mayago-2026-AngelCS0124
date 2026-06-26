@@ -214,5 +214,44 @@ Ha sido mencionada la importancia de mantener los datos de cada inquilino aislad
 
 Actualmente, en el proyecto desarrollado se trabaja con el modelo de "Esquema compartido con ID de inquilino", esto debido a la facilidad de implementación que ofrece este modelo de separación de datos. Aunque proporciona un menor nivel de aislamiento que los modelos anteriores, se trabaja arduamente en asegurar la seguridad y protección de los datos de cada inquilino. Cada tabla que almacena datos correspondientes a una empresa, como \texttt{products}, \texttt{conversations} o \texttt{quotations}, incluye un campo llamado \texttt{company\_id} que los relaciona con la empresa a la que pertenecen. Además, todas las consultas a la base de datos se filtran según el rol del usuario y la empresa a la que pertenece, lo que asegura que los datos permanezcan aislados y seguros.
 
-\subsection{Estrategias de caché para optimización de consultas}
+\subsection{Caché en sistemas conversacionales}
 \label{sec:estrategias_cache}
+
+En esta sección, se define el concepto de caché, se describen los tipos más comunes, se explican sus beneficios en sistemas conversacionales y se menciona su aplicación en el presente proyecto.
+
+\subsubsection{Definición de caché}
+\label{subsec:definicion_cache}
+
+La memoria caché es un tipo de almacenamiento de datos que es utilizado para guardar información a la que se accede frecuentemente, esto con el objetivo de obtener un tiempo de respuesta más rápido. \cite{muycomputer2024cache}
+
+En la memoria caché se almacenan datos e instrucciones que se necesitarán para completar distintas tareas a corto plazo, accediendo a estos a una mayor velocidad que si se buscasen en la memoria RAM. \cite{muycomputer2024cache}
+
+Existen dos escenarios en la búsqueda de datos en la memoria caché: un \textit{cache hit} ocurre cuando los datos solicitados se encuentran en la memoria caché, lo que permite un acceso rápido y eficiente. Por otro lado, un \textit{cache miss} ocurre cuando los datos solicitados no están presentes en la memoria caché, lo que obliga al sistema a buscar los datos en la memoria RAM, resultando en un tiempo de respuesta más lento. \cite{muycomputer2024cache}
+
+\subsubsection{Niveles de caché relevantes}
+\label{subsec:niveles_cache}
+
+\begin{itemize}
+    \item \textbf{Caché de base de datos:} Tomando como ejemplo PostgreSQL, este tipo de caché se sitúa en la capa de persistencia de datos, permitiendo almacenar en memoria RAM los datos y las consultas que se utilizan con mayor frecuencia. Utiliza una memoria interna propia del gestor de base de datos y aprovecha la memoria del sistema operativo. Reserva espacios adicionales para operaciones complejas como ordenamiento y combinación de tablas, mejorando así el rendimiento del acceso a datos persistentes. \cite{heroku2026postgres}
+    \item \textbf{Caché de aplicación:} Tomando como ejemplo Redis, este tipo de caché se sitúa en la capa de aplicación, permitiendo almacenar respuestas generadas y resultados procesados que se reutilizan frecuentemente. Utiliza estructuras de datos optimizadas en memoria para acceso ultra rápido. Es especialmente útil para gestionar sesiones de usuario, cachear respuestas de servidor y mantener datos temporales que no requieren persistencia inmediata en base de datos. \cite{redis2025whatis}
+\end{itemize}
+
+Básicamente, las diferencias principales entre estos dos tipos son el nivel arquitectónico en el que operan: la caché de base de datos optimiza el acceso a datos persistentes a nivel del gestor, mientras que la caché de aplicación optimiza respuestas y cálculos complejos a nivel de la lógica de negocio.
+
+\subsubsection{Beneficios de la caché en sistemas conversacionales}
+\label{subsec:beneficios_cache}
+
+La implementación de estrategias de caché en sistemas conversacionales aporta beneficios que impactan directamente en el rendimiento, los costos y la experiencia del usuario.
+
+\begin{itemize}
+    \item \textbf{Mejora de rendimiento:} La caché permite reducir la latencia en las respuestas, disminuyendo los tiempos de procesamiento y la carga en el servidor. Esto se traduce en aplicaciones más rápidas y receptivas, capaces de manejar grandes volúmenes de información sin afectar el rendimiento. \cite{adaline2025promptcaching}
+
+    \item \textbf{Menor tiempo de respuesta:} Una vez que los resultados de las consultas están almacenados en caché, las respuestas llegan de 2 a 3 veces más rápido, lo que permite reducir significativamente el tiempo que el usuario espera por una respuesta. \cite{adaline2025promptcaching}
+
+    \item \textbf{Mejor experiencia de usuario:} Tiempos de respuesta más rápidos crean conversaciones más naturales y fluidas. Los usuarios perciben los sistemas de IA que responden rápido como más inteligentes y útiles, lo que aumenta la satisfacción, el engagement y la retención de usuarios. \cite{adaline2025promptcaching}
+\end{itemize}
+
+\subsubsection{Aplicación en el proyecto}
+\label{subsec:cache_aplicacion}
+
+En el presente proyecto, el uso de caché se implementa mediante Redis para almacenar los resultados de consultas frecuentes a la base de datos. Esto incluye, por ejemplo, la lista de productos de una empresa, la configuración del widget y los parámetros generales del sistema. Almacenar esta información en caché permite que el chatbot no tenga que consultar PostgreSQL en cada interacción, reduciendo así los tiempos de respuesta y la carga sobre la base de datos. Adicionalmente, la caché contribuye a una experiencia de usuario más fluida, especialmente en escenarios donde múltiples clientes realizan consultas similares de manera simultánea.
