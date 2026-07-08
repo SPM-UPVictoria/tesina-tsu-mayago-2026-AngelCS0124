@@ -58,6 +58,15 @@ A palabras generales, un sistema de PLN es la emulación por computadora de la c
 
 El gran beneficio del PLN es que permite que las máquinas puedan aprender sin necesidad de programación explícita, esto mediante el análisis de patrones lingüísticos y semánticos, pudiendo identificar relaciones y conceptos abstractos, y generando nuevo conocimiento a partir de esto \cite{munoz2024procesamiento}.
 
+El PLN se compone de dos subdisciplinas fundamentales: el Entendimiento de Lenguaje Natural (ELN) y la Generación de Lenguaje Natural (GLN). El ELN se centra en la comprensión del significado detrás del lenguaje humano, mientras que el GLN se enfoca en la creación de texto en lenguaje humano.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/img_2430124/pln.jpg}
+    \caption{Relación entre el Procesamiento de Lenguaje Natural y sus subdisciplinas.}
+    \label{fig:nlp}
+\end{figure}
+
 \subsubsection{Definición de Entendimiento de Lenguaje Natural}
 \label{subsec:definicion_eln}
 
@@ -114,6 +123,15 @@ En esta sección, se define la arquitectura RAG, se describen sus componentes pr
 
 RAG (Retrieval-Augmented Generation) es una técnica de inteligencia artificial dentro del campo del procesamiento de lenguaje natural que combina la recuperación de información con la generación de texto a partir de modelos de lenguaje. Su funcionamiento se basa en el uso de documentos relevantes recuperados para proporcionar contexto adicional, lo que permite generar respuestas más precisas y detalladas, especialmente útil en aplicaciones donde se requiere obtener información exacta y completa \cite{laparra2024retrieval}.
 
+En la figura \ref{fig:rag} se ilustra el funcionamiento básico de la arquitectura RAG, mostrando como se necesita de una base de conocimiento y adición de contexto relevante para obtener una respuesta precisa.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/img_2430124/rag.jpg}
+    \caption{Funcionamiento básico de la arquitectura RAG.}
+    \label{fig:rag}
+\end{figure}
+
 \subsubsection{Componentes de RAG}
 \label{subsec:componentes_rag}
 
@@ -152,6 +170,15 @@ La inyección de contexto consiste en añadir información relevante y específi
 
 El system prompting se refiere al uso de directrices predefinidas que se colocan al inicio de la conversación para guiar el comportamiento del modelo. Estas instrucciones tienen prioridad sobre las indicaciones del usuario y se utilizan para establecer reglas, definir roles y restringir el comportamiento del modelo a lo largo de toda la interacción \cite{neumann2025position}. Los system prompts permiten que el modelo mantenga una conducta consistente, como aplicar guardrails o ceñirse a un tema específico \cite{neumann2025position}.
 
+En la figura \ref{fig:system_prompting} se ilustra el como se complementan el system prompt y el user prompt, siendo el primero aquel que establece las reglas y el comportamiento de la IA mientras que el segundo es la instrucción enviada por el usuario.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/img_2430124/system_prompting.jpg}
+    \caption{Diagrama de componentes del system prompting.}
+    \label{fig:system_prompting}
+\end{figure}
+
 \subsubsection{Diferencias y complementariedad}
 \label{subsec:diferencias_complementariedad}
 
@@ -177,6 +204,15 @@ La arquitectura multiempresa, también conocida como multitenant, es el enfoque 
 Se define como inquilino a un usuario individual o a un grupo de usuarios, como una empresa, dentro de la cual comparten acceso y privilegios dentro de la instancia de la aplicación \cite{ibm2021multitenant}.
 
 Lo que hace que esta arquitectura sea utilizada es que asegura que los datos de cada inquilino están aislados y son invisibles para otros inquilinos con los que se comparte instancia de aplicación, esto garantiza la seguridad y privacidad de los datos de los inquilinos \cite{ibm2021multitenant}.
+
+En la figura \ref{fig:multitenant} se muestra la diferencia entre la arquitectura single-tenant y multi-tenant, donde se puede observar que en la primera cada inquilino tiene su propia instancia de aplicación y base de datos, mientras que en la segunda todos los inquilinos comparten la misma instancia de aplicación y base de datos, pero con un aislamiento lógico de los datos.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/img_2430124/multitenant.jpg}
+    \caption{Arquitectura single-tenant en comparación con arquitectura multi-tenant.}
+    \label{fig:multitenant}
+\end{figure}
 
 \subsubsection{Modelos de aislamiento de datos}
 \label{subsec:modelos_aislamiento}
@@ -227,6 +263,15 @@ La memoria caché es un tipo de almacenamiento de datos que es utilizado para gu
 En la memoria caché se almacenan datos e instrucciones que se necesitarán para completar distintas tareas a corto plazo, accediendo a estos a una mayor velocidad que si se buscasen en la memoria RAM. \cite{muycomputer2024cache}
 
 Existen dos escenarios en la búsqueda de datos en la memoria caché: un \textit{cache hit} ocurre cuando los datos solicitados se encuentran en la memoria caché, lo que permite un acceso rápido y eficiente. Por otro lado, un \textit{cache miss} ocurre cuando los datos solicitados no están presentes en la memoria caché, lo que obliga al sistema a buscar los datos en la memoria RAM, resultando en un tiempo de respuesta más lento. \cite{muycomputer2024cache}
+
+En la figura \ref{fig:caching} se ilustra el funcionamiento básico de la memoria caché, mostrando los escenarios de \textit{cache hit} y \textit{cache miss}, dejando claro como el caché complementa a la base de datos.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/img_2430124/caching.jpg}
+    \caption{Funcionamiento básico de caché: Cache hit y Cache miss.}
+    \label{fig:caching}
+\end{figure}
 
 \subsubsection{Niveles de caché relevantes}
 \label{subsec:niveles_cache}
