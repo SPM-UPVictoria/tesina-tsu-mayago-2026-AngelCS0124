@@ -10,6 +10,7 @@
 \usepackage{tocloft}
 \usepackage{graphicx}
 \usepackage{longtable}
+\usepackage{float}
 
 \usepackage[linguistics]{forest}
 \usepackage{amssymb, amsmath, amsbsy} % simbolitos
@@ -78,17 +79,17 @@
 
 
 % CONSTANTES NECESARIAS PARA EL DOCUMENTO ---> MODIFIQUEN A SU CRITERIO
-\newcommand{\NombreAlumno}{Michael Jackson Perez Black}
+\newcommand{\NombreAlumno}{Angel Gabriel Coronado Sánchez}
 \soulregister{\NombreAlumno}{1}
 % NUNCA PONGAN EL TITULO EN MAYUSCULAS!!
-\newcommand{\NombreProyecto}{Notificación de actualizaciones de la información en un sistema de información web de pacientes hospitalizados a sus familiares del Sagrado Corazón de Jesus } 
+\newcommand{\NombreProyecto}{Desarrollo e implementación de un sistema cotizador en línea a través de inteligencia artificial } 
 % Noten los \\ para insertar un ENTER del texto en el encabezado. NUNCA PONGAN EL TITULO EN MAYUSCULAS!!
-\newcommand{\NombreProyectoheader}{Notificación de actualizaciones de la información \\en un sistema de información web de pacientes\\ hospitalizados a sus familiares del Sagrado Corazón de Jesus}
+\newcommand{\NombreProyectoheader}{Desarrollo e implementación de un sistema cotizador \\en línea a través de inteligencia artificial}
 \newcommand{\NombreTSU}{Desarrollo de Software Multiplataforma}
-\newcommand{\UnidadEconomica}{Departamento de Psiquiatría Homeopática, Hospital San Jose Bonaventura}
-\newcommand{\nasesorempresaria}   {Dr. Shawn Murphy}
+\newcommand{\UnidadEconomica}{TIKS y Capacitaciones S. DE R.L.}
+\newcommand{\nasesorempresaria}   {Dr. Mario Humberto Rodriguez Chávez}
 \newcommand{\nasesorinstitucional}{Dr. Said Polanco Martagón}
-\newcommand{\Matricula}           {1730505}  %SU MATRICULA
+\newcommand{\Matricula}           {2430124}  %SU MATRICULA
 \newcommand{\ncuatrimestre}{Mayo-Agosto 2026}
 % ESTA ES LA FECHA EN LA QUE EL ASESOR INSTITUCIONA EVALUA EL INFORME
 \newcommand{\fechaAutorizacionInforme}               {31 de Julio de 2026} 
@@ -301,30 +302,30 @@ Calificación final & \multicolumn{2}{c|}{ } \\ \hline
 %Nombre del Asesor institucional: \nasesorinstitucional \hrulefill
 
 
-\clearpage
-\ClearWallPaper
-\thispagestyle{fancy}
-\addcontentsline{toc}{section}{Resumen}
+%%\clearpage
+%%\ClearWallPaper
+%%\thispagestyle{fancy}
+%%\addcontentsline{toc}{section}{Resumen}
 %\vspace*{1cm}
-\section*{Resumen}
+%%\section*{Resumen}
 
-El resumen es una representación condensada del contenido del documento. Su propósito es dar al lector un relato de las características principales del reporte. Su redacción es en tercera persona, en tiempo pasado, con escritura continua y sin tablas o imágenes. La extensión sugerida es no mayor a media página. Debe cumplir con las siguientes características:
+%%El resumen es una representación condensada del contenido del documento. Su propósito es dar al lector un relato de las características principales del reporte. Su redacción es en tercera persona, en tiempo pasado, con escritura continua y sin tablas o imágenes. La extensión sugerida es no mayor a media página. Debe cumplir con las siguientes características:
 
-\begin{itemize}
-\item Se hace mención del nombre del proyecto como parte de la Estadía, el nombre de la unidad económica y su dirección completa.
-\item Se menciona el objetivo, meta, actividad o responsabilidad principal que se abordó.
-\item Se describe detalladamente la metodología desarrollada; tales como herramientas, materiales, equipos, cursos, softwares y conocimientos adquiridos en la universidad utilizados para alcanzar los objetivos empleados.
-\item Se describen detalladamente los resultados más importantes obtenidos.
-\item Se termina presentando conclusiones del trabajo.
-\end{itemize}
+%%\begin{itemize}
+%%\item Se hace mención del nombre del proyecto como parte de la Estadía, el nombre de la unidad económica y su dirección completa.
+%%\item Se menciona el objetivo, meta, actividad o responsabilidad principal que se abordó.
+%%\item Se describe detalladamente la metodología desarrollada; tales como herramientas, materiales, equipos, cursos, softwares y conocimientos adquiridos en la universidad utilizados para alcanzar los objetivos empleados.
+%%\item Se describen detalladamente los resultados más importantes obtenidos.
+%%\item Se termina presentando conclusiones del trabajo.
+%%\end{itemize}
 
 
-\clearpage
-\thispagestyle{fancy}
-\addcontentsline{toc}{section}{Abstract}
+%% \clearpage
+%%\thispagestyle{fancy}
+%%\addcontentsline{toc}{section}{Abstract}
 %\vspace*{1cm}
-\section*{Abstract}
-Add your abstract here...
+%%\section*{Abstract}
+%%Add your abstract here...
 
 \clearpage
 %\renewcommand{\indexname}{Contenido temático}
@@ -343,15 +344,21 @@ Add your abstract here...
 
 \input{introduccion}
 
+\clearpage
+\input{marcoTeorico}
+
+\clearpage
+\input{propuestaSolucion}
+
 %\chapter{Metodología}
-\clearpage
-\input{metodologia}
+%%\clearpage
+%%\input{metodologia}
 
-\clearpage
-\input{resultados}
+%%\clearpage
+%%\input{resultados}
 
-\clearpage
-\input{conclusiones}
+%%\clearpage
+%%\input{conclusiones}
 
 %\clearpage
 %\section*{Bibliografía}
@@ -385,10 +392,12 @@ Add your abstract here...
 \thispagestyle{fancy}
 \includepdf[pages={1}]{documentosDigitalizados/CartaAceptacion.pdf}
 
+\begin{comment}
 % Pagina 3: Digitalización de la carta de liberación (sustituir por una original en el empastado)
 \clearpage
 \thispagestyle{fancy}
 \includepdf[pages={1}]{documentosDigitalizados/CartaLiberacion.pdf}
+\end{comment}
 
 %\chapter*{Rúbrica para la Evaluación del Reporte de Estadía}
 \clearpage

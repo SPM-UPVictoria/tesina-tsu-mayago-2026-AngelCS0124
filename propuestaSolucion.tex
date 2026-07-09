@@ -1,0 +1,71 @@
+\section{Propuesta de Solución}
+\label{ch:propuesta_solucion}
+
+En esta sección se describe la solución propuesta para automatizar el proceso de cotización de productos mediante un chatbot con inteligencia artificial. El sistema está diseñado para ser utilizado por múltiples empresas, ofreciendo un panel administrativo web, un widget de chat embebible, integración con WhatsApp y un motor de IA que procesa las consultas de los clientes y genera cotizaciones basadas en el catálogo real de productos de cada empresa.
+
+\subsection{Descripción general}
+\label{sec:descripcion_general}
+
+La solución consiste en un sistema de chatbot con inteligencia artificial orientado a la atención al cliente y la generación de cotizaciones de productos. El sistema permite a las empresas registradas ofrecer a sus clientes un canal de comunicación automatizado a través de WhatsApp y un widget web, desde donde pueden realizar consultas sobre productos y solicitar cotizaciones de manera automática.
+
+El sistema cuenta con un panel administrativo web desde el cual los administradores pueden gestionar empresas, usuarios, catálogos de productos, conversaciones y reportes de uso. La inteligencia artificial integrada procesa los mensajes de los clientes, consulta la información real de los productos registrados y genera respuestas y cotizaciones congruentes con el catálogo disponible, evitando respuestas fuera de contexto.
+
+\subsection{Arquitectura general}
+\label{sec:arquitectura_general}
+
+La arquitectura del sistema se compone de los siguientes elementos:
+
+\begin{itemize}
+    \item \textbf{Backend:} Desarrollado con Laravel, expone una API REST que centraliza la lógica de negocio, la autenticación, el control de permisos y la integración con servicios externos.
+    \item \textbf{Frontend administrativo:} Construido con React, TypeScript, Tailwind CSS y Vite, ofrece una interfaz moderna y responsiva para la gestión del sistema.
+    \item \textbf{Base de datos:} PostgreSQL como sistema gestor de base de datos relacional, almacenando toda la información de empresas, usuarios, productos, conversaciones, cotizaciones y auditoría.
+    \item \textbf{Caché y colas:} Redis se utiliza para el almacenamiento en caché de consultas frecuentes y para el manejo de colas de procesamiento asíncrono, como el envío de mensajes por WhatsApp y las llamadas a la API de IA.
+    \item \textbf{Integración con WhatsApp:} Se utiliza WhatsApp Business Platform para la recepción y envío de mensajes automatizados.
+    \item \textbf{Motor de IA:} Integración con OpenAI, específicamente con el modelo GPT-4o-mini, encargado de procesar las conversaciones y generar respuestas y cotizaciones basadas en el catálogo real de productos de cada empresa.
+    \item \textbf{Widget web:} Componente embebible en JavaScript que permite a los clientes interactuar con el chatbot desde el sitio web de cada empresa.
+    \item \textbf{Despliegue:} El sistema se despliega en un VPS de DigitalOcean con Ubuntu, Nginx, PHP 8.3+, PostgreSQL y Redis.
+\end{itemize}
+
+A continuación, en la figura \ref{fig:arquitectura} se presenta un diagrama de arquitectura hecho como parte de la documentación del sistema, que ilustra la interacción entre los diferentes componentes y servicios involucrados en la solución propuesta.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/img_2430124/arquitectura.jpg}
+    \caption{Diagrama de arquitectura del sistema propuesto.}
+    \label{fig:arquitectura}
+\end{figure}
+
+\subsection{Módulos del sistema}
+\label{sec:modulos}
+
+El sistema se organiza en los siguientes módulos funcionales:
+
+\begin{itemize}
+    \item \textbf{Módulo de empresas:} Permite a los administradores registrar, editar, activar y desactivar empresas. Cada empresa cuenta con su propia configuración individual, incluyendo la selección del modelo de IA, las reglas del chatbot y la configuración de WhatsApp y widget.
+    \item \textbf{Módulo de usuarios:} Gestiona los usuarios del sistema, asignándolos a una empresa específica y definiendo sus roles (administrador general, administrador de empresa o usuario de empresa) para controlar el acceso y las operaciones permitidas.
+    \item \textbf{Módulo de productos:} Permite la gestión del catálogo de productos mediante registro manual, importación masiva desde archivos CSV e importación asistida con IA. Incluye validaciones de stock, precios, categorías y duplicados, así como la activación y desactivación de productos.
+    \item \textbf{Módulo de chats:} Registra todas las conversaciones de los clientes, tanto desde el widget web como desde WhatsApp, almacenando el historial completo de mensajes, el canal de origen y el estado de cada conversación.
+    \item \textbf{Módulo de cotizaciones:} Genera cotizaciones automáticas a partir de los productos seleccionados durante la conversación, calculando cantidades, precios, subtotales y totales. Las cotizaciones pueden ser guardadas, consultadas en el historial y exportadas a PDF.
+    \item \textbf{Módulo de reportes y auditoría:} Genera reportes de uso por empresa, incluyendo tokens consumidos, conversaciones atendidas, productos consultados y cotizaciones generadas. Además, registra todas las acciones importantes del sistema para su posterior auditoría.
+    \item \textbf{Módulo de configuración:} Permite configurar parámetros generales del sistema, como el modelo de IA, los límites de uso, la configuración del widget, la configuración de WhatsApp y las reglas del chatbot.
+\end{itemize}
+
+\subsection{Tecnologías utilizadas}
+\label{sec:tecnologias}
+
+El sistema se desarrolla utilizando el siguiente stack tecnológico:
+
+\begin{itemize}
+    \item \textbf{Backend:} Laravel (PHP), con Laravel Sanctum para autenticación mediante tokens, spatie/laravel-permission para el control de roles y permisos, y Laravel Excel para la exportación de reportes.
+    \item \textbf{Frontend:} React con TypeScript, Tailwind CSS para estilos y Vite como bundler.
+    \item \textbf{Base de datos:} PostgreSQL, aprovechando sus tipos de datos avanzados como JSON y su capacidad de búsqueda full-text.
+    \item \textbf{Caché y colas:} Redis, utilizado para el almacenamiento en caché y el manejo de colas de procesamiento asíncrono.
+    \item \textbf{IA:} Se utilizará el modelo GPT-4o-mini como motor de inteligencia artificial, encargado de procesar las conversaciones, interpretar las consultas de los clientes y generar respuestas y cotizaciones basadas en el catálogo real de productos de cada empresa.
+    \item \textbf{IA:} Integración configurable con Laravel AI SDK (nativo de Laravel 13) o con servicios externos como OpenAI o modelos locales como Ollama.
+    \item \textbf{Despliegue:} DigitalOcean (VPS) con Ubuntu, Nginx, PHP 8.3+, PostgreSQL y Redis.
+\end{itemize}
+
+\subsection{Flujo de trabajo del sistema}
+\label{sec:flujo_trabajo}
+
+El flujo de trabajo del sistema comienza cuando un cliente envía un mensaje a través del widget web o WhatsApp. El mensaje es recibido por el backend, que identifica la empresa correspondiente y procesa la consulta mediante el motor de IA. El motor de IA analiza el mensaje, consulta la base de datos de productos de la empresa y genera una respuesta o cotización basada en el catálogo real disponible. La respuesta se envía de vuelta al cliente a través del mismo canal y se registra la conversación en la base de datos para su posterior auditoría. Este proceso asegura que las respuestas sean precisas, rápidas y estén siempre basadas en información actualizada.
