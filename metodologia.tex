@@ -378,9 +378,11 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \caption{Diseño UX para el panel de configuración del canal de widget.}
     \label{fig:ux_canal_widget}
 \end{figure}
-°|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
 \subsection{Diagramas del sistema}
 \label{sec:diagramas_sistema}
+
+En esta sección se presentan los diagramas del sistema, estos fueron realizados en el software Draw.io para el diagrama de base de datos, mientras que los demás diagramas fueron hechos en el softwware Figjam de Figma. Se incluyen un diagrama de base de datos, diagramas de caso de uso, diagramas de secuencia y un diagrama de actividades. 
 
 \subsubsection{Diagrama de base de datos}
 \label{subsec:diagrama_base_datos}
@@ -395,12 +397,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
 \subsubsection{Diagramas de caso de uso}
 \label{subsec:diagramas_caso_uso}
 
+El primer diagrama de caso de uso \ref{fig:diagrama_caso_uso_empresa} muestra los casos de uso relacionados con la gestión de empresas, se observa que tanto el administrador general como el administrador de empresa pueden editar, activar/desactivar y eliminar empresas (el administrador de empresa solo puede hacer esto con la empresa que le pertenece), asi como configurar el modelo de IA, además de que el administrador general puede crear nuevas empresas, y el administrador de empresa puede configurar los canales de comunicación (WhatsApp y Widget).
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_empresa.jpg}
     \caption{Diagrama de caso de uso para las empresas.}
     \label{fig:diagrama_caso_uso_empresa}
 \end{figure}
+
+El segundo diagrama de caso de uso \ref{fig:diagrama_caso_uso_producto} muestra los casos de uso relacionados con la gestión de productos, en este se puede ver que tanto el administrador de empresa como el usuario de empresa pueden crear, editar, activar/desactivar, eliminar productos, gestionar categorias, importar productos por CSV y buscar productos. Es decir, en lo que a este modulo respecta, ambos tipos de usuarios tienen los mismos permisos.
 
 \begin{figure}[!tbh]
     \centering
@@ -409,6 +415,8 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:diagrama_caso_uso_producto}
 \end{figure}
 
+El tercer diagrama de caso de uso \ref{fig:diagrama_caso_uso_conversacion} muestra los casos de uso relacionados con la gestión de conversaciones, se observa que tanto el administrador de empresa como el usuario de empresa pueden ver el historial de conversaciones, ver el detalle de una conversación y filtrar conversaciones para una búsqueda. Es decir, en lo que a este modulo respecta, ambos tipos de usuarios tienen los mismos permisos. Además, es importante mencionar que las conversaciones se crean a partir de la interacción del cliente con el sistema automatizado, por lo que no hay un caso de uso para crear o editar conversaciones.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_conversacion.jpg}
@@ -416,12 +424,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:diagrama_caso_uso_conversacion}
 \end{figure}
 
+El cuarto diagrama de caso de uso \ref{fig:diagrama_caso_uso_cotizacion} muestra los casos de uso relacionados con la gestión de cotizaciones, en este se puede ver que tanto el administrador de empresa como el usuario de empresa pueden ver el historial de cotizaciones y ver el detalle de una cotización. Al igual que las conversaciones, las cotizaciones se crean a partir de la interacción del cliente con el sistema automatizado, por lo que no hay un caso de uso para crear una cotización.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_cotizacion.jpg}
     \caption{Diagrama de caso de uso para las cotizaciones.}
     \label{fig:diagrama_caso_uso_cotizacion}
 \end{figure}
+
+El quinto diagrama de caso de uso \ref{fig:diagrama_caso_uso_reporte} muestra los casos de uso relacionados con la gestión de reportes, se observa que el administrador general y el administrador de empresa pueden ver reportes de consumo de tokens, conversaciones atendidas, productos consultados, cotizaciones generadas y exportar estos reportes. El administrador general puede ver reportes de todas las empresas, mientras que el administrador de empresa solo puede ver los reportes de la empresa a la que pertenece.
 
 \begin{figure}[!tbh]
     \centering
@@ -433,6 +445,8 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
 \subsubsection{Diagramas de secuencia}
 \label{subsec:diagramas_secuencia}
 
+Para el primer diagrama de secuencia \ref{fig:diagrama_secuencia_conversacion} se toma el proceso de una conversación en el sistema automatizado. Este proceso inicia con el cliente enviando un mensaje, tras esto se envia una solicitud al controlador del chat, aqui se aplica un filtro para determinar si el mensaje corresponde a un tema permitido, si no, se retorna una advertencia de seguridad y esa misma se manda como mensaje al cliente. En caso de que sea un mensaje permitido, se guarda el mensaje en la base de datos y se envia al modulo de SalesAssistantService, este modulo se encarga de recuperar el historial de la conversación y enviarlo al modelo de IA para que genere una respuesta, aqui se analiza la respuesta conforme a los guardrails, si pasa, se guarda la respuesta en la base de datos y se envia al cliente. 
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/secuencia_conversacion.jpg}
@@ -440,12 +454,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:diagrama_secuencia_conversacion}
 \end{figure}
 
+En el segundo diagrama de secuencia \ref{fig:diagrama_secuencia_cotizacion} se toma el proceso de generar una cotización, este inicia con el cliente solicitando la cotización, tras esto se envia una solicitud al controlador del chat, este busca la conversación en la base de datos y valida que este activa, consulta los productos revisados por el cliente, verifica su precio y stock, calcula subtotales, total y fecha de expiración, genera una cotización y la guarda en la base de datos, se envia el ID de la cotización al controlador del chat y este lo envia al cliente, quien puede solicitar la descarga de la cotización, tras esto se envia una solicitud al controlador del chat, quien envia una solicitud al SalesAssistantService, quien llama al servicio de generación de PDF, este genera el PDF y devuelve la URL, de aca en adelante se envia la URL al controlador del chat y este la envia al cliente para su descarga.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/secuencia_cotizacion.jpg}
     \caption{Diagrama de secuencia para las cotizaciones.}
     \label{fig:diagrama_secuencia_cotizacion}
 \end{figure}
+
+En el tercer diagrama de secuencia \ref{fig:diagrama_secuencia_panel} se toma un proceso realizado desde el panel administrativo, tal como lo es el registro o edición de un producto. Este proceso inicia con el acceso al panel administrativo, una solicitud llega al middleware de autorización, aqui se valida la sesion activa y el rol del usuario, si no es valido se retorna un error de autorización, en caso de que sea valido se redirige la solicitud al controlador de producto, este valida los campos requeridos, guarda o actualiza el producto en la base de datos, crea el registro de auditoria, guarda la auditoria en la base de datos y retorna el mensaje de exito al usuario.
 
 \begin{figure}[!tbh]
     \centering
@@ -456,6 +474,8 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
 
 \subsubsection{Diagrama de actividades}
 \label{subsec:diagrama_actividades}
+
+En el diagrama de actividades se muestra el flujo de trabajo de la generación de una cotización. Para ello, se seleccionó específicamente esta actividad ya que es la principal en la que interactúan más partes del sistema y que cumple con el objetivo principal del sistema. En este diagrama se puede apreciar las 3 distintas partes que participan en este proceso: el cliente, el backend y el modelo de IA. Cada uno cumpliendo con partes especificas, siendo el backend el actor intermedio para gestionar la solicitud del usuario y regresar las respuesta del modelo de IA.
 
 \begin{figure}[!tbh]
     \centering
