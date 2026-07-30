@@ -4,12 +4,18 @@
 \subsection{Mockups}
 \label{sec:mockups}
 
+En esta sección se presentan los mockups iniciales del sistema realizados en el software Figma, son diseños previos a la selección de paleta de colores y formas oficiales del sistema. Debe quedar claro que los mockups no incluyen los colores que serán utilizados en el sistema ni tampoco todo el contenido que se podrá ver en la página, teniendo solo texto genericos para los campos al igual que formas y colores genericos.
+
+Iniciando por el mockup de la pantalla de inicio de sesión \ref{fig:mockup_login}, se puede observar un formulario centrado en la pantalla en el cual debajo del titulo que es "Iniciar sesión" se tienen 2 campos para ingresar datos y un boton para iniciar sesión.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_login.png}
     \caption{Mockup de la pantalla de inicio de sesión.}
     \label{fig:mockup_login}
 \end{figure}
+
+La pantalla para recuperar cuenta \ref{fig:mockup_recuperar_cuenta} tiene tambien un formulario centrado en la pantalla y tiene, en la esquina superior izquierda, un botón para regresar a la pantalla de inicio de sesión. Debajo del titulo que es "Recuperar tu cuenta" hay un campo para ingresar el correo electronico y el botón para enviar un código de confirmación al correo ingresado.
 
 \begin{figure}[!tbh]
     \centering
@@ -18,12 +24,16 @@
     \label{fig:mockup_recuperar_cuenta}
 \end{figure}
 
+Al igual que la pantalla anterior, se presenta un formulario centrado en la pantalla y un botón para regresar a la pantalla anterior en la esquina superior izquierda, cuenta con el titulo de "Recuperar tu cuenta", con los campos para ingresar cada uno de los 6 digitos del código y un botón para conttinuar. 
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_codigo_seguridad.png}
     \caption{Mockup para código de seguridad.}
     \label{fig:mockup_codigo_seguridad}
 \end{figure}
+
+En la pantalla principal del panel de administración se presentan 2 elementos recurrentes de aqui en adelante: la cabecera de la página que incluye un icono de usuario junto al nombre del usuario logueado y la barra lateral que actua como una barra de navegación al incluir enlaces a las distintas secciones del panel. Además, en la parte central se incluye el titulo de la sección, debajo hay 4 tarjetas que muestran metricas referentes a los usuarios y empresas, 2 apartados más grandes donde se muestra el historial de auditoria y de errores de IA y por último, 4 accesos a distintas operaciones relevantes.
 
 \begin{figure}[!tbh]
     \centering
@@ -32,12 +42,16 @@
     \label{fig:mockup_admin_dashboard}
 \end{figure}
 
+En la pantalla del apartado de gestión de empresas \ref{fig:mockup_empresas}, además de los elementoss recurrentes de la cabecera y barra lateral, en la parte central se presenta un botón para añadir una nueva empresa y una barra de busqueda en la parte superior, debajo de eso se encuentran las tarjetas de las empresas registradas, en las cuales se muestran datos importantes asi como botones toggle para la alternancia del estado de la empresa (activa/inactiva) y tres botones para distintas acciones relevenates.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_empresas.png}
     \caption{Mockup para el apartado de gestión de empresas.}
     \label{fig:mockup_empresas}
 \end{figure}
+
+Al momento de hacer clic en el botón de "Añadir Empresa" se presenta el siguiente modal \ref{fig:mockup_modal_nueva_empresa}, en este se solicitan los datos básicos de la empresa y debajo se encuentran dos botones, uno para cancelar y el otro para completar el registro.
 
 \begin{figure}[!tbh]
     \centering
@@ -46,12 +60,16 @@
     \label{fig:mockup_modal_nueva_empresa}
 \end{figure}
 
+La pantalla donde se muestra el catalogo de productos de una empresa \ref{fig:mockup_productos_catalogo} cuenta con dos botones en la parte superior izquierda, uno para ver el catalogo de productos y el otro para dirigirse a las categorias que ha registrado la empresa, debajo se encuentra una barra de busqueda para navegar entre el catalogo de productos; del lado derecho hay un botón para agregar un nuevo producto y debajo de ese botón hay filtros por categoria, precio, etc. Por utlimo, en la parte predominante de la pagina se encuentran lasrjetas de los productos, en las cuales se muestra espacio para un imagen de producto, teniendo debajo informacion como nombre, categoria y precio, en la parte inferior de estas tarjetas hay 3 botones para distintas acciones relevantes.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_productos_catalogo.png}
     \caption{Mockup para el catálogo de productos.}
     \label{fig:mockup_productos_catalogo}
 \end{figure}
+
+La pantalla donde se muestran las categorias registradas por empresa \ref{fig:mockup_productos_categorias} incluye los 2 mismos botones para navegacion en esta seccion ya mencionados. Además de un botón para agregar una nueva categoria en la parte superior derecha y una lista donde se muestran nombre, descripcion y una serie de acciones rapidas para cada categoria.
 
 \begin{figure}[!tbh]
     \centering
@@ -60,12 +78,16 @@
     \label{fig:mockup_productos_categorias}
 \end{figure}
 
+Al querer agregar un producto, una manera de hacerlo es mediante la alta manual del producto \ref{fig:mockup_modal_alta_manual_producto}, en este modal se muestran los campos de registro de un producto, marcando como un asterisco aquellos que son obligatorios, y además se muestran dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png}
     \caption{Mockup para el modal de alta manual de producto.}
     \label{fig:mockup_modal_alta_manual_producto}
 \end{figure}
+
+La forma alternativa de querer agregar uno o varios productos es mediante la importación de un archivo estructurado CSV \ref{fig:mockup_modal_importar_por_csv}, este modal simplemente presenta el campo de entrada del archivo CSV.
 
 \begin{figure}[!tbh]
     \centering
@@ -74,12 +96,16 @@
     \label{fig:mockup_modal_importar_por_csv}
 \end{figure}
 
+Tras subir el archivo CSV para la importación de los productos, se muestra el modal de revisión de la importación \ref{fig:mockup_modal_revision_importacion}, en este se muestra el número de productos listos para guardar y aquellos que contienen errores o avertencias, esto lo vemos mediante 3 apartados principales que muestran la cantidad de cada tipo de productos importados, debajo una lista con los detalles y tres botones, uno para cancelar la importación, otro para descartar los errores y el tercero para guardar los productos sin errores.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png}
     \caption{Mockup para el modal de revisión de importación de productos.}
     \label{fig:mockup_modal_revision_importacion}
 \end{figure}
+
+En el modal de agregar una nueva categoria \ref{fig:mockup_modal_nueva_categoria} se presentan los campos de entrada para los datos de nombre y descripcion de categoría y, debajo de estos, los botones para cancelar el registro y para completarlo.
 
 \begin{figure}[!tbh]
     \centering
@@ -88,12 +114,16 @@
     \label{fig:mockup_modal_nueva_categoria}
 \end{figure}
 
+En el panel de gestion de usuarios \ref{fig:mockup_usuarios} se puede observar un botón para agregar un nuevo usuario en la parte superior derecha y la lista de usuarios en la parte central, esta lista incluye datos como el nombre, el correo, telefono y rol, asi como botones de acciones para cada usuario.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_usuarios.png}
     \caption{Mockup para el panel de usuarios.}
     \label{fig:mockup_usuarios}
 \end{figure}
+
+Al hacer clic en el botón de "Añadir Usuario", se muestra el modal correspondiente \ref{fig:mockup_modal_nuevo_usuario} el cual presenta el formulario con todos los campos necesarios para el registro y, debajo de esto, dos botones, uno paras cancelar el registro y el otro para completarlo.
 
 \begin{figure}[!tbh]
     \centering
@@ -102,12 +132,16 @@
     \label{fig:mockup_modal_nuevo_usuario}
 \end{figure}
 
+En el apartado de historial de chats \ref{fig:mockup_chats_historial} se divide la parte central de la pantalla en 2 partes: la parte izquierda que en su parte superior tiene distintos filtros como por empresa, canal de comunicación, fecha, etc; mientras que debjo tiene los accesos a cada uno de los chats disponibles. En la parte derecha se encuentra el historial completo del chat seleccionado, teniendo una barra superior que muestra botones para ver la cotización de la conversación y activar el seguimiento, mientras que debajo de eso se muestran los mensajes completos de la conversación.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_chats_historial.png}
     \caption{Mockup para el historial de chats.}
     \label{fig:mockup_chats_historial}
 \end{figure}
+
+En el panel de logs del sistema \ref{fig:mockup_logs} se puede ver una seccion de filtros de busqueda, estos pueden ser por fecha, usuario, rol, accion, etc. Además, se muestra la lista de logs del sistema con datos como fecha, usuario, empresa, rol, accion, etc.
 
 \begin{figure}[!tbh]
     \centering
@@ -116,12 +150,16 @@
     \label{fig:mockup_logs}
 \end{figure}
 
+El widget web de chat \ref{fig:mockup_widget} será un elemento que se le proporcionará a cada empresa para que ellos puedan insertarlo en su propia página web, esto a modo de tener otro canal de comunicación para con los clientes. En este se puede apreciar el nombre del asistente de chat en la parte superior asi como un mensaje de ejemplo del asistente y el campo para enviar un mensaje.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_widget.png}
     \caption{Mockup para el widget web de chat.}
     \label{fig:mockup_widget}
 \end{figure}
+
+En el panel para la visualizacion y exportacion de reportes \ref{fig:mockup_reportes} podemos ver en la parte superior derecha un boton para filtrar por rango de fechas, uno para exportar el reporte a Excel y otro para exportarlo a PDF; debajo de lo ya mencionado podemos ver 4 tarjetas de metricas que muestran datos como la cantidad de conversaciones, las cotizaciones generadas y demás; la zona que ocupa la mayor parte de la pantalla se divide en dos: a la izquierda se presenta lo que será una grafica del consumo de IA y, a la derecha los productos más consultados.
 
 \begin{figure}[!tbh]
     \centering
@@ -130,6 +168,8 @@
     \label{fig:mockup_reportes}
 \end{figure}
 
+En el apartado de configuración de reglas del modelo de IA \ref{fig:mockup_reglas}, se puede ver una parte central en la pantalla en la que se encuentra la navegacion entre las distintas sub-secciones de configuracion (este elemento está presente en todas las sub-secciones de configuración) y del lado derecho un campo para ingresar las reglas asi como un botón para actualizar.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_reglas.png}
@@ -137,12 +177,16 @@
     \label{fig:mockup_reglas}
 \end{figure}
 
+Pasando a la configuración de parametros de la empresa \ref{fig:mockup_parametros}, en esta pantalla se incluyen dos campos para modificar los campos generales de la empresa, es decir, el nombre y el URL del logo de la empresa; asi como un botón para actualizar estos datos.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_parametros.png}
-    \caption{Mockup para el panel de configuración de parámetros del modelo de IA.}
+    \caption{Mockup para el panel de configuración de parámetros de la empresa.}
     \label{fig:mockup_parametros}
 \end{figure}
+
+La configuración del motor de IA \ref{fig:mockup_motor_ia} incluye 3 campos y 1 botón toggle, además de un boton en la parte inferior. Los campos son para datos como el proveedor de IA, el modelo de IA especifico, el limite máximo de tokens; el botón toggle sirve para desactivar o activar el servicio de automatización de conversaciones. El boton que se encuentra en la parte inferior es para confirmar el guardado de los cambios.
 
 \begin{figure}[!tbh]
     \centering
@@ -151,12 +195,16 @@
     \label{fig:mockup_motor_ia}
 \end{figure}
 
+La configuración del canal de comunicación mediante WhatsApp \ref{fig:mockup_canal_whatsapp} inlcuye 3 campos para ingresar datos como el número de WhatsApp de la empresa y sus tokens de acceso, 1 botón toggle para activar o desactivar dicho canal de comunicación y 1 botón para guardar los cambios en los campos.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_canal_whatsapp.png}
     \caption{Mockup para el panel de configuración del canal de WhatsApp.}
     \label{fig:mockup_canal_whatsapp}
 \end{figure}
+
+La configuración del canal de comunicación mediante el widget \ref{fig:mockup_canal_widget} inlcuye 4 campos para ingresar datos como el nombre del asistente de widget, el color principal del widget y el mensaje de bienvenida en el widget, además de un botón para guardar los cambios en los datos.
 
 \begin{figure}[!tbh]
     \centering
@@ -167,6 +215,8 @@
 
 \subsection{Diseño UX}
 \label{sec:diseno_ux}
+
+En esta sección se presentan los diseños UX finales del sistema, estos fueron realizados en el software Figma. Se trata de la versión más fiel a lo que se presentará visualmente como resultado final en el sistema, incluyendo colores, formas e imagenes de ser necesario.
 
 \begin{figure}[!tbh]
     \centering
@@ -328,7 +378,7 @@
     \caption{Diseño UX para el panel de configuración del canal de widget.}
     \label{fig:ux_canal_widget}
 \end{figure}
-
+°|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 \subsection{Diagramas del sistema}
 \label{sec:diagramas_sistema}
 

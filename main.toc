@@ -1,0 +1,42 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivos}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Objetivo General}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Objetivos Específicos}{1}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Planteamiento del problema}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Antecedentes}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Antecedentes de la empresa}{3}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Antecedentes teóricos}{4}{subsubsection.1.3.2}%
+\contentsline {paragraph}{Inteligencia Artificial y Procesamiento de Lenguaje Natural}{4}{paragraph*.1}%
+\contentsline {paragraph}{Arquitectura RAG (Retrieval-Augmented Generation)}{4}{paragraph*.2}%
+\contentsline {paragraph}{Integración con WhatsApp Business Platform}{4}{paragraph*.3}%
+\contentsline {subsection}{\numberline {1.4}Tabla comparativa}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Justificación}{6}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Alcances y Limitaciones}{7}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Alcances}{7}{subsubsection.1.6.1}%
+\contentsline {paragraph}{Sobre el sistema en general}{7}{paragraph*.5}%
+\contentsline {paragraph}{Sobre los canales de comunicación}{7}{paragraph*.6}%
+\contentsline {paragraph}{Sobre los perfiles de usuario}{7}{paragraph*.7}%
+\contentsline {paragraph}{Sobre la gestión de productos}{8}{paragraph*.8}%
+\contentsline {paragraph}{Sobre las conversaciones y cotizaciones}{8}{paragraph*.9}%
+\contentsline {paragraph}{Sobre los reportes y auditoría}{8}{paragraph*.10}%
+\contentsline {paragraph}{Sobre el widget web}{9}{paragraph*.11}%
+\contentsline {paragraph}{Fronteras}{9}{paragraph*.12}%
+\contentsline {subsubsection}{\numberline {1.6.2}Limitaciones}{9}{subsubsection.1.6.2}%
+\contentsline {section}{\numberline {2}Marco Teórico}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Inteligencia Artificial y sus aplicaciones en sistemas conversacionales}{11}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Conceptos generales de IA y sistemas conversacionales}{11}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Percepción de los usuarios frente a los chatbots}{12}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Interactividad, humanidad y confianza en chatbots}{12}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Caso de éxito: Implementación de IA conversacional para optimizar procesos empresariales}{12}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Procesamiento de Lenguaje Natural (PLN): ELN y GLN}{13}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Definición de Procesamiento de Lenguaje Natural}{13}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Definición de Entendimiento de Lenguaje Natural}{14}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Definición de Generación de Lenguaje Natural}{14}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Alucinaciones en modelos de lenguaje y estrategias de mitigación}{15}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Definición de alucinaciones en modelos de lenguaje}{15}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Causas de las alucinaciones en modelos de lenguaje}{15}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Estrategias de mitigación de alucinaciones}{16}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Arquitectura RAG (Retrieval-Augmented Generation) y su aplicación en sistemas conversacionales}{16}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Definición de RAG}{16}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2
