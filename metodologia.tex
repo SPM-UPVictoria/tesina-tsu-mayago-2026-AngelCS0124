@@ -548,6 +548,47 @@ En el diagrama de actividades se muestra el flujo de trabajo de la generación d
     \label{fig:diagrama_actividad_cotizacion}
 \end{figure}
 
+\subsection{Desarrollo del sistema}
+\label{sec:desarrollo_sistema}
+
+En esta seccion se describe la arquitectura tecnica del sistema, los patrones de diseño utilizado y la estructura general del código.
+
+\subsubsection{Arquitectura tecnica del sistema}
+\label{subsec:arquitectura_tecnica_sistema}
+
+Se trata de una arquitectura monolitica, en la cual el backend y el frontend se encunetran en un mismo proyecto, esto debido a que el proyecto es de tamaño pequeño y no se requiere de una arquitectura distribuida o algo similar.
+
+Para entrar mas a detalle con la arquitectura técnica del sistema, se puede dividir en los siguientes puntos con sus respectivas descripciones:
+
+\begin{itemize}
+    \item \textbf{Backend:} El backend fue desarrollado en el framework Laravel, en su versión de Laravel 13, esto basado en PHP 8.3. Este framework facilita diversos aspectos durante el desarrollo como la gestion de las rutas, la autenticacion, la gestion de roles, la interaccion con la base de datos. Todos los aspectos mencionados y mas han sido de gran ayuda para el correcto desarrollo del sistema.
+    \item \textbf{Frontend:} El frontend fue desarrollado con React, una libreria de JavaScript para la construcción de interfaces de usuario, comunicada con el backend a traves de Inertia.js, lo que permite mantener la experiencia de una aplicación de pagina única sin necesidad de construir una API separada. 
+    \item \textbf{Base de datos:} La persistencia de datos fue manejada con PostgreSQL, un sistema de gestión de bases de datos relacional. Su integración con Laravel facilita la definición del esquema mediante migraciones versionadas.
+    \item \textbf{Caché y sesiones:} Las sesiones de usuario y el caché del sistema son administrados mediante Redis, mejorando el rendimiento general del sistema en estas operaciones.
+    \item \textbf{Integración con IA:} La integración con modelos de lenguaje de gran escala fue desarrollada con soporte para dos proveedores: OpenAI, con el modelo \textit{GPT-5.4 Nano}, y Google, con el modelo \textit{Gemini 2.0 Flash}, siendo el proveedor y modelo a utilizar configurables por empresa.
+    \item \textbf{Canales de comunicación:} Para el canal de WhatsApp se integró la API de WhatsApp Business de Meta, este permite recibir y enviar mensajes en tiempo real. Ademas, el sistema cuenta con un widget web embebible que las empresas pueden insertar en su propio sitio web como canal adicional de atención al cliente.
+\end{itemize}
+
+\subsubsection{Patrones de Diseño}
+\label{subsubsec:patrones_diseno}
+
+El sistema fue desarrollado siguiendo distintos patrones de diseño que facilitan la organización, mantenimiento y escalabilidad del código.
+
+El patron principal utilizado es el \textbf{Modelo-Vista-Controlador (MVC)}, propio del framework Laravel. En este patron, los modelos se encargan de la interaccion con la base de datos, los controladores gestionan las solicitudes entrantes y coordinan la logica del sistema, mientras que los componentes de React actuan como la capa de presentacion que el usuario visualiza.
+
+Para la lógica de negocio mas compleja se implemento una \textbf{capa de servicios}, separando esta responsabilidad de los controladores. Dentro de esta capa destaca el servicio del asistente de ventas, que centraliza la interaccion con el modelo de IA: construye el contexto que se le envia, recupera el historial de la conversacion y valida las respuestas generadas antes de entregarlas al cliente. Estas validaciones, conocidas como \textit{guardrails}, aseguran que las respuestas del modelo sean coherentes con el catalogo de la empresa y no contengan informacion fuera de contexto.
+
+Adicionalmente, se implementó el \textbf{patron de interfaz} para la integracióm con los proveedores de IA, lo que permite al sistema cambiar de proveedor sin afectar la logica del asistente de ventas. Por ultimo, se utilizaron \textbf{middlewares} para validar las solicitudes entrantes en los distintos canales de comunicacion, verificando la autenticidad de cada petición antes de que esta fuera procesada.
+
+\subsubsection{Estructura del Código}
+\label{subsubsec:estructura_codigo}
+
+El código del sistema esta organizado siguiendo las convenciones de Laravel, manteniendo una estructura clara y predecible. En el directorio \texttt{app/} se encuentran los modelos, controladores, middlewares y servicios del backend, estos ultimos agrupados por dominio funcional dentro del directorio \texttt{app/Services/}. Los servicios relacionados con la inteligencia artificial se encuentran en su propio subdirectorio, separados del resto de la lógica del sistema.
+
+En cuanto al frontend, los componentes y paginas de React se encuentran dentro del directorio \texttt{resources/js/}, organizados por tipo de elemento. Las paginas del panel administrativo, los componentes reutilizables y la configuracion de estilos se mantienen separados, facilitando la navegación y el mantenimiento del código.
+
+Las migraciones de base de datos se encuentran en el directorio \texttt{database/migrations/}, donde cada archivo representa un cambio especifico en el esquema de la base de datos, permitiendo un control versionado de la estructura de la misma.
+
 \begin{comment}
 Los métodos y herramientas utilizadas son la descripción detallada de las etapas
 (o pasos, procedimiento) de desarrollo en que se dividió el proyecto y están

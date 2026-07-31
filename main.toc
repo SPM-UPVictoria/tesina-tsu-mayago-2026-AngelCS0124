@@ -72,5 +72,9 @@
 \contentsline {subsubsection}{\numberline {4.3.2}Diagramas de caso de uso}{53}{subsubsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.3}Diagramas de secuencia}{56}{subsubsection.4.3.3}%
 \contentsline {subsubsection}{\numberline {4.3.4}Diagrama de actividades}{58}{subsubsection.4.3.4}%
-\contentsline {section}{Bibliografía}{59}{figure.caption.74}%
-\contentsline {section}{Anexos}{62}{figure.caption.74}%
+\contentsline {subsection}{\numberline {4.4}Desarrollo del sistema}{58}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Arquitectura tecnica del sistema}{58}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Patrones de Diseño}{59}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Estructura del Código}{60}{subsubsection.4.4.3}%
+\contentsline {section}{Bibliografía}{61}{subsubsection.4.4.3}%
+\contentsline {section}{Anexos}{64}{subsubsection.4.4.3}%

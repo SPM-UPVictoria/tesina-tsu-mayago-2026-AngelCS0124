@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.21)  31 JUL 2026 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.21)  31 JUL 2026 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1276,12 +1276,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 165.
  (C:\Users\as_co\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<UTYP.png, id=261, 301.125pt x 156.585pt>
+<UTYP.png, id=276, 301.125pt x 156.585pt>
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 166.
 (pdftex.def)             Requested size: 123.11743pt x 64.01869pt.
-<LogoUPV_2023.png, id=263, 438.9198pt x 166.7028pt>
+<LogoUPV_2023.png, id=278, 438.9198pt x 166.7028pt>
 File: LogoUPV_2023.png Graphic file (type png)
 <use LogoUPV_2023.png>
 Package pdftex.def Info: LogoUPV_2023.png  used on input line 167.
@@ -1304,7 +1304,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has b
                    \relax 
 l.244 \clearpage
                 
-<Membrete2023.pdf, id=274, 614.295pt x 794.97pt>
+<Membrete2023.pdf, id=289, 614.295pt x 794.97pt>
 File: Membrete2023.pdf Graphic file (type pdf)
 <use Membrete2023.pdf>
 Package pdftex.def Info: Membrete2023.pdf  used on input line 244.
@@ -1330,11 +1330,11 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [3
 
-])
+] [4])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [4] [5] (introduccion.tex
+ [5] (introduccion.tex
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 27.
@@ -1650,7 +1650,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [13]
-<img/img_2430124/pln_eln_gln.jpg, id=495, 742.775pt x 726.715pt>
+<img/img_2430124/pln_eln_gln.jpg, id=514, 742.775pt x 726.715pt>
 File: img/img_2430124/pln_eln_gln.jpg Graphic file (type jpg)
 <use img/img_2430124/pln_eln_gln.jpg>
 Package pdftex.def Info: img/img_2430124/pln_eln_gln.jpg  used on input line 65.
@@ -1718,7 +1718,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [16]
-<img/img_2430124/arquitectura_rag_diagrama.jpg, id=536, 1029.8475pt x 658.46pt>
+<img/img_2430124/arquitectura_rag_diagrama.jpg, id=555, 1029.8475pt x 658.46pt>
 File: img/img_2430124/arquitectura_rag_diagrama.jpg Graphic file (type jpg)
 <use img/img_2430124/arquitectura_rag_diagrama.jpg>
 Package pdftex.def Info: img/img_2430124/arquitectura_rag_diagrama.jpg  used on input line 130.
@@ -1765,7 +1765,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [18]
-<img/img_2430124/prompt_sistema.jpg, id=555, 1140.26pt x 450.18187pt>
+<img/img_2430124/prompt_sistema.jpg, id=574, 1140.26pt x 450.18187pt>
 File: img/img_2430124/prompt_sistema.jpg Graphic file (type jpg)
 <use img/img_2430124/prompt_sistema.jpg>
 Package pdftex.def Info: img/img_2430124/prompt_sistema.jpg  used on input line 177.
@@ -1791,7 +1791,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [19 <./img/img_2430124/prompt_sistema.jpg>]
-<img/img_2430124/multi_inquilino.jpg, id=568, 1320.935pt x 1208.515pt>
+<img/img_2430124/multi_inquilino.jpg, id=587, 1320.935pt x 1208.515pt>
 File: img/img_2430124/multi_inquilino.jpg Graphic file (type jpg)
 <use img/img_2430124/multi_inquilino.jpg>
 Package pdftex.def Info: img/img_2430124/multi_inquilino.jpg  used on input line 212.
@@ -1863,7 +1863,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [22]
-<img/img_2430124/cache.jpg, id=603, 1008.76875pt x 701.11937pt>
+<img/img_2430124/cache.jpg, id=622, 1008.76875pt x 701.11937pt>
 File: img/img_2430124/cache.jpg Graphic file (type jpg)
 <use img/img_2430124/cache.jpg>
 Package pdftex.def Info: img/img_2430124/cache.jpg  used on input line 271.
@@ -1954,7 +1954,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [26
 
 ]
-<img/img_2430124/arquitectura.jpg, id=632, 2150.0325pt x 1214.5375pt>
+<img/img_2430124/arquitectura.jpg, id=651, 2150.0325pt x 1214.5375pt>
 File: img/img_2430124/arquitectura.jpg Graphic file (type jpg)
 <use img/img_2430124/arquitectura.jpg>
 Package pdftex.def Info: img/img_2430124/arquitectura.jpg  used on input line 33.
@@ -2022,17 +2022,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [29] (metodologia.tex
-<img/img_2430124/figma/mockups/mockup_login.png, id=647, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_login.png, id=666, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_login.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_login.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_login.png  used on input line 13.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_recuperar_cuenta.png, id=649, 669.09975pt x 418.56375pt>
+<img/img_2430124/figma/mockups/mockup_recuperar_cuenta.png, id=668, 669.09975pt x 418.56375pt>
 File: img/img_2430124/figma/mockups/mockup_recuperar_cuenta.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_recuperar_cuenta.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_recuperar_cuenta.png  used on input line 22.
 (pdftex.def)             Requested size: 243.1288pt x 152.0879pt.
-<img/img_2430124/figma/mockups/mockup_codigo_seguridad.png, id=650, 669.702pt x 416.757pt>
+<img/img_2430124/figma/mockups/mockup_codigo_seguridad.png, id=669, 669.702pt x 416.757pt>
 File: img/img_2430124/figma/mockups/mockup_codigo_seguridad.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_codigo_seguridad.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_codigo_seguridad.png  used on input line 31.
@@ -2060,17 +2060,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [30
 
  <./img/img_2430124/figma/mockups/mockup_login.png>]
-<img/img_2430124/figma/mockups/mockup_admin_dashboard.png, id=658, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_admin_dashboard.png, id=677, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_admin_dashboard.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_admin_dashboard.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_admin_dashboard.png  used on input line 40.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_empresas.png, id=660, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_empresas.png, id=679, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_empresas.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_empresas.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_empresas.png  used on input line 49.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_modal_nueva_empresa.png, id=662, 723.70375pt x 404.51125pt>
+<img/img_2430124/figma/mockups/mockup_modal_nueva_empresa.png, id=681, 723.70375pt x 404.51125pt>
 File: img/img_2430124/figma/mockups/mockup_modal_nueva_empresa.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_modal_nueva_empresa.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_modal_nueva_empresa.png  used on input line 58.
@@ -2117,17 +2117,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [32 <./img/img_2430124/figma/mockups/mockup_admin_dashboard.png> <./img/img_2430124/figma/mockups/mockup_empresas.png> <./img/img_2430124/figma/mockups/mockup_modal_nueva_empresa.png>]
-<img/img_2430124/figma/mockups/mockup_productos_catalogo.png, id=683, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_productos_catalogo.png, id=702, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_productos_catalogo.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_productos_catalogo.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_productos_catalogo.png  used on input line 67.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_productos_categorias.png, id=685, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_productos_categorias.png, id=704, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_productos_categorias.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_productos_categorias.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_productos_categorias.png  used on input line 76.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png, id=687, 923.45pt x 655.44875pt>
+<img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png, id=706, 923.45pt x 655.44875pt>
 File: img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png  used on input line 85.
@@ -2153,12 +2153,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [33 <./img/img_2430124/figma/mockups/mockup_productos_catalogo.png> <./img/img_2430124/figma/mockups/mockup_productos_categorias.png>]
-<img/img_2430124/figma/mockups/mockup_modal_importar_por_csv.png, id=697, 518.93875pt x 426.59375pt>
+<img/img_2430124/figma/mockups/mockup_modal_importar_por_csv.png, id=716, 518.93875pt x 426.59375pt>
 File: img/img_2430124/figma/mockups/mockup_modal_importar_por_csv.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_modal_importar_por_csv.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_modal_importar_por_csv.png  used on input line 94.
 (pdftex.def)             Requested size: 243.1288pt x 199.86768pt.
-<img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png, id=699, 983.675pt x 516.93124pt>
+<img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png, id=718, 983.675pt x 516.93124pt>
 File: img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png  used on input line 103.
@@ -2184,17 +2184,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [34 <./img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png> <./img/img_2430124/figma/mockups/mockup_modal_importar_por_csv.png>]
-<img/img_2430124/figma/mockups/mockup_modal_nueva_categoria.png, id=710, 723.70375pt x 313.17pt>
+<img/img_2430124/figma/mockups/mockup_modal_nueva_categoria.png, id=729, 723.70375pt x 313.17pt>
 File: img/img_2430124/figma/mockups/mockup_modal_nueva_categoria.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_modal_nueva_categoria.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_modal_nueva_categoria.png  used on input line 112.
 (pdftex.def)             Requested size: 243.1288pt x 105.21005pt.
-<img/img_2430124/figma/mockups/mockup_usuarios.png, id=712, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_usuarios.png, id=731, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_usuarios.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_usuarios.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_usuarios.png  used on input line 121.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_modal_nuevo_usuario.png, id=714, 923.45pt x 556.0775pt>
+<img/img_2430124/figma/mockups/mockup_modal_nuevo_usuario.png, id=733, 923.45pt x 556.0775pt>
 File: img/img_2430124/figma/mockups/mockup_modal_nuevo_usuario.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_modal_nuevo_usuario.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_modal_nuevo_usuario.png  used on input line 130.
@@ -2220,17 +2220,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [35 <./img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png> <./img/img_2430124/figma/mockups/mockup_modal_nueva_categoria.png> <./img/img_2430124/figma/mockups/mockup_usuarios.png>]
-<img/img_2430124/figma/mockups/mockup_chats_historial.png, id=725, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_chats_historial.png, id=744, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_chats_historial.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_chats_historial.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_chats_historial.png  used on input line 139.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_logs.png, id=727, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_logs.png, id=746, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_logs.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_logs.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_logs.png  used on input line 148.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_widget.png, id=729, 275.22826pt x 449.88075pt>
+<img/img_2430124/figma/mockups/mockup_widget.png, id=748, 275.22826pt x 449.88075pt>
 File: img/img_2430124/figma/mockups/mockup_widget.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_widget.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_widget.png  used on input line 157.
@@ -2256,22 +2256,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [36 <./img/img_2430124/figma/mockups/mockup_modal_nuevo_usuario.png> <./img/img_2430124/figma/mockups/mockup_chats_historial.png>]
-<img/img_2430124/figma/mockups/mockup_reportes.png, id=740, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_reportes.png, id=759, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_reportes.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_reportes.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_reportes.png  used on input line 166.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_reglas.png, id=742, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_reglas.png, id=761, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_reglas.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_reglas.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_reglas.png  used on input line 175.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_parametros.png, id=744, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_parametros.png, id=763, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_parametros.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_parametros.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_parametros.png  used on input line 184.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/mockups/mockup_motor_ia.png, id=746, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_motor_ia.png, id=765, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_motor_ia.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_motor_ia.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_motor_ia.png  used on input line 193.
@@ -2321,7 +2321,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [38 <./img/img_2430124/figma/mockups/mockup_widget.png> <./img/img_2430124/figma/mockups/mockup_reportes.png>]
-<img/img_2430124/figma/mockups/mockup_canal_whatsapp.png, id=765, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_canal_whatsapp.png, id=784, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_canal_whatsapp.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_canal_whatsapp.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_canal_whatsapp.png  used on input line 202.
@@ -2347,12 +2347,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [39 <./img/img_2430124/figma/mockups/mockup_reglas.png> <./img/img_2430124/figma/mockups/mockup_parametros.png> <./img/img_2430124/figma/mockups/mockup_motor_ia.png>]
-<img/img_2430124/figma/mockups/mockup_canal_widget.png, id=774, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/mockups/mockup_canal_widget.png, id=793, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/mockups/mockup_canal_widget.png Graphic file (type png)
 <use img/img_2430124/figma/mockups/mockup_canal_widget.png>
 Package pdftex.def Info: img/img_2430124/figma/mockups/mockup_canal_widget.png  used on input line 211.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_login.png, id=776, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_login.png, id=795, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_login.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_login.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_login.png  used on input line 225.
@@ -2378,12 +2378,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [40 <./img/img_2430124/figma/mockups/mockup_canal_whatsapp.png> <./img/img_2430124/figma/mockups/mockup_canal_widget.png>]
-<img/img_2430124/figma/ux/ux_recuperar_cuenta.png, id=786, 684.75826pt x 425.79076pt>
+<img/img_2430124/figma/ux/ux_recuperar_cuenta.png, id=805, 684.75826pt x 425.79076pt>
 File: img/img_2430124/figma/ux/ux_recuperar_cuenta.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_recuperar_cuenta.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_recuperar_cuenta.png  used on input line 234.
 (pdftex.def)             Requested size: 243.1288pt x 151.1795pt.
-<img/img_2430124/figma/ux/ux_codigo_seguridad.png, id=788, 681.747pt x 425.79076pt>
+<img/img_2430124/figma/ux/ux_codigo_seguridad.png, id=807, 681.747pt x 425.79076pt>
 File: img/img_2430124/figma/ux/ux_codigo_seguridad.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_codigo_seguridad.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_codigo_seguridad.png  used on input line 243.
@@ -2409,12 +2409,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [41 <./img/img_2430124/figma/ux/ux_login.png> <./img/img_2430124/figma/ux/ux_recuperar_cuenta.png>]
-<img/img_2430124/figma/ux/ux_admin_dashboard.png, id=799, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_admin_dashboard.png, id=818, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_admin_dashboard.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_admin_dashboard.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_admin_dashboard.png  used on input line 252.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_empresas.png, id=801, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_empresas.png, id=820, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_empresas.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_empresas.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_empresas.png  used on input line 261.
@@ -2440,12 +2440,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [42 <./img/img_2430124/figma/ux/ux_codigo_seguridad.png> <./img/img_2430124/figma/ux/ux_admin_dashboard.png>]
-<img/img_2430124/figma/ux/ux_modal_nueva_empresa.png, id=811, 723.70375pt x 404.51125pt>
+<img/img_2430124/figma/ux/ux_modal_nueva_empresa.png, id=830, 723.70375pt x 404.51125pt>
 File: img/img_2430124/figma/ux/ux_modal_nueva_empresa.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_modal_nueva_empresa.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_modal_nueva_empresa.png  used on input line 270.
 (pdftex.def)             Requested size: 243.1288pt x 135.89633pt.
-<img/img_2430124/figma/ux/ux_productos_catalogo.png, id=813, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_productos_catalogo.png, id=832, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_productos_catalogo.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_productos_catalogo.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_productos_catalogo.png  used on input line 279.
@@ -2471,17 +2471,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [43 <./img/img_2430124/figma/ux/ux_empresas.png> <./img/img_2430124/figma/ux/ux_modal_nueva_empresa.png>]
-<img/img_2430124/figma/ux/ux_productos_categorias.png, id=824, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_productos_categorias.png, id=843, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_productos_categorias.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_productos_categorias.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_productos_categorias.png  used on input line 288.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_modal_alta_manual_producto.png, id=826, 923.45pt x 655.44875pt>
+<img/img_2430124/figma/ux/ux_modal_alta_manual_producto.png, id=845, 923.45pt x 655.44875pt>
 File: img/img_2430124/figma/ux/ux_modal_alta_manual_producto.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_modal_alta_manual_producto.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_modal_alta_manual_producto.png  used on input line 297.
 (pdftex.def)             Requested size: 243.1288pt x 172.56294pt.
-<img/img_2430124/figma/ux/ux_modal_importar_por_csv.png, id=828, 518.93875pt x 426.59375pt>
+<img/img_2430124/figma/ux/ux_modal_importar_por_csv.png, id=847, 518.93875pt x 426.59375pt>
 File: img/img_2430124/figma/ux/ux_modal_importar_por_csv.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_modal_importar_por_csv.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_modal_importar_por_csv.png  used on input line 306.
@@ -2507,12 +2507,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [44 <./img/img_2430124/figma/ux/ux_productos_catalogo.png> <./img/img_2430124/figma/ux/ux_productos_categorias.png>]
-<img/img_2430124/figma/ux/ux_modal_revision_importacion.png, id=839, 983.675pt x 516.93124pt>
+<img/img_2430124/figma/ux/ux_modal_revision_importacion.png, id=858, 983.675pt x 516.93124pt>
 File: img/img_2430124/figma/ux/ux_modal_revision_importacion.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_modal_revision_importacion.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_modal_revision_importacion.png  used on input line 315.
 (pdftex.def)             Requested size: 243.1288pt x 127.76537pt.
-<img/img_2430124/figma/ux/ux_modal_nueva_categoria.png, id=841, 723.70375pt x 313.17pt>
+<img/img_2430124/figma/ux/ux_modal_nueva_categoria.png, id=860, 723.70375pt x 313.17pt>
 File: img/img_2430124/figma/ux/ux_modal_nueva_categoria.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_modal_nueva_categoria.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_modal_nueva_categoria.png  used on input line 324.
@@ -2538,12 +2538,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [45 <./img/img_2430124/figma/ux/ux_modal_alta_manual_producto.png> <./img/img_2430124/figma/ux/ux_modal_importar_por_csv.png>]
-<img/img_2430124/figma/ux/ux_usuarios.png, id=851, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_usuarios.png, id=870, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_usuarios.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_usuarios.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_usuarios.png  used on input line 333.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_modal_nuevo_usuario.png, id=853, 923.45pt x 556.0775pt>
+<img/img_2430124/figma/ux/ux_modal_nuevo_usuario.png, id=872, 923.45pt x 556.0775pt>
 File: img/img_2430124/figma/ux/ux_modal_nuevo_usuario.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_modal_nuevo_usuario.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_modal_nuevo_usuario.png  used on input line 342.
@@ -2569,17 +2569,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [46 <./img/img_2430124/figma/ux/ux_modal_revision_importacion.png> <./img/img_2430124/figma/ux/ux_modal_nueva_categoria.png> <./img/img_2430124/figma/ux/ux_usuarios.png>]
-<img/img_2430124/figma/ux/ux_chats_historial.png, id=864, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_chats_historial.png, id=883, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_chats_historial.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_chats_historial.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_chats_historial.png  used on input line 351.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_logs.png, id=866, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_logs.png, id=885, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_logs.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_logs.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_logs.png  used on input line 360.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_widget.png, id=868, 287.27325pt x 470.9595pt>
+<img/img_2430124/figma/ux/ux_widget.png, id=887, 287.27325pt x 470.9595pt>
 File: img/img_2430124/figma/ux/ux_widget.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_widget.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_widget.png  used on input line 369.
@@ -2629,17 +2629,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [48 <./img/img_2430124/figma/ux/ux_logs.png> <./img/img_2430124/figma/ux/ux_widget.png>]
-<img/img_2430124/figma/ux/ux_reportes.png, id=885, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_reportes.png, id=904, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_reportes.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_reportes.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_reportes.png  used on input line 378.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_reglas.png, id=887, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_reglas.png, id=906, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_reglas.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_reglas.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_reglas.png  used on input line 387.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_parametros.png, id=889, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_parametros.png, id=908, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_parametros.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_parametros.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_parametros.png  used on input line 396.
@@ -2665,17 +2665,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [49 <./img/img_2430124/figma/ux/ux_reportes.png> <./img/img_2430124/figma/ux/ux_reglas.png>]
-<img/img_2430124/figma/ux/ux_motor_ia.png, id=900, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_motor_ia.png, id=919, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_motor_ia.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_motor_ia.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_motor_ia.png  used on input line 405.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_canal_whatsapp.png, id=902, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_canal_whatsapp.png, id=921, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_canal_whatsapp.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_canal_whatsapp.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_canal_whatsapp.png  used on input line 414.
 (pdftex.def)             Requested size: 243.1288pt x 151.94516pt.
-<img/img_2430124/figma/ux/ux_canal_widget.png, id=904, 1445.4pt x 903.375pt>
+<img/img_2430124/figma/ux/ux_canal_widget.png, id=923, 1445.4pt x 903.375pt>
 File: img/img_2430124/figma/ux/ux_canal_widget.png Graphic file (type png)
 <use img/img_2430124/figma/ux/ux_canal_widget.png>
 Package pdftex.def Info: img/img_2430124/figma/ux/ux_canal_widget.png  used on input line 423.
@@ -2743,12 +2743,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [52]
-<img/img_2430124/diagramas/base_datos.png, id=926, 1911.14pt x 2581.645pt>
+<img/img_2430124/diagramas/base_datos.png, id=945, 1911.14pt x 2581.645pt>
 File: img/img_2430124/diagramas/base_datos.png Graphic file (type png)
 <use img/img_2430124/diagramas/base_datos.png>
 Package pdftex.def Info: img/img_2430124/diagramas/base_datos.png  used on input line 456.
 (pdftex.def)             Requested size: 243.1288pt x 328.41678pt.
-<img/img_2430124/diagramas/caso_uso_empresa.jpg, id=928, 1253.68375pt x 803.0pt>
+<img/img_2430124/diagramas/caso_uso_empresa.jpg, id=947, 1253.68375pt x 803.0pt>
 File: img/img_2430124/diagramas/caso_uso_empresa.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/caso_uso_empresa.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/caso_uso_empresa.jpg  used on input line 468.
@@ -2774,12 +2774,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [53 <./img/img_2430124/diagramas/base_datos.png>]
-<img/img_2430124/diagramas/caso_uso_producto.jpg, id=936, 1287.81125pt x 813.0375pt>
+<img/img_2430124/diagramas/caso_uso_producto.jpg, id=955, 1287.81125pt x 813.0375pt>
 File: img/img_2430124/diagramas/caso_uso_producto.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/caso_uso_producto.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/caso_uso_producto.jpg  used on input line 477.
 (pdftex.def)             Requested size: 243.1288pt x 153.48625pt.
-<img/img_2430124/diagramas/caso_uso_conversacion.jpg, id=938, 1220.56pt x 754.82pt>
+<img/img_2430124/diagramas/caso_uso_conversacion.jpg, id=957, 1220.56pt x 754.82pt>
 File: img/img_2430124/diagramas/caso_uso_conversacion.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/caso_uso_conversacion.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/caso_uso_conversacion.jpg  used on input line 486.
@@ -2805,12 +2805,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [54 <./img/img_2430124/diagramas/caso_uso_empresa.jpg> <./img/img_2430124/diagramas/caso_uso_producto.jpg>]
-<img/img_2430124/diagramas/caso_uso_cotizacion.jpg, id=947, 1284.8pt x 819.06pt>
+<img/img_2430124/diagramas/caso_uso_cotizacion.jpg, id=966, 1284.8pt x 819.06pt>
 File: img/img_2430124/diagramas/caso_uso_cotizacion.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/caso_uso_cotizacion.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/caso_uso_cotizacion.jpg  used on input line 495.
 (pdftex.def)             Requested size: 243.1288pt x 154.98563pt.
-<img/img_2430124/diagramas/caso_uso_reporte.jpg, id=949, 883.3pt x 819.06pt>
+<img/img_2430124/diagramas/caso_uso_reporte.jpg, id=968, 883.3pt x 819.06pt>
 File: img/img_2430124/diagramas/caso_uso_reporte.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/caso_uso_reporte.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/caso_uso_reporte.jpg  used on input line 504.
@@ -2836,7 +2836,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [55 <./img/img_2430124/diagramas/caso_uso_conversacion.jpg> <./img/img_2430124/diagramas/caso_uso_cotizacion.jpg>]
-<img/img_2430124/diagramas/secuencia_conversacion.jpg, id=957, 4267.945pt x 2152.54187pt>
+<img/img_2430124/diagramas/secuencia_conversacion.jpg, id=976, 4267.945pt x 2152.54187pt>
 File: img/img_2430124/diagramas/secuencia_conversacion.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/secuencia_conversacion.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/secuencia_conversacion.jpg  used on input line 516.
@@ -2862,12 +2862,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [56 <./img/img_2430124/diagramas/caso_uso_reporte.jpg> <./img/img_2430124/diagramas/secuencia_conversacion.jpg>]
-<img/img_2430124/diagramas/secuencia_cotizacion.jpg, id=965, 5131.17pt x 2152.54187pt>
+<img/img_2430124/diagramas/secuencia_cotizacion.jpg, id=984, 5131.17pt x 2152.54187pt>
 File: img/img_2430124/diagramas/secuencia_cotizacion.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/secuencia_cotizacion.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/secuencia_cotizacion.jpg  used on input line 525.
 (pdftex.def)             Requested size: 243.1288pt x 101.98404pt.
-<img/img_2430124/diagramas/secuencia_panel.jpg, id=967, 4267.945pt x 2152.54187pt>
+<img/img_2430124/diagramas/secuencia_panel.jpg, id=986, 4267.945pt x 2152.54187pt>
 File: img/img_2430124/diagramas/secuencia_panel.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/secuencia_panel.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/secuencia_panel.jpg  used on input line 534.
@@ -2893,12 +2893,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
 [57 <./img/img_2430124/diagramas/secuencia_cotizacion.jpg> <./img/img_2430124/diagramas/secuencia_panel.jpg>]
-<img/img_2430124/diagramas/actividad_cotizacion.jpg, id=973, 2735.72063pt x 2619.7875pt>
+<img/img_2430124/diagramas/actividad_cotizacion.jpg, id=992, 2735.72063pt x 2619.7875pt>
 File: img/img_2430124/diagramas/actividad_cotizacion.jpg Graphic file (type jpg)
 <use img/img_2430124/diagramas/actividad_cotizacion.jpg>
 Package pdftex.def Info: img/img_2430124/diagramas/actividad_cotizacion.jpg  used on input line 546.
 (pdftex.def)             Requested size: 243.1288pt x 232.81258pt.
-)
+File: UTYP.png Graphic file (type png)
+<use UTYP.png>
+Package pdftex.def Info: UTYP.png  used on input line 565.
+(pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
+File: LogoUPV_2023.png Graphic file (type png)
+<use LogoUPV_2023.png>
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 565.
+(pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
+
+Overfull \hbox (15.11841pt too wide) has occurred while \output is active
+[]|[]| 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 47.02916pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.02916pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
+
+[58 <./img/img_2430124/diagramas/actividad_cotizacion.jpg>]
+File: UTYP.png Graphic file (type png)
+<use UTYP.png>
+Package pdftex.def Info: UTYP.png  used on input line 580.
+(pdftex.def)             Requested size: 65.65956pt x 34.14322pt.
+File: LogoUPV_2023.png Graphic file (type png)
+<use LogoUPV_2023.png>
+Package pdftex.def Info: LogoUPV_2023.png  used on input line 580.
+(pdftex.def)             Requested size: 112.36844pt x 42.67912pt.
+
+Overfull \hbox (15.11841pt too wide) has occurred while \output is active
+[]|[]| 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 47.02916pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.02916pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
+
+[59])
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 368.
@@ -2919,7 +2960,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[58 <./img/img_2430124/diagramas/actividad_cotizacion.jpg>]
+[60]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 371.
@@ -2940,7 +2981,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[59
+[61
 
 ]
 File: UTYP.png Graphic file (type png)
@@ -2963,7 +3004,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[60]
+[62]
 File: UTYP.png Graphic file (type png)
 <use UTYP.png>
 Package pdftex.def Info: UTYP.png  used on input line 373.
@@ -2984,13 +3025,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[61]
-<documentosDigitalizados/SeguroFacultativo.pdf, id=1000, 614.295pt x 845.1575pt>
+[63]
+<documentosDigitalizados/SeguroFacultativo.pdf, id=1028, 614.295pt x 845.1575pt>
 File: documentosDigitalizados/SeguroFacultativo.pdf Graphic file (type pdf)
 <use documentosDigitalizados/SeguroFacultativo.pdf>
 Package pdftex.def Info: documentosDigitalizados/SeguroFacultativo.pdf  used on input line 380.
 (pdftex.def)             Requested size: 614.29349pt x 845.15544pt.
-<documentosDigitalizados/SeguroFacultativo.pdf, id=1002, page=1, 614.295pt x 845.1575pt>
+<documentosDigitalizados/SeguroFacultativo.pdf, id=1030, page=1, 614.295pt x 845.1575pt>
 File: documentosDigitalizados/SeguroFacultativo.pdf Graphic file (type pdf)
 <use documentosDigitalizados/SeguroFacultativo.pdf, page 1>
 Package pdftex.def Info: documentosDigitalizados/SeguroFacultativo.pdf , page1 used on input line 380.
@@ -3011,13 +3052,13 @@ File: documentosDigitalizados/SeguroFacultativo.pdf Graphic file (type pdf)
 <use documentosDigitalizados/SeguroFacultativo.pdf, page 1>
 Package pdftex.def Info: documentosDigitalizados/SeguroFacultativo.pdf , page1 used on input line 380.
 (pdftex.def)             Requested size: 577.9154pt x 795.10587pt.
- [62
+ [64
 
 
  <./documentosDigitalizados/SeguroFacultativo.pdf>]
 
 pdfTeX warning: pdflatex (file ./documentosDigitalizados/CartaPresentacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<documentosDigitalizados/CartaPresentacion.pdf, id=1020, 597.23125pt x 845.1575pt>
+<documentosDigitalizados/CartaPresentacion.pdf, id=1048, 597.23125pt x 845.1575pt>
 File: documentosDigitalizados/CartaPresentacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaPresentacion.pdf>
 Package pdftex.def Info: documentosDigitalizados/CartaPresentacion.pdf  used on input line 388.
@@ -3028,7 +3069,7 @@ pdfTeX warning: pdflatex (file ./documentosDigitalizados/CartaPresentacion.pdf):
 
 
 pdfTeX warning: pdflatex (file ./documentosDigitalizados/CartaPresentacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<documentosDigitalizados/CartaPresentacion.pdf, id=1022, page=1, 597.23125pt x 845.1575pt>
+<documentosDigitalizados/CartaPresentacion.pdf, id=1050, page=1, 597.23125pt x 845.1575pt>
 File: documentosDigitalizados/CartaPresentacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaPresentacion.pdf, page 1>
 Package pdftex.def Info: documentosDigitalizados/CartaPresentacion.pdf , page1 used on input line 388.
@@ -3049,13 +3090,13 @@ File: documentosDigitalizados/CartaPresentacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaPresentacion.pdf, page 1>
 Package pdftex.def Info: documentosDigitalizados/CartaPresentacion.pdf , page1 used on input line 388.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-[63
+[65
 
 
  <./documentosDigitalizados/CartaPresentacion.pdf>]
 
 pdfTeX warning: pdflatex (file ./documentosDigitalizados/CartaAceptacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<documentosDigitalizados/CartaAceptacion.pdf, id=1029, 597.23125pt x 845.1575pt>
+<documentosDigitalizados/CartaAceptacion.pdf, id=1057, 597.23125pt x 845.1575pt>
 File: documentosDigitalizados/CartaAceptacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaAceptacion.pdf>
 Package pdftex.def Info: documentosDigitalizados/CartaAceptacion.pdf  used on input line 393.
@@ -3066,7 +3107,7 @@ pdfTeX warning: pdflatex (file ./documentosDigitalizados/CartaAceptacion.pdf): P
 
 
 pdfTeX warning: pdflatex (file ./documentosDigitalizados/CartaAceptacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<documentosDigitalizados/CartaAceptacion.pdf, id=1031, page=1, 597.23125pt x 845.1575pt>
+<documentosDigitalizados/CartaAceptacion.pdf, id=1059, page=1, 597.23125pt x 845.1575pt>
 File: documentosDigitalizados/CartaAceptacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaAceptacion.pdf, page 1>
 Package pdftex.def Info: documentosDigitalizados/CartaAceptacion.pdf , page1 used on input line 393.
@@ -3087,7 +3128,7 @@ File: documentosDigitalizados/CartaAceptacion.pdf Graphic file (type pdf)
 <use documentosDigitalizados/CartaAceptacion.pdf, page 1>
 Package pdftex.def Info: documentosDigitalizados/CartaAceptacion.pdf , page1 used on input line 393.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-[64
+[66
 
 
  <./documentosDigitalizados/CartaAceptacion.pdf>]
@@ -3115,7 +3156,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[65
+[67
 
 ]
 File: UTYP.png Graphic file (type png)
@@ -3138,7 +3179,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[66]
+[68]
 Underfull \hbox (badness 1189) in paragraph at lines 451--452
 \T1/cmr/m/n/10 tie-nen fon-do cla-ro, le-
  []
@@ -3178,7 +3219,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-35.02916pt}.
 
-[67
+[69
 
 ] (main.aux
 LaTeX Info: Redefining \sptext on input line 9.
@@ -3190,23 +3231,23 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 301E627B418B40D4E0756C1690D3024E;14693.
+(rerunfilecheck)             Checksum: 821E10A455693AFCF08995A37E6D35E5;15457.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46745 strings out of 467871
- 998590 string characters out of 5418376
- 1824156 words of memory out of 5000000
- 74742 multiletter control sequences out of 15000+600000
+ 46758 strings out of 467871
+ 998852 string characters out of 5418376
+ 1824396 words of memory out of 5000000
+ 74749 multiletter control sequences out of 15000+600000
  642971 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,22n,118p,1710b,2310s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\as_co\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on main.pdf (73 pages, 16915283 bytes).
+Output written on main.pdf (75 pages, 16926256 bytes).
 PDF statistics:
- 1633 PDF objects out of 1728 (max. 8388607)
- 240 named destinations out of 1000 (max. 500000)
- 895 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1667 PDF objects out of 1728 (max. 8388607)
+ 246 named destinations out of 1000 (max. 500000)
+ 927 words of extra memory for PDF output out of 10000 (max. 10000000)
 
