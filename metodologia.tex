@@ -216,7 +216,9 @@ La configuración del canal de comunicación mediante el widget \ref{fig:mockup_
 \subsection{Diseño UX}
 \label{sec:diseno_ux}
 
-En esta sección se presentan los diseños UX finales del sistema, estos fueron realizados en el software Figma. Se trata de la versión más fiel a lo que se presentará visualmente como resultado final en el sistema, incluyendo colores, formas e imagenes de ser necesario.
+En esta sección se presentan los diseños UX finales del sistema, estos fueron realizados en el software Figma. Se trata de la versión más fiel a lo que se presentará visualmente como resultado final en el sistema, incluyendo colores, formas e imagenes de ser necesario. Se observará el contraste entre los elementos debido a los colores, seleccionando un color naranja para aquellos elementos que se desea resaltar, como botones de acción.
+
+En la figura \ref{fig:ux_login} se puede observar el diseño UX de la pantalla de inicio de sesión, en la cual se ve el formulario centrado en la pantalla, con el titulo "Iniciar sesión" y los campos para ingresar correo y contraseña, además del botón para iniciar sesión y un enlace para recuperar la cuenta en caso de que el usuario haya olvidado su contraseña.
 
 \begin{figure}[!tbh]
     \centering
@@ -225,12 +227,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_login}
 \end{figure}
 
+En la figura \ref{fig:ux_recuperar_cuenta} se puede observar el diseño UX de la pantalla para recuperar cuenta, en la cual se ve el formulario centrado en la pantalla, con el titulo "Recuperar tu cuenta" y el campo para ingresar el correo electronico, además del botón para enviar un código de confirmación al correo ingresado y un enlace para regresar a la pantalla de inicio de sesión, este ultimo en la parte superior izquierda de la pantalla.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_recuperar_cuenta.png}
     \caption{Diseño UX para recuperar cuenta.}
     \label{fig:ux_recuperar_cuenta}
 \end{figure}
+
+En la figura \ref{fig:ux_codigo_seguridad} se puede observar el diseño UX de la pantalla para ingresar el código de seguridad, en la cual se ve el formulario centrado en la pantalla con el titulo "Recuperar tu cuenta" y los campos para ingresar cada uno de los 6 digitos del código, además del botón para continuar, una opción para reenviar el código cada cierto intervalo de tiempo y un enlace para regresar a la pantalla anterior, este ultimo en la parte superior izquierda de la pantalla.
 
 \begin{figure}[!tbh]
     \centering
@@ -239,12 +245,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_codigo_seguridad}
 \end{figure}
 
+En la figura \ref{fig:ux_admin_dashboard} se observa la pantalla principal del panel de administración, en la cual se puede ver la cabecera de la página con el icono de usuario y el nombre del usuario logueado y la barra lateral con los enlaces de navegación a las distintas secciones, resaltando el enlace de la sección actual. En la parte central se puede ver el titulo de la sección, debajo hay 4 tarjetas de metricas mostrando datos de empresas activas, usuarios totales y demás, debajo de estas tarjetas se encuentran 2 apartados más grandes mostrando el historial de auditoria y de errores de IA y por último, 4 accesos a distintas operaciones relevantes como lo son el registro de una empresa, la importación de catalogo por CSV, ajustes generales, etc. 
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_admin_dashboard.png}
     \caption{Diseño UX para el panel de administración.}
     \label{fig:ux_admin_dashboard}
 \end{figure}
+
+En la figura \ref{fig:ux_empresas} se observa la pantalla del apartado de gestión de empresas, en la parte de central de esta obervamos el botón para añadir una nueva empresa, la barra de busqueda para navegar entre las empresas registradas y debajo de esto las tarjetas de las empresas, en las cuales ademas de mostrarse datos relevantes de la empresa, se incluye un boton toggle para alternar el estado de la empresa (activa/inactiva) y tres botones para editar informacion de la empresa, visualizar detalles de la empresa y eliminar la empresa.
 
 \begin{figure}[!tbh]
     \centering
@@ -253,12 +263,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_empresas}
 \end{figure}
 
+Al hacer clic en el botón de "Añadir Empresa", se muestra el modal correspondiente \ref{fig:ux_modal_nueva_empresa} en el cual se solicitan los datos básicos de la empresa como el nombre, la URL del logo y el número de WhatsApp, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_nueva_empresa.png}
     \caption{Diseño UX para el modal de nueva empresa.}
     \label{fig:ux_modal_nueva_empresa}
 \end{figure}
+
+En la figura \ref{fig:ux_productos_catalogo} se observa la pantalla donde se muestra el catalogo de productos de una empresa, en la parte superior izquierda se encuentran dos botones, uno para ver el catalogo de productos y el otro para dirigirse a las categorias que ha registrado la empresa, debajo de esto se encuentra una barra de busqueda para navegar entre el catalogo de productos; del lado derecho hay un botón con el titulo "Añadir Producto" y debajo hay filtros por categoria y para ordenar por distintos criterios. En la parte predominante de la pagina se encuentran las tarjetas de los productos, en la cuales se muestran las imagenes de los productos, teniendo debajo informacion como nombre, categoria y precio, en la parte inferior de estas tarjetas hay 3 botones para editar, visualizar y eliminar el producto.
 
 \begin{figure}[!tbh]
     \centering
@@ -267,12 +281,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_productos_catalogo}
 \end{figure}
 
+En la figura \ref{fig:ux_productos_categorias} se observa la pantalla donde se muestra las categorías de productos de una empresa, en la parte superior derecha hay un botón con el titulo "Añadir Categoría" y en la parte central se encuentra la lista de categorias, en la cual se muestran nombre, descripcion y una serie de acciones rapidas como editar, visualizar y eliminar para cada categoria. 
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_productos_categorias.png}
     \caption{Diseño UX para las categorías de productos.}
     \label{fig:ux_productos_categorias}
 \end{figure}
+
+Al dar clic en el botón de "Añadir Producto" se muestra el modal correspondiente \ref{fig:ux_modal_alta_manual_producto} en el cual se solicitan los datos básicos del producto como nombre, descripcion, marca, precio, stock, URL de imagen y categoria a la que pertenece, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
 
 \begin{figure}[!tbh]
     \centering
@@ -281,12 +299,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_modal_alta_manual_producto}
 \end{figure}
 
+En la figura \ref{fig:ux_modal_importar_por_csv} se observa el modal para la importación de productos mediante un archivo CSV, en el cual se muestra un campo para subir el archivo.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_importar_por_csv.png}
     \caption{Diseño UX para el modal de importación de productos por CSV.}
     \label{fig:ux_modal_importar_por_csv}
 \end{figure}
+
+Tras realizar la importación de un archivo CSV, se muestra el modal de revisión de la importación \ref{fig:ux_modal_revision_importacion}, en el cual se muestran 3 apartados principales que indican la cantidad de productos listos para guardar, aquellos que contienen errores y aquellos que contienen advertencias, debajo de esto se encuentra una lista con los detalles de cada producto y tres botones, uno para cancelar la importación, otro para descartar los errores y el tercero para guardar los productos sin errores. La diferencia entre productos listos para guardar, productos con errores y productos con advertencias es que cada uno se resalta con diferente color de texto, siendo verde para los listos para guardar, rojo para los que contienen errores y naranja para los que contienen advertencias.
 
 \begin{figure}[!tbh]
     \centering
@@ -295,12 +317,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_modal_revision_importacion}
 \end{figure}
 
+Al hacer clic en el botón de "Añadir Categoría" se muestra el modal correspondiente \ref{fig:ux_modal_nueva_categoria} en el cual se solicitan los datos básicos de la categoría como nombre y descripcion, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_nueva_categoria.png}
     \caption{Diseño UX para el modal de nueva categoría.}
     \label{fig:ux_modal_nueva_categoria}
 \end{figure}
+
+En la figura \ref{fig:ux_usuarios} se observa la pantalla del apartado de gestión de usuarios, en la parte superior derecha hay un botón con el titulo "Añadir Usuario" y en la parte central se encuentra la lista de usuarios, en la cual se muestran nombre, correo, telefono y rol, además de una serie de acciones rapidas como editar, visualizar y eliminar para cada usuario.
 
 \begin{figure}[!tbh]
     \centering
@@ -309,12 +335,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_usuarios}
 \end{figure}
 
+En la figura \ref{fig:ux_modal_nuevo_usuario} se observa el modal para agregar un nuevo usuario, en el cual se solicitan los datos básicos del usuario como nombre, apellido, correo, telefono, contraseña y rol, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo. 
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_nuevo_usuario.png}
     \caption{Diseño UX para el modal de nuevo usuario.}
     \label{fig:ux_modal_nuevo_usuario}
 \end{figure}
+
+En la figura \ref{fig:ux_chats_historial} se observa la pantalla del apartado de historial de chats, en la parte izquierda se encuentran los filtros de busqueda, ya se por empresa, por canal de comunicación, por fecha, etc; debajo de esto se encuentran los accesos a cada uno de los chats disponibles. En la parte derecha se encuentra el historial completo del chat seleccionado, teniendo una barra superior que muestra botones para ver la cotización de la conversación y activar el seguimiento, mientras que debajo de eso se muestran los mensajes completos de la conversación con detalles como hora y quien los envió.
 
 \begin{figure}[!tbh]
     \centering
@@ -323,12 +353,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_chats_historial}
 \end{figure}
 
+En la figura \ref{fig:ux_logs} se observa la pantalla del panel de logs del sistema, en la parte superior se encuentran los distintos filtros de busqueda, ya sea por fecha, empresa, usuario, rol, accion, etc. Debajo de esto se encuentra la lista de logs del sistema con datos como fecha y hora, usuario, empresa, rol, accion, etc.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_logs.png}
     \caption{Diseño UX para el panel de logs.}
     \label{fig:ux_logs}
 \end{figure}
+
+En la figura \ref{fig:ux_widget} se observa el diseño UX del widget web de chat, en el cual se puede ver el nombre del asistente de chat en la parte superior, un mensaje de ejemplo de la bienvenida del asistente y el campo para enviar un mensaje.
 
 \begin{figure}[!tbh]
     \centering
@@ -337,12 +371,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_widget}
 \end{figure}
 
+En la figura \ref{fig:ux_reportes} se observa la pantalla del panel de reportes, en la parte superior derecha se encuentran 3 botones, uno para filtrar por rango de fechas, otro para exportar el reporte a Excel y el último para exportarlo a PDF; debajo de esto se encuentran 4 tarjetas de metricas mostrando datos y comparandolos con valores anteriores, como la cantidad de conversaciones, las cotizaciones generadas y demás; la parte que ocupa la mayor parte de la pantalla se divide en dos, a la izquierda se presenta un gráfico de la comparación del consumo de IA y, a la derecha los productos más consultados, mostrando su nombre, categoria y cantidad de consultas.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_reportes.png}
     \caption{Diseño UX para el panel de reportes.}
     \label{fig:ux_reportes}
 \end{figure}
+
+En la figura \ref{fig:ux_reglas} se observa la pantalla del panel de configuración de reglas del modelo de IA, en la parte central se encuentra la navegacion entre las distintas sub-secciones de configuracion y del lado derecho un campo para ingresar las reglas asi como un botón resaltado en color naranja para actualizar.
 
 \begin{figure}[!tbh]
     \centering
@@ -351,12 +389,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_reglas}
 \end{figure}
 
+En la figura \ref{fig:ux_parametros} se observa la pantalla del panel de configuración de parámetros de la empresa, en la cual se incluyen dos campos para modificar los campos generales de la empresa, es decir, el nombre y el URL del logo de la empresa; asi como un botón resaltado en color naranja para actualizar estos datos.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_parametros.png}
-    \caption{Diseño UX para el panel de configuración de parámetros del modelo de IA.}
+    \caption{Diseño UX para el panel de configuración de parámetros de la empresa.}
     \label{fig:ux_parametros}
 \end{figure}
+
+En la figura \ref{fig:ux_motor_ia} se observa la pantalla del panel de configuración del motor de IA, en la cual se incluyen 3 campos y 1 botón toggle, además de un boton resaltado en color naranja en la parte inferior. Los campos son para datos como el proveedor de IA, el modelo de IA especifico, el limite máximo de tokens; el botón toggle sirve para desactivar o activar el servicio de automatización de conversaciones. El boton que se encuentra en la parte inferior es para confirmar el guardado de los cambios.
 
 \begin{figure}[!tbh]
     \centering
@@ -365,12 +407,16 @@ En esta sección se presentan los diseños UX finales del sistema, estos fueron 
     \label{fig:ux_motor_ia}
 \end{figure}
 
+En la figura \ref{fig:ux_canal_whatsapp} se observa la pantalla del panel de configuración del canal de WhatsApp, en la cual se incluyen 3 campos para ingresar datos como el número de WhatsApp de la empresa y sus tokens de acceso, 1 botón toggle para activar o desactivar dicho canal de comunicación y 1 botón resaltado en color naranja para guardar los cambios en los campos.
+
 \begin{figure}[!tbh]
     \centering
     \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_canal_whatsapp.png}
     \caption{Diseño UX para el panel de configuración del canal de WhatsApp.}
     \label{fig:ux_canal_whatsapp}
 \end{figure}
+
+En la figura \ref{fig:ux_canal_widget} se observa la pantalla del panel de configuración del canal de widget, en la cual se incluyen 4 campos para ingresar datos como el nombre del asistente de widget, el color principal del widget con un selector de color y el mensaje de bienvenida en el widget, además de un botón resaltado en color naranja para guardar los cambios en los datos.
 
 \begin{figure}[!tbh]
     \centering
@@ -386,6 +432,24 @@ En esta sección se presentan los diagramas del sistema, estos fueron realizados
 
 \subsubsection{Diagrama de base de datos}
 \label{subsec:diagrama_base_datos}
+
+Actualmente, la base de datos del sistema cuenta con 13 tablas, las cuales se muestran en el diagrama de base de datos \ref{fig:diagrama_base_datos}. En este diagrama se puede observar la relación entre las tablas, así como los campos que componen cada una de ellas. A continuación se presenta una breve descripción de cada tabla:
+
+\begin{itemize}
+    \item \textbf{companies}: Almacena información de las empresas registradas en el sistema como nombre, URL del logo, numero de Whatspp, configuraciones de canales de comunicación, etc.
+    \item \textbf{users}: Almacena información de los usuarios registrados en el sistema como nombre, apellido, correo, telefono, contraseña y, si no es administrador general, el ID de la empresa a la que pertenece, etc.
+    \item \textbf{products}: Almacena información de los productos registrados en el sistema como nombre, descripcion, marca, precio, stock, URL de imagen, ID de la empresa a la que pertenece, ID de la categoria a la que pertenece, etc.
+    \item \textbf{categories}: Almacena información de las categorias registradas en el sistema como nombre, descripcion, ID de la empresa a la que pertenece, etc.
+    \item \textbf{conversations}: Almacena información de las conversaciones generadas en ambos canales de comunicacion como el ID de la empresa, el ID del cliente que generó la conversación, el canal de comunicación por el que se generó, etc. 
+    \item \textbf{messages}: Almacena información de los mensajes generados en las conversaciones como el ID de la conversación, el rol de quien envió el mensaje, el contenido del mensaje, etc.
+    \item \textbf{quotations}:Almacena información de las cotizaciones generadas de las conversaciones como el ID de la empresa, el ID de la conversación, el total de la cotización, etc.
+    \item \textbf{quotation\_products}: Almacena información de los productos que forman parte de una cotización como el ID de la cotización, el ID del producto, la cantidad de ese producto en la cotización, el subtotal de ese producto en la cotización, etc.
+    \item \textbf{audit\_logs}: Almacena información de los logs de auditoria del sistema como el ID del usuario que realizó la acción, el ID de la empresa a la que pertenece el usuario, la acción realizada, el tipo de objetivo (los logs de auditoria se modelan con relaciones polimorficas, por lo que el objetivo puede ser un producto, una empresa, una categoria, entre otros.), etc.
+    \item \textbf{ai\_error\_logs}: Almacena información de los errores generados por el modelo de IA como el ID de la empresa, el ID de la conversación, el modelo de IA que generó el error, la descripción del error, etc.
+    \item \textbf{roles}: Almacena información de los roles de usuario del sistema como el nombre del rol.
+    \item \textbf{model\_has\_roles}: Funciona como una tabla pivote para relacionar los roles con los usuarios, contiene el ID del usuario y el ID del rol.
+    \item \textbf{login\_attempts}: Almacena información de los intentos de inicio de sesión del sistema como el ID del usuario, el correo, la dirección IP, el estado del intento (exitoso o fallido), etc.
+\end{itemize}
 
 \begin{figure}[!tbh]
     \centering
