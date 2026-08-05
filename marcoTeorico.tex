@@ -1,0 +1,302 @@
+\section{Marco Teórico}
+\label{ch:marco_teorico}
+
+En esta sección se presentan los conceptos teóricos y antecedentes relacionados con el tema de investigación. Se abordarán los fundamentos teóricos que sustentan el estudio, así como las investigaciones previas que han contribuido al desarrollo del conocimiento en esta área.
+
+\subsection{Inteligencia Artificial y sus aplicaciones en sistemas conversacionales}
+\label{sec:inteligencia_artificial}
+
+En esta sección, se define la Inteligencia Artificial (IA) y lo que es un sistema conversacional basado en IA; además, se revisan estudios encargados de analizar diversos aspectos de estos sistemas, como la percepción de los usuarios hacia estos. Por último, se revisa el caso de éxito de una empresa que ha integrado un sistema conversacional basado en IA y los beneficios que les ha aportado.
+
+\subsubsection{Conceptos generales de IA y sistemas conversacionales}
+\label{subsec:ia_conceptos}
+
+Se define a la Inteligencia Artificial (IA) como el campo de estudio enfocado en el desarrollo de tecnología capaz de realizar tareas que requieren inteligencia humana. Los sistemas basados en IA están diseñados para imitar la capacidad de aprendizaje y razonamiento que poseen los seres humanos \cite{rivera2023inteligencias}.
+
+La IA se utiliza en diversas áreas del conocimiento, como la robótica, los vehículos autónomos y el reconocimiento facial y de objetos. No obstante, en esta sección se abordarán sus aplicaciones en sistemas conversacionales, tales como asistentes virtuales y chatbots.
+
+Una IA generativa de texto es un tipo de Inteligencia Artificial que puede generar texto a partir de datos existentes, y se encuentra en rápido desarrollo con un amplio potencial de aplicaciones \cite{rivera2023inteligencias}. Ejemplos de ello son GPT, desarrollada por OpenAI, y LLaMa, desarrollada por Meta, ambas ampliamente utilizadas en sistemas conversacionales.
+
+En estos sistemas, uno de los principales desafíos es garantizar la coherencia y veracidad de las respuestas, lo que ha dado lugar al estudio de fenómenos como las alucinaciones en modelos de lenguaje, tema que se abordará en la Sección \ref{sec:alucinaciones_modelos_lenguaje}.
+
+\subsubsection{Percepción de los usuarios frente a los chatbots}
+\label{subsec:percepcion_chatbots}
+
+Por otro lado, Fondevila-Gascón et al. \cite{fondevila2024chatbot} realizaron un estudio empírico en España para conocer la percepción de los clientes sobre los chatbots como agentes de atención al cliente. Los resultados muestran que la percepción del usuario depende del contexto. Si la pregunta o solicitud es sencilla, la percepción es positiva; si es compleja, es negativa. También se observa que los factores principales que afectan la percepción son la calidad y el contexto.
+
+Además, se concluye que existe una relación entre la calidad del chatbot y la satisfacción del cliente, y se identifica que el factor más importante para el usuario al interactuar con un chatbot es la efectividad. Los autores también señalan que los usuarios prefieren interactuar con agentes humanos en situaciones complejas, como quejas o reclamaciones.
+
+\subsubsection{Interactividad, humanidad y confianza en chatbots}
+\label{subsec:confianza_chatbots}
+
+Por su parte, Ding y Najaf \cite{ding2024interactivity} investigaron el impacto de la interactividad y la percepción de humanidad en la confianza hacia los chatbots en el comercio electrónico. Los autores encontraron que tanto la interactividad como la humanidad percibida tienen un efecto positivo en la confianza del usuario.
+
+También identificaron que la confianza actúa como un mediador entre estos factores y la intención de adoptar chatbots. Además, el estudio mostró que el disfrute percibido modera la relación entre la confianza y la intención de adopción, es decir, cuando el usuario disfruta la interacción, la confianza tiene un mayor impacto en su decisión de usar el chatbot. Estos hallazgos resaltan la importancia de diseñar chatbots que no solo sean interactivos y humanos, sino también agradables para el usuario.
+
+\subsubsection{Caso de éxito: Implementación de IA conversacional para optimizar procesos empresariales}
+\label{subsec:caso_exito}
+
+A modo de muestra de los beneficios que puede traer la implementación de una IA conversacional a los diversos procesos que existen dentro de una empresa, se analiza el caso de la empresa OHLA \cite{ricoh2024ohla}, grupo líder en el sector de la Ingeniería Civil y Construcción en España.
+
+Tras una exploración corporativa, se reveló la necesidad y viabilidad de un sistema de IA generativa, más específicamente uno que sirviera al propósito de mejorar los procesos y decisiones en áreas críticas de la organización \cite{ricoh2024ohla}.
+
+La solución implementada se centró en el desarrollo de un asistente virtual, se utiliza la IA para optimizar procesos, mejorar la eficiencia operativa y proporcionar a los empleados de OHLA un acceso fácil y rápido a información relevante con respuestas precisas a través de interacciones conversacionales con un chatbot potenciado por Azure Open IA. Otras funcionalidades a destacar son la indexación y búsqueda de información en diversas fuentes de datos, la traducción de contenido y una sección de preguntas frecuentes para cada departamento, ofreciendo así una experiencia personalizada para los usuarios \cite{ricoh2024ohla}.
+
+Los beneficios reportados tras la implementación de la solución tecnológica incluyen una eficiencia operativa mejorada con el acceso instantáneo a información relevante, reduciendo el tiempo de búsqueda de información, además de impulsar la capacidad de los empleados para innovar y adaptarse a los cambios en el entorno \cite{ricoh2024ohla}.
+
+\subsection{Procesamiento de Lenguaje Natural (PLN): ELN y GLN}
+\label{sec:procesamiento_lenguaje_natural}
+
+En esta sección, se define el Procesamiento de Lenguaje Natural (PLN), así como dos de sus subdisciplinas fundamentales para sistemas conversacionales: el Entendimiento de Lenguaje Natural (ELN) y la Generación de Lenguaje Natural (GLN). Se explica brevemente cada uno de estos conceptos y su relevancia en el desarrollo del presente proyecto.
+
+\subsubsection{Definición de Procesamiento de Lenguaje Natural}
+\label{subsec:definicion_pln}
+
+Según la definición de Muñoz Guillena \cite{munoz2024procesamiento}, el procesamiento de lenguaje natural (PLN) es una rama de la inteligencia artificial centrada en la capacidad de las máquinas para comprender, interpretar y generar lenguaje humano.
+
+A palabras generales, un sistema de PLN es la emulación por computadora de la capacidad humana para generar e interpretar textos. El sistema genera o interpreta texto justamente como lo haría un ser humano \cite{munoz2024procesamiento}.
+
+El gran beneficio del PLN es que permite que las máquinas puedan aprender sin necesidad de programación explícita, esto mediante el análisis de patrones lingüísticos y semánticos, pudiendo identificar relaciones y conceptos abstractos, y generando nuevo conocimiento a partir de esto \cite{munoz2024procesamiento}.
+
+El PLN se compone de dos subdisciplinas fundamentales: el Entendimiento de Lenguaje Natural (ELN) y la Generación de Lenguaje Natural (GLN). El ELN se centra en la comprensión del significado detrás del lenguaje humano, mientras que el GLN se enfoca en la creación de texto en lenguaje humano.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/img_2430124/pln_eln_gln.jpg}
+    \caption{Relación entre el Procesamiento de Lenguaje Natural y sus subdisciplinas.}
+    \label{fig:nlp}
+\end{figure}
+
+\subsubsection{Definición de Entendimiento de Lenguaje Natural}
+\label{subsec:definicion_eln}
+
+El Entendimiento del Lenguaje Natural (ELN) es una subdisciplina del PLN centrada en la capacidad de las máquinas para comprender el significado y la intención tras el lenguaje humano. Va más allá de un procesamiento superficial del texto para poder interpretar el contexto, propósito y las inferencias que los humanos hacen al comunicarse \cite{munoz2024procesamiento}. Incluye tareas como el análisis semántico, desambiguación de palabras e inferencia lógica \cite{munoz2024procesamiento}.
+
+En sistemas conversacionales como el propuesto en este documento, el ELN es un proceso fundamental que permitirá interpretar las consultas del usuario.
+
+\subsubsection{Definición de Generación de Lenguaje Natural}
+\label{subsec:definicion_gln}
+
+La Generación de Lenguaje Natural (GLN) es una subdisciplina del PLN encargada de la creación de texto en lenguaje humano a partir de datos estructurados o no estructurados. Su objetivo es producir texto que cumpla con ciertas características: coherencia, fluidez y adecuación al contexto \cite{munoz2024procesamiento}. Puede aplicarse en la generación de informes, los sistemas conversacionales y la producción de contenido \cite{munoz2024procesamiento}.
+
+En sistemas conversacionales como el propuesto en este documento, el GLN es un proceso esencial que se encargará de generar respuestas coherentes y personalizadas a partir de la información recuperada de la base de datos.
+
+\subsection{Alucinaciones en modelos de lenguaje y estrategias de mitigación}
+\label{sec:alucinaciones_modelos_lenguaje}
+
+En esta sección, se define el concepto de alucinación en modelos de lenguaje, se describen las principales causas que las originan y se mencionan brevemente algunas estrategias para mitigarlas, las cuales serán desarrolladas con mayor profundidad en secciones posteriores.
+
+\subsubsection{Definición de alucinaciones en modelos de lenguaje}
+\label{subsec:definicion_alucinaciones}
+
+El término "alucinación" se utiliza como metáfora para denominar al contenido generado por una IA que carece de sentido o no es fiel al contenido fuente que le fue proporcionado \cite{navarro2025alucinaciones}. Debe tenerse claro que este término se utiliza como metáfora antropomórfica para describir lo que es un mero error de procesamiento y la obtención de resultados indeseados en un sistema informático \cite{navarro2025alucinaciones}.
+
+\subsubsection{Causas de las alucinaciones en modelos de lenguaje}
+\label{subsec:causas_alucinaciones}
+
+Las alucinaciones generadas por un modelo de Inteligencia Artificial (IA) pueden ser atribuidas a distintos motivos \cite{navarro2025alucinaciones}. Existen diversas adversidades que pueden influir a esto, tales como la complejidad del lenguaje humano, calidad deficiente de los datos de entrada, sesgo en los conjuntos de datos de entrenamiento y el diseño limitado de los datos \cite{navarro2025alucinaciones}.
+
+Como ya se mencionó, se definen distintas causas, a continuación se definen las principales:
+
+\begin{itemize}
+    \item \textbf{Sobre-optimización:} Tomando el ejemplo de modelos como GPT-3, los cuales fueron optimizados para producir texto coherente y contextualmente relevante \cite{navarro2025alucinaciones}. Esto los llevó a inventar información ajustada al contexto, incluso si no es verídica.
+    \item \textbf{Ausencia de verificación externa:} Hay posibilidad de que ocurra si el modelo carece de la capacidad de verificar la información en fuentes externas como internet \cite{navarro2025alucinaciones}.
+    \item \textbf{Inferencia contextual:} El hecho de que los modelos de lenguaje infieren el contexto a partir del texto precedente provoca que puedan interpretarlo incorrectamente, lo que llevaría a alucinaciones \cite{navarro2025alucinaciones}.
+\end{itemize}
+
+\subsubsection{Estrategias de mitigación de alucinaciones}
+\label{subsec:estrategias_mitigacion}
+
+Dado el riesgo que representan las alucinaciones en sistemas conversacionales, se han desarrollado diversas estrategias para mitigar su aparición. Estas estrategias buscan limitar la libertad del modelo para inventar información y asegurar que sus respuestas estén fundamentadas en fuentes confiables.
+
+Una de las estrategias más efectivas es la arquitectura RAG (Retrieval-Augmented Generation). Este enfoque, que se abordará con mayor detalle en la Sección \ref{sec:arquitectura_rag}, consiste en que el modelo consulte una fuente de información externa antes de generar una respuesta, basando su respuesta únicamente en el contenido recuperado \cite{hu2025removal, yin2026mitigating}. Esto reduce las alucinaciones al anclar las respuestas en datos verificables.
+
+Otra estrategia clave, que también se desarrollará más adelante en la Sección \ref{sec:inyeccion_contexto}, es el \textit{system prompting}. Esta técnica consiste en definir instrucciones claras y estrictas para el modelo desde el inicio de la conversación, restringiendo su comportamiento y evitando que invente información \cite{neumann2025position}. Adicionalmente, el ajuste del parámetro de temperatura permite controlar la creatividad de las respuestas: un valor bajo (cercano a 0) hace que el modelo sea más determinista y menos propenso a generar información no verídica \cite{omar2025multi}.
+
+\subsection{Arquitectura RAG (Retrieval-Augmented Generation) y su aplicación en sistemas conversacionales}
+\label{sec:arquitectura_rag}
+
+En esta sección, se define la arquitectura RAG, se describen sus componentes principales y se explican las ventajas de su implementación. Finalmente, se menciona su aplicación en el presente proyecto.
+
+\subsubsection{Definición de RAG}
+\label{subsec:definicion_rag}
+
+RAG (Retrieval-Augmented Generation) es una técnica de inteligencia artificial dentro del campo del procesamiento de lenguaje natural que combina la recuperación de información con la generación de texto a partir de modelos de lenguaje. Su funcionamiento se basa en el uso de documentos relevantes recuperados para proporcionar contexto adicional, lo que permite generar respuestas más precisas y detalladas, especialmente útil en aplicaciones donde se requiere obtener información exacta y completa \cite{laparra2024retrieval}.
+
+En la figura \ref{fig:rag} se ilustra el funcionamiento básico de la arquitectura RAG, mostrando como se necesita de una base de conocimiento y adición de contexto relevante para obtener una respuesta precisa.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/img_2430124/arquitectura_rag_diagrama.jpg}
+    \caption{Funcionamiento básico de la arquitectura RAG.}
+    \label{fig:rag}
+\end{figure}
+
+\subsubsection{Componentes de RAG}
+\label{subsec:componentes_rag}
+
+Un sistema RAG se compone de dos fases principales: la recuperación de información y la generación de la respuesta.
+
+En la fase de recuperación, la consulta del usuario se utiliza para realizar una búsqueda en una base de datos indexada o en fuentes externas. Para esto se emplean técnicas como la búsqueda semántica o la coincidencia de palabras clave, que permiten encontrar la información más relevante para la consulta. La información recuperada se convierte en vectores que se almacenan en una base de datos vectorial, facilitando la búsqueda eficiente de similaridades \cite{laparra2024retrieval}. Los documentos con las puntuaciones más altas se seleccionan para su posterior procesamiento.
+
+En la fase de generación, la información recuperada se procesa para ayudar a generar una respuesta. Un modelo de lenguaje basado en deep learning, como un LLM, utiliza la información recuperada para generar las respuestas de texto. Estas respuestas suelen ser más precisas y contextuales, ya que han sido moldeadas por la información de recuperación \cite{laparra2024retrieval}.
+
+\subsubsection{Ventajas de RAG}
+\label{subsec:ventajas_rag}
+
+RAG presenta ventajas sobre los modelos de lenguaje que funcionan de forma aislada. Permite que los modelos accedan a fuentes de datos externas más recientes y actualizadas de forma eficiente, ya que no es necesario reentrenar el modelo para mejorar la precisión o la relevancia en las respuestas \cite{laparra2024retrieval}.
+
+Además, RAG ayuda a reducir el problema de las alucinaciones en los modelos de lenguaje. Al contar con un paso previo de recuperación de información, el modelo no depende solamente de lo que hay en la base de datos que se ha utilizado para entrenarlo, sino que también cuenta con los documentos indexados de forma externa, ofreciendo una información añadida que permite generar una respuesta más completa y precisa \cite{laparra2024retrieval}.
+
+\subsubsection{Aplicación en sistemas conversacionales}
+\label{subsec:aplicacion_rag}
+
+En el contexto de un sistema conversacional como el propuesto en este proyecto, la arquitectura RAG juega un papel fundamental. El chatbot necesita responder preguntas sobre productos y generar cotizaciones basadas en el catálogo real de cada empresa. Sin RAG, el modelo de lenguaje podría inventar productos o precios que no existen en la base de datos.
+
+Básicamente, RAG permite que el chatbot consulte la base de datos de productos y precios antes de generar una respuesta. Esto asegura que las respuestas sean precisas y estén basadas en información verificada, reduciendo significativamente el riesgo de alucinaciones y mejorando la experiencia del usuario.
+
+\subsection{Inyección de contexto y system prompting para restricción de respuestas}
+\label{sec:inyeccion_contexto}
+
+En esta sección, se definen los conceptos de inyección de contexto y system prompting, se explica cómo se complementan y se menciona su aplicación en el presente proyecto.
+
+\subsubsection{Definición de inyección de contexto}
+\label{subsec:inyeccion_contexto_definicion}
+
+La inyección de contexto consiste en añadir información relevante y específica al prompt de un modelo de lenguaje antes de que este genere una respuesta. El objetivo es proporcionar al modelo el conocimiento necesario para responder de manera precisa y fundamentada, reduciendo así la dependencia de su memoria interna y mitigando el riesgo de alucinaciones \cite{mukherjee2025augmenting}. Esta técnica es especialmente útil en aplicaciones donde se requiere información actualizada o de dominio específico \cite{mukherjee2025augmenting}.
+
+\subsubsection{Definición de system prompting}
+\label{subsec:system_prompting_definicion}
+
+El system prompting se refiere al uso de directrices predefinidas que se colocan al inicio de la conversación para guiar el comportamiento del modelo. Estas instrucciones tienen prioridad sobre las indicaciones del usuario y se utilizan para establecer reglas, definir roles y restringir el comportamiento del modelo a lo largo de toda la interacción \cite{neumann2025position}. Los system prompts permiten que el modelo mantenga una conducta consistente, como aplicar guardrails o ceñirse a un tema específico \cite{neumann2025position}.
+
+En la figura \ref{fig:system_prompting} se ilustra el como se complementan el system prompt y el user prompt, siendo el primero aquel que establece las reglas y el comportamiento de la IA mientras que el segundo es la instrucción enviada por el usuario.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/img_2430124/prompt_sistema.jpg}
+    \caption{Diagrama de componentes del system prompting.}
+    \label{fig:system_prompting}
+\end{figure}
+
+\subsubsection{Diferencias y complementariedad}
+\label{subsec:diferencias_complementariedad}
+
+Ambos conceptos se complementan en el diseño de sistemas conversacionales. El system prompting establece las reglas generales de comportamiento, definiendo el rol del asistente y las restricciones que debe cumplir en todas las interacciones \cite{neumann2025position}. La inyección de contexto, por su parte, proporciona la información específica y actualizada que el modelo necesita para responder a una consulta particular \cite{mukherjee2025augmenting}. Mientras que el system prompt define cómo debe comportarse el modelo, la inyección de contexto le proporciona el conocimiento para hacerlo correctamente.
+
+\subsubsection{Aplicación en el proyecto}
+\label{subsec:inyeccion_contexto_aplicacion}
+
+En el presente proyecto, el system prompting se utiliza para definir el rol del chatbot como un asistente de ventas. A través de instrucciones iniciales, se le indica al modelo que debe responder únicamente con base en la información proporcionada, que no debe inventar productos y que debe limitarse a las reglas de negocio definidas.
+
+La inyección de contexto se implementa mediante la arquitectura RAG descrita en la sección anterior. Antes de generar una respuesta, el sistema consulta la base de datos PostgreSQL para recuperar la información real de los productos solicitados y la inyecta en el prompt. De esta forma, el modelo genera respuestas precisas y verificables, reduciendo significativamente el riesgo de alucinaciones.
+
+\subsection{Arquitectura multiempresa (multitenant) en sistemas de software}
+\label{sec:arquitectura_multitenant}
+
+En esta sección, se define la arquitectura multiempresa (multitenant), se describen los modelos de aislamiento de datos, se mencionan sus ventajas y desafíos, y se explica su aplicación en el presente proyecto.
+
+\subsubsection{Definición de arquitectura multiempresa}
+\label{subsec:definicion_multitenant}
+
+La arquitectura multiempresa, también conocida como multitenant, es el enfoque de diseño de software en el cual una única instancia de una aplicación sirve a varios clientes o inquilinos (tenants) \cite{ibm2021multitenant}.
+
+Se define como inquilino a un usuario individual o a un grupo de usuarios, como una empresa, dentro de la cual comparten acceso y privilegios dentro de la instancia de la aplicación \cite{ibm2021multitenant}.
+
+Lo que hace que esta arquitectura sea utilizada es que asegura que los datos de cada inquilino están aislados y son invisibles para otros inquilinos con los que se comparte instancia de aplicación, esto garantiza la seguridad y privacidad de los datos de los inquilinos \cite{ibm2021multitenant}.
+
+En la figura \ref{fig:multitenant} se muestra la diferencia entre la arquitectura single-tenant y multi-tenant, donde se puede observar que en la primera cada inquilino tiene su propia instancia de aplicación y base de datos, mientras que en la segunda todos los inquilinos comparten la misma instancia de aplicación y base de datos, pero con un aislamiento lógico de los datos.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/img_2430124/multi_inquilino.jpg}
+    \caption{Arquitectura de un solo inquilino en comparación con arquitectura multi-inquilino.}
+    \label{fig:multitenant}
+\end{figure}
+
+\subsubsection{Modelos de aislamiento de datos}
+\label{subsec:modelos_aislamiento}
+
+Ha sido mencionada la importancia de mantener los datos de cada inquilino aislados y seguros. Para ello existen distintos enfoques para el aislamiento de datos según diversos factores. A continuación se listan los tres modelos más comunes:
+
+\begin{itemize}
+    \item \textbf{Esquema compartido con ID de inquilino:} Todos los inquilinos comparten la misma base de datos y esquema, cada registro de datos se identifica mediante un ID de inquilino. Es el modelo más eficiente en cuanto a uso de recursos, sin embargo requiere un estricto uso de consultas y controles de acceso \cite{futureprocessing2025multitenant}.
+    \item \textbf{Esquema independiente por inquilino:} Cada inquilino tiene un esquema propio dentro de una misma base de datos, esto permite mayor flexibilidad en la estructura de datos y una separación lógica más sencilla. En comparación al modelo anterior este mejora la seguridad pero añade complejidad a la gestión \cite{futureprocessing2025multitenant}.
+    \item \textbf{Base de datos independiente por inquilino:} Cada inquilino accede a una base de datos completamente aislada, esto ofrece el máximo nivel de seguridad de datos en esta arquitectura. En comparación a los modelos anteriores permite una estricta protección de los datos aunque a costa de un mayor uso de infraestructura \cite{futureprocessing2025multitenant}.
+\end{itemize}
+
+\subsubsection{Ventajas de la arquitectura multiempresa}
+\label{subsec:ventajas_multitenant}
+
+\begin{itemize}
+    \item \textbf{Costos más bajos:} Los costos tienden a ser más bajos debido a que se puede servir múltiples inquilinos desde una sola aplicación, además de que estos comparten infraestructura y centro de almacenamiento de datos \cite{ibm2021multitenant, futureprocessing2025multitenant}.
+    \item \textbf{Escalabilidad:} Una única instancia de aplicación puede hacer que se pueda recibir a más inquilinos sin necesidad de una gran reconfiguración \cite{futureprocessing2025multitenant}.
+    \item \textbf{Mantenimiento continuo:} Los cambios que se hagan, las características o arreglos que se agreguen se realizan una sola vez debido a que existe una única instancia de aplicación \cite{ibm2021multitenant,futureprocessing2025multitenant}.
+    \item \textbf{Eficiencia:} Los recursos compartidos y gestión centralizada se traduce en menos sistemas aislados y un mayor aprovechamiento de las capacidades de procesamiento y almacenamiento \cite{futureprocessing2025multitenant}.
+\end{itemize}
+
+\subsubsection{Desafíos de la arquitectura multiempresa}
+\label{subsec:desafios_multitenant}
+
+\begin{itemize}
+    \item \textbf{Fuga de datos:} Como ya se mencionó, la seguridad y privacidad de los datos de cada inquilino es fundamental, si el aislamiento de datos no se implementa de manera correcta, existe el riesgo de acceso no autorizado o fuga de datos entre los inquilinos \cite{futureprocessing2025multitenant}.
+    \item \textbf{Contención de recursos:} El uso intensivo por parte de un inquilino puede degradar el rendimiento y la experiencia de los demás, esto debido a que comparten la misma infraestructura. Para ello, se requiere una cuidadosa asignación de recursos y monitorización \cite{futureprocessing2025multitenant}.
+    \item \textbf{Personalización limitada:} El hecho de compartir infraestructura y lógica puede dificultar o limitar directamente un amplio espectro de opciones de personalización \cite{futureprocessing2025multitenant}.
+    \item \textbf{Complejidad en el control de acceso:} Esta arquitectura requiere un desarrollo adicional para poder gestionar correctamente la identificación de los usuarios, la administración de permisos y la segregación de datos \cite{futureprocessing2025multitenant}.
+\end{itemize}
+
+\subsubsection{Aplicación en el proyecto}
+\label{subsec:multitenant_aplicacion}
+
+Actualmente, en el proyecto desarrollado se trabaja con el modelo de "Esquema compartido con ID de inquilino", esto debido a la facilidad de implementación que ofrece este modelo de separación de datos. Aunque proporciona un menor nivel de aislamiento que los modelos anteriores, se trabaja arduamente en asegurar la seguridad y protección de los datos de cada inquilino. Cada tabla que almacena datos correspondientes a una empresa, como \texttt{products}, \texttt{conversations} o \texttt{quotations}, incluye un campo llamado \texttt{company\_id} que los relaciona con la empresa a la que pertenecen. Además, todas las consultas a la base de datos se filtran según el rol del usuario y la empresa a la que pertenece, lo que asegura que los datos permanezcan aislados y seguros.
+
+\subsection{Caché en sistemas conversacionales}
+\label{sec:estrategias_cache}
+
+En esta sección, se define el concepto de caché, se describen los tipos más comunes, se explican sus beneficios en sistemas conversacionales y se menciona su aplicación en el presente proyecto.
+
+\subsubsection{Definición de caché}
+\label{subsec:definicion_cache}
+
+La memoria caché es un tipo de almacenamiento de datos que es utilizado para guardar información a la que se accede frecuentemente, esto con el objetivo de obtener un tiempo de respuesta más rápido. \cite{muycomputer2024cache}
+
+En la memoria caché se almacenan datos e instrucciones que se necesitarán para completar distintas tareas a corto plazo, accediendo a estos a una mayor velocidad que si se buscasen en la memoria RAM. \cite{muycomputer2024cache}
+
+Existen dos escenarios en la búsqueda de datos en la memoria caché: un \textit{cache hit} ocurre cuando los datos solicitados se encuentran en la memoria caché, lo que permite un acceso rápido y eficiente. Por otro lado, un \textit{cache miss} ocurre cuando los datos solicitados no están presentes en la memoria caché, lo que obliga al sistema a buscar los datos en la memoria RAM, resultando en un tiempo de respuesta más lento. \cite{muycomputer2024cache}
+
+En la figura \ref{fig:caching} se ilustra el funcionamiento básico de la memoria caché, mostrando los escenarios de \textit{cache hit} y \textit{cache miss}, dejando claro como el caché complementa a la base de datos.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/img_2430124/cache.jpg}
+    \caption{Funcionamiento básico de caché: Acierto de caché y Fallo de caché.}
+    \label{fig:caching}
+\end{figure}
+
+\subsubsection{Niveles de caché relevantes}
+\label{subsec:niveles_cache}
+
+\begin{itemize}
+    \item \textbf{Caché de base de datos:} Tomando como ejemplo PostgreSQL, este tipo de caché se sitúa en la capa de persistencia de datos, permitiendo almacenar en memoria RAM los datos y las consultas que se utilizan con mayor frecuencia. Utiliza una memoria interna propia del gestor de base de datos y aprovecha la memoria del sistema operativo. Reserva espacios adicionales para operaciones complejas como ordenamiento y combinación de tablas, mejorando así el rendimiento del acceso a datos persistentes. \cite{heroku2026postgres}
+    \item \textbf{Caché de aplicación:} Tomando como ejemplo Redis, este tipo de caché se sitúa en la capa de aplicación, permitiendo almacenar respuestas generadas y resultados procesados que se reutilizan frecuentemente. Utiliza estructuras de datos optimizadas en memoria para acceso ultra rápido. Es especialmente útil para gestionar sesiones de usuario, cachear respuestas de servidor y mantener datos temporales que no requieren persistencia inmediata en base de datos. \cite{redis2025whatis}
+\end{itemize}
+
+Básicamente, las diferencias principales entre estos dos tipos son el nivel arquitectónico en el que operan: la caché de base de datos optimiza el acceso a datos persistentes a nivel del gestor, mientras que la caché de aplicación optimiza respuestas y cálculos complejos a nivel de la lógica de negocio.
+
+\subsubsection{Beneficios de la caché en sistemas conversacionales}
+\label{subsec:beneficios_cache}
+
+La implementación de estrategias de caché en sistemas conversacionales aporta beneficios que impactan directamente en el rendimiento, los costos y la experiencia del usuario.
+
+\begin{itemize}
+    \item \textbf{Mejora de rendimiento:} La caché permite reducir la latencia en las respuestas, disminuyendo los tiempos de procesamiento y la carga en el servidor. Esto se traduce en aplicaciones más rápidas y receptivas, capaces de manejar grandes volúmenes de información sin afectar el rendimiento. \cite{adaline2025promptcaching}
+
+    \item \textbf{Menor tiempo de respuesta:} Una vez que los resultados de las consultas están almacenados en caché, las respuestas llegan de 2 a 3 veces más rápido, lo que permite reducir significativamente el tiempo que el usuario espera por una respuesta. \cite{adaline2025promptcaching}
+
+    \item \textbf{Mejor experiencia de usuario:} Tiempos de respuesta más rápidos crean conversaciones más naturales y fluidas. Los usuarios perciben los sistemas de IA que responden rápido como más inteligentes y útiles, lo que aumenta la satisfacción, el engagement y la retención de usuarios. \cite{adaline2025promptcaching}
+\end{itemize}
+
+\subsubsection{Aplicación en el proyecto}
+\label{subsec:cache_aplicacion}
+
+En el presente proyecto, el uso de caché se implementa mediante Redis para almacenar los resultados de consultas frecuentes a la base de datos. Esto incluye, por ejemplo, la lista de productos de una empresa, la configuración del widget y los parámetros generales del sistema. Almacenar esta información en caché permite que el chatbot no tenga que consultar PostgreSQL en cada interacción, reduciendo así los tiempos de respuesta y la carga sobre la base de datos. Adicionalmente, la caché contribuye a una experiencia de usuario más fluida, especialmente en escenarios donde múltiples clientes realizan consultas similares de manera simultánea.

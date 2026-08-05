@@ -1,5 +1,789 @@
-\section{Metodología}
+﻿\section{Metodología}
+\label{ch:metodologia}
 
+\subsection{Mockups}
+\label{sec:mockups}
+
+En esta sección se presentan los mockups iniciales del sistema realizados en el software Figma, son diseños previos a la selección de paleta de colores y formas oficiales del sistema. Debe quedar claro que los mockups no incluyen los colores que serán utilizados en el sistema ni tampoco todo el contenido que se podrá ver en la página, teniendo solo texto genericos para los campos al igual que formas y colores genericos.
+
+Iniciando por el mockup de la pantalla de inicio de sesión \ref{fig:mockup_login}, se puede observar un formulario centrado en la pantalla en el cual debajo del titulo que es "Iniciar sesión" se tienen 2 campos para ingresar datos y un boton para iniciar sesión.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_login.png}
+    \caption{Mockup de la pantalla de inicio de sesión.}
+    \label{fig:mockup_login}
+\end{figure}
+
+La pantalla para recuperar cuenta \ref{fig:mockup_recuperar_cuenta} tiene tambien un formulario centrado en la pantalla y tiene, en la esquina superior izquierda, un botón para regresar a la pantalla de inicio de sesión. Debajo del titulo que es "Recuperar tu cuenta" hay un campo para ingresar el correo electronico y el botón para enviar un código de confirmación al correo ingresado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_recuperar_cuenta.png}
+    \caption{Mockup para recuperar cuenta.}
+    \label{fig:mockup_recuperar_cuenta}
+\end{figure}
+
+Al igual que la pantalla anterior, se presenta un formulario centrado en la pantalla y un botón para regresar a la pantalla anterior en la esquina superior izquierda, cuenta con el titulo de "Recuperar tu cuenta", con los campos para ingresar cada uno de los 6 digitos del código y un botón para conttinuar. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_codigo_seguridad.png}
+    \caption{Mockup para código de seguridad.}
+    \label{fig:mockup_codigo_seguridad}
+\end{figure}
+
+En la pantalla principal del panel de administración se presentan 2 elementos recurrentes de aqui en adelante: la cabecera de la página que incluye un icono de usuario junto al nombre del usuario logueado y la barra lateral que actua como una barra de navegación al incluir enlaces a las distintas secciones del panel. Además, en la parte central se incluye el titulo de la sección, debajo hay 4 tarjetas que muestran metricas referentes a los usuarios y empresas, 2 apartados más grandes donde se muestra el historial de auditoria y de errores de IA y por último, 4 accesos a distintas operaciones relevantes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_admin_dashboard.png}
+    \caption{Mockup para el panel de administración.}
+    \label{fig:mockup_admin_dashboard}
+\end{figure}
+
+En la pantalla del apartado de gestión de empresas \ref{fig:mockup_empresas}, además de los elementoss recurrentes de la cabecera y barra lateral, en la parte central se presenta un botón para añadir una nueva empresa y una barra de busqueda en la parte superior, debajo de eso se encuentran las tarjetas de las empresas registradas, en las cuales se muestran datos importantes asi como botones toggle para la alternancia del estado de la empresa (activa/inactiva) y tres botones para distintas acciones relevenates.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_empresas.png}
+    \caption{Mockup para el apartado de gestión de empresas.}
+    \label{fig:mockup_empresas}
+\end{figure}
+
+Al momento de hacer clic en el botón de "Añadir Empresa" se presenta el siguiente modal \ref{fig:mockup_modal_nueva_empresa}, en este se solicitan los datos básicos de la empresa y debajo se encuentran dos botones, uno para cancelar y el otro para completar el registro.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_nueva_empresa.png}
+    \caption{Mockup para el modal de nueva empresa.}
+    \label{fig:mockup_modal_nueva_empresa}
+\end{figure}
+
+La pantalla donde se muestra el catalogo de productos de una empresa \ref{fig:mockup_productos_catalogo} cuenta con dos botones en la parte superior izquierda, uno para ver el catalogo de productos y el otro para dirigirse a las categorias que ha registrado la empresa, debajo se encuentra una barra de busqueda para navegar entre el catalogo de productos; del lado derecho hay un botón para agregar un nuevo producto y debajo de ese botón hay filtros por categoria, precio, etc. Por utlimo, en la parte predominante de la pagina se encuentran lasrjetas de los productos, en las cuales se muestra espacio para un imagen de producto, teniendo debajo informacion como nombre, categoria y precio, en la parte inferior de estas tarjetas hay 3 botones para distintas acciones relevantes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_productos_catalogo.png}
+    \caption{Mockup para el catálogo de productos.}
+    \label{fig:mockup_productos_catalogo}
+\end{figure}
+
+La pantalla donde se muestran las categorias registradas por empresa \ref{fig:mockup_productos_categorias} incluye los 2 mismos botones para navegacion en esta seccion ya mencionados. Además de un botón para agregar una nueva categoria en la parte superior derecha y una lista donde se muestran nombre, descripcion y una serie de acciones rapidas para cada categoria.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_productos_categorias.png}
+    \caption{Mockup para las categorías de productos.}
+    \label{fig:mockup_productos_categorias}
+\end{figure}
+
+Al querer agregar un producto, una manera de hacerlo es mediante la alta manual del producto \ref{fig:mockup_modal_alta_manual_producto}, en este modal se muestran los campos de registro de un producto, marcando como un asterisco aquellos que son obligatorios, y además se muestran dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_alta_manual_producto.png}
+    \caption{Mockup para el modal de alta manual de producto.}
+    \label{fig:mockup_modal_alta_manual_producto}
+\end{figure}
+
+La forma alternativa de querer agregar uno o varios productos es mediante la importación de un archivo estructurado CSV \ref{fig:mockup_modal_importar_por_csv}, este modal simplemente presenta el campo de entrada del archivo CSV.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_importar_por_csv.png}
+    \caption{Mockup para el modal de importación de productos por CSV.}
+    \label{fig:mockup_modal_importar_por_csv}
+\end{figure}
+
+Tras subir el archivo CSV para la importación de los productos, se muestra el modal de revisión de la importación \ref{fig:mockup_modal_revision_importacion}, en este se muestra el número de productos listos para guardar y aquellos que contienen errores o avertencias, esto lo vemos mediante 3 apartados principales que muestran la cantidad de cada tipo de productos importados, debajo una lista con los detalles y tres botones, uno para cancelar la importación, otro para descartar los errores y el tercero para guardar los productos sin errores.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_revision_importacion.png}
+    \caption{Mockup para el modal de revisión de importación de productos.}
+    \label{fig:mockup_modal_revision_importacion}
+\end{figure}
+
+En el modal de agregar una nueva categoria \ref{fig:mockup_modal_nueva_categoria} se presentan los campos de entrada para los datos de nombre y descripcion de categoría y, debajo de estos, los botones para cancelar el registro y para completarlo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_nueva_categoria.png}
+    \caption{Mockup para el modal de nueva categoría.}
+    \label{fig:mockup_modal_nueva_categoria}
+\end{figure}
+
+En el panel de gestion de usuarios \ref{fig:mockup_usuarios} se puede observar un botón para agregar un nuevo usuario en la parte superior derecha y la lista de usuarios en la parte central, esta lista incluye datos como el nombre, el correo, telefono y rol, asi como botones de acciones para cada usuario.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_usuarios.png}
+    \caption{Mockup para el panel de usuarios.}
+    \label{fig:mockup_usuarios}
+\end{figure}
+
+Al hacer clic en el botón de "Añadir Usuario", se muestra el modal correspondiente \ref{fig:mockup_modal_nuevo_usuario} el cual presenta el formulario con todos los campos necesarios para el registro y, debajo de esto, dos botones, uno paras cancelar el registro y el otro para completarlo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_modal_nuevo_usuario.png}
+    \caption{Mockup para el modal de nuevo usuario.}
+    \label{fig:mockup_modal_nuevo_usuario}
+\end{figure}
+
+En el apartado de historial de chats \ref{fig:mockup_chats_historial} se divide la parte central de la pantalla en 2 partes: la parte izquierda que en su parte superior tiene distintos filtros como por empresa, canal de comunicación, fecha, etc; mientras que debjo tiene los accesos a cada uno de los chats disponibles. En la parte derecha se encuentra el historial completo del chat seleccionado, teniendo una barra superior que muestra botones para ver la cotización de la conversación y activar el seguimiento, mientras que debajo de eso se muestran los mensajes completos de la conversación.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_chats_historial.png}
+    \caption{Mockup para el historial de chats.}
+    \label{fig:mockup_chats_historial}
+\end{figure}
+
+En el panel de logs del sistema \ref{fig:mockup_logs} se puede ver una seccion de filtros de busqueda, estos pueden ser por fecha, usuario, rol, accion, etc. Además, se muestra la lista de logs del sistema con datos como fecha, usuario, empresa, rol, accion, etc.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_logs.png}
+    \caption{Mockup para el panel de logs.}
+    \label{fig:mockup_logs}
+\end{figure}
+
+El widget web de chat \ref{fig:mockup_widget} será un elemento que se le proporcionará a cada empresa para que ellos puedan insertarlo en su propia página web, esto a modo de tener otro canal de comunicación para con los clientes. En este se puede apreciar el nombre del asistente de chat en la parte superior asi como un mensaje de ejemplo del asistente y el campo para enviar un mensaje.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_widget.png}
+    \caption{Mockup para el widget web de chat.}
+    \label{fig:mockup_widget}
+\end{figure}
+
+En el panel para la visualizacion y exportacion de reportes \ref{fig:mockup_reportes} podemos ver en la parte superior derecha un boton para filtrar por rango de fechas, uno para exportar el reporte a Excel y otro para exportarlo a PDF; debajo de lo ya mencionado podemos ver 4 tarjetas de metricas que muestran datos como la cantidad de conversaciones, las cotizaciones generadas y demás; la zona que ocupa la mayor parte de la pantalla se divide en dos: a la izquierda se presenta lo que será una grafica del consumo de IA y, a la derecha los productos más consultados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_reportes.png}
+    \caption{Mockup para el panel de reportes.}
+    \label{fig:mockup_reportes}
+\end{figure}
+
+En el apartado de configuración de reglas del modelo de IA \ref{fig:mockup_reglas}, se puede ver una parte central en la pantalla en la que se encuentra la navegacion entre las distintas sub-secciones de configuracion (este elemento está presente en todas las sub-secciones de configuración) y del lado derecho un campo para ingresar las reglas asi como un botón para actualizar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_reglas.png}
+    \caption{Mockup para el panel de configuración de reglas del modelo de IA.}
+    \label{fig:mockup_reglas}
+\end{figure}
+
+Pasando a la configuración de parametros de la empresa \ref{fig:mockup_parametros}, en esta pantalla se incluyen dos campos para modificar los campos generales de la empresa, es decir, el nombre y el URL del logo de la empresa; asi como un botón para actualizar estos datos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_parametros.png}
+    \caption{Mockup para el panel de configuración de parámetros de la empresa.}
+    \label{fig:mockup_parametros}
+\end{figure}
+
+La configuración del motor de IA \ref{fig:mockup_motor_ia} incluye 3 campos y 1 botón toggle, además de un boton en la parte inferior. Los campos son para datos como el proveedor de IA, el modelo de IA especifico, el limite máximo de tokens; el botón toggle sirve para desactivar o activar el servicio de automatización de conversaciones. El boton que se encuentra en la parte inferior es para confirmar el guardado de los cambios.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_motor_ia.png}
+    \caption{Mockup para el panel de configuración del motor de IA.}
+    \label{fig:mockup_motor_ia}
+\end{figure}
+
+La configuración del canal de comunicación mediante WhatsApp \ref{fig:mockup_canal_whatsapp} inlcuye 3 campos para ingresar datos como el número de WhatsApp de la empresa y sus tokens de acceso, 1 botón toggle para activar o desactivar dicho canal de comunicación y 1 botón para guardar los cambios en los campos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_canal_whatsapp.png}
+    \caption{Mockup para el panel de configuración del canal de WhatsApp.}
+    \label{fig:mockup_canal_whatsapp}
+\end{figure}
+
+La configuración del canal de comunicación mediante el widget \ref{fig:mockup_canal_widget} inlcuye 4 campos para ingresar datos como el nombre del asistente de widget, el color principal del widget y el mensaje de bienvenida en el widget, además de un botón para guardar los cambios en los datos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/mockups/mockup_canal_widget.png}
+    \caption{Mockup para el panel de configuración del canal de widget.}
+    \label{fig:mockup_canal_widget}
+\end{figure}
+
+\subsection{Diseño UX}
+\label{sec:diseno_ux}
+
+En esta sección se presentan los diseños UX finales del sistema, estos fueron realizados en el software Figma. Se trata de la versión más fiel a lo que se presentará visualmente como resultado final en el sistema, incluyendo colores, formas e imagenes de ser necesario. Se observará el contraste entre los elementos debido a los colores, seleccionando un color naranja para aquellos elementos que se desea resaltar, como botones de acción.
+
+En la figura \ref{fig:ux_login} se puede observar el diseño UX de la pantalla de inicio de sesión, en la cual se ve el formulario centrado en la pantalla, con el titulo "Iniciar sesión" y los campos para ingresar correo y contraseña, además del botón para iniciar sesión y un enlace para recuperar la cuenta en caso de que el usuario haya olvidado su contraseña.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_login.png}
+    \caption{Diseño UX de la pantalla de inicio de sesión.}
+    \label{fig:ux_login}
+\end{figure}
+
+En la figura \ref{fig:ux_recuperar_cuenta} se puede observar el diseño UX de la pantalla para recuperar cuenta, en la cual se ve el formulario centrado en la pantalla, con el titulo "Recuperar tu cuenta" y el campo para ingresar el correo electronico, además del botón para enviar un código de confirmación al correo ingresado y un enlace para regresar a la pantalla de inicio de sesión, este ultimo en la parte superior izquierda de la pantalla.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_recuperar_cuenta.png}
+    \caption{Diseño UX para recuperar cuenta.}
+    \label{fig:ux_recuperar_cuenta}
+\end{figure}
+
+En la figura \ref{fig:ux_codigo_seguridad} se puede observar el diseño UX de la pantalla para ingresar el código de seguridad, en la cual se ve el formulario centrado en la pantalla con el titulo "Recuperar tu cuenta" y los campos para ingresar cada uno de los 6 digitos del código, además del botón para continuar, una opción para reenviar el código cada cierto intervalo de tiempo y un enlace para regresar a la pantalla anterior, este ultimo en la parte superior izquierda de la pantalla.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_codigo_seguridad.png}
+    \caption{Diseño UX para código de seguridad.}
+    \label{fig:ux_codigo_seguridad}
+\end{figure}
+
+En la figura \ref{fig:ux_admin_dashboard} se observa la pantalla principal del panel de administración, en la cual se puede ver la cabecera de la página con el icono de usuario y el nombre del usuario logueado y la barra lateral con los enlaces de navegación a las distintas secciones, resaltando el enlace de la sección actual. En la parte central se puede ver el titulo de la sección, debajo hay 4 tarjetas de metricas mostrando datos de empresas activas, usuarios totales y demás, debajo de estas tarjetas se encuentran 2 apartados más grandes mostrando el historial de auditoria y de errores de IA y por último, 4 accesos a distintas operaciones relevantes como lo son el registro de una empresa, la importación de catalogo por CSV, ajustes generales, etc. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_admin_dashboard.png}
+    \caption{Diseño UX para el panel de administración.}
+    \label{fig:ux_admin_dashboard}
+\end{figure}
+
+En la figura \ref{fig:ux_empresas} se observa la pantalla del apartado de gestión de empresas, en la parte de central de esta obervamos el botón para añadir una nueva empresa, la barra de busqueda para navegar entre las empresas registradas y debajo de esto las tarjetas de las empresas, en las cuales ademas de mostrarse datos relevantes de la empresa, se incluye un boton toggle para alternar el estado de la empresa (activa/inactiva) y tres botones para editar informacion de la empresa, visualizar detalles de la empresa y eliminar la empresa.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_empresas.png}
+    \caption{Diseño UX para el apartado de gestión de empresas.}
+    \label{fig:ux_empresas}
+\end{figure}
+
+Al hacer clic en el botón de "Añadir Empresa", se muestra el modal correspondiente \ref{fig:ux_modal_nueva_empresa} en el cual se solicitan los datos básicos de la empresa como el nombre, la URL del logo y el número de WhatsApp, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_nueva_empresa.png}
+    \caption{Diseño UX para el modal de nueva empresa.}
+    \label{fig:ux_modal_nueva_empresa}
+\end{figure}
+
+En la figura \ref{fig:ux_productos_catalogo} se observa la pantalla donde se muestra el catalogo de productos de una empresa, en la parte superior izquierda se encuentran dos botones, uno para ver el catalogo de productos y el otro para dirigirse a las categorias que ha registrado la empresa, debajo de esto se encuentra una barra de busqueda para navegar entre el catalogo de productos; del lado derecho hay un botón con el titulo "Añadir Producto" y debajo hay filtros por categoria y para ordenar por distintos criterios. En la parte predominante de la pagina se encuentran las tarjetas de los productos, en la cuales se muestran las imagenes de los productos, teniendo debajo informacion como nombre, categoria y precio, en la parte inferior de estas tarjetas hay 3 botones para editar, visualizar y eliminar el producto.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_productos_catalogo.png}
+    \caption{Diseño UX para el catálogo de productos.}
+    \label{fig:ux_productos_catalogo}
+\end{figure}
+
+En la figura \ref{fig:ux_productos_categorias} se observa la pantalla donde se muestra las categorías de productos de una empresa, en la parte superior derecha hay un botón con el titulo "Añadir Categoría" y en la parte central se encuentra la lista de categorias, en la cual se muestran nombre, descripcion y una serie de acciones rapidas como editar, visualizar y eliminar para cada categoria. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_productos_categorias.png}
+    \caption{Diseño UX para las categorías de productos.}
+    \label{fig:ux_productos_categorias}
+\end{figure}
+
+Al dar clic en el botón de "Añadir Producto" se muestra el modal correspondiente \ref{fig:ux_modal_alta_manual_producto} en el cual se solicitan los datos básicos del producto como nombre, descripcion, marca, precio, stock, URL de imagen y categoria a la que pertenece, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_alta_manual_producto.png}
+    \caption{Diseño UX para el modal de alta manual de producto.}
+    \label{fig:ux_modal_alta_manual_producto}
+\end{figure}
+
+En la figura \ref{fig:ux_modal_importar_por_csv} se observa el modal para la importación de productos mediante un archivo CSV, en el cual se muestra un campo para subir el archivo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_importar_por_csv.png}
+    \caption{Diseño UX para el modal de importación de productos por CSV.}
+    \label{fig:ux_modal_importar_por_csv}
+\end{figure}
+
+Tras realizar la importación de un archivo CSV, se muestra el modal de revisión de la importación \ref{fig:ux_modal_revision_importacion}, en el cual se muestran 3 apartados principales que indican la cantidad de productos listos para guardar, aquellos que contienen errores y aquellos que contienen advertencias, debajo de esto se encuentra una lista con los detalles de cada producto y tres botones, uno para cancelar la importación, otro para descartar los errores y el tercero para guardar los productos sin errores. La diferencia entre productos listos para guardar, productos con errores y productos con advertencias es que cada uno se resalta con diferente color de texto, siendo verde para los listos para guardar, rojo para los que contienen errores y naranja para los que contienen advertencias.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_revision_importacion.png}
+    \caption{Diseño UX para el modal de revisión de importación de productos.}
+    \label{fig:ux_modal_revision_importacion}
+\end{figure}
+
+Al hacer clic en el botón de "Añadir Categoría" se muestra el modal correspondiente \ref{fig:ux_modal_nueva_categoria} en el cual se solicitan los datos básicos de la categoría como nombre y descripcion, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_nueva_categoria.png}
+    \caption{Diseño UX para el modal de nueva categoría.}
+    \label{fig:ux_modal_nueva_categoria}
+\end{figure}
+
+En la figura \ref{fig:ux_usuarios} se observa la pantalla del apartado de gestión de usuarios, en la parte superior derecha hay un botón con el titulo "Añadir Usuario" y en la parte central se encuentra la lista de usuarios, en la cual se muestran nombre, correo, telefono y rol, además de una serie de acciones rapidas como editar, visualizar y eliminar para cada usuario.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_usuarios.png}
+    \caption{Diseño UX para el panel de usuarios.}
+    \label{fig:ux_usuarios}
+\end{figure}
+
+En la figura \ref{fig:ux_modal_nuevo_usuario} se observa el modal para agregar un nuevo usuario, en el cual se solicitan los datos básicos del usuario como nombre, apellido, correo, telefono, contraseña y rol, además de incluir dos botones debajo de los campos, uno para cancelar el registro y el otro para completarlo. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_modal_nuevo_usuario.png}
+    \caption{Diseño UX para el modal de nuevo usuario.}
+    \label{fig:ux_modal_nuevo_usuario}
+\end{figure}
+
+En la figura \ref{fig:ux_chats_historial} se observa la pantalla del apartado de historial de chats, en la parte izquierda se encuentran los filtros de busqueda, ya se por empresa, por canal de comunicación, por fecha, etc; debajo de esto se encuentran los accesos a cada uno de los chats disponibles. En la parte derecha se encuentra el historial completo del chat seleccionado, teniendo una barra superior que muestra botones para ver la cotización de la conversación y activar el seguimiento, mientras que debajo de eso se muestran los mensajes completos de la conversación con detalles como hora y quien los envió.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_chats_historial.png}
+    \caption{Diseño UX para el historial de chats.}
+    \label{fig:ux_chats_historial}
+\end{figure}
+
+En la figura \ref{fig:ux_logs} se observa la pantalla del panel de logs del sistema, en la parte superior se encuentran los distintos filtros de busqueda, ya sea por fecha, empresa, usuario, rol, accion, etc. Debajo de esto se encuentra la lista de logs del sistema con datos como fecha y hora, usuario, empresa, rol, accion, etc.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_logs.png}
+    \caption{Diseño UX para el panel de logs.}
+    \label{fig:ux_logs}
+\end{figure}
+
+En la figura \ref{fig:ux_widget} se observa el diseño UX del widget web de chat, en el cual se puede ver el nombre del asistente de chat en la parte superior, un mensaje de ejemplo de la bienvenida del asistente y el campo para enviar un mensaje.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_widget.png}
+    \caption{Diseño UX para el widget web de chat.}
+    \label{fig:ux_widget}
+\end{figure}
+
+En la figura \ref{fig:ux_reportes} se observa la pantalla del panel de reportes, en la parte superior derecha se encuentran 3 botones, uno para filtrar por rango de fechas, otro para exportar el reporte a Excel y el último para exportarlo a PDF; debajo de esto se encuentran 4 tarjetas de metricas mostrando datos y comparandolos con valores anteriores, como la cantidad de conversaciones, las cotizaciones generadas y demás; la parte que ocupa la mayor parte de la pantalla se divide en dos, a la izquierda se presenta un gráfico de la comparación del consumo de IA y, a la derecha los productos más consultados, mostrando su nombre, categoria y cantidad de consultas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_reportes.png}
+    \caption{Diseño UX para el panel de reportes.}
+    \label{fig:ux_reportes}
+\end{figure}
+
+En la figura \ref{fig:ux_reglas} se observa la pantalla del panel de configuración de reglas del modelo de IA, en la parte central se encuentra la navegacion entre las distintas sub-secciones de configuracion y del lado derecho un campo para ingresar las reglas asi como un botón resaltado en color naranja para actualizar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_reglas.png}
+    \caption{Diseño UX para el panel de configuración de reglas del modelo de IA.}
+    \label{fig:ux_reglas}
+\end{figure}
+
+En la figura \ref{fig:ux_parametros} se observa la pantalla del panel de configuración de parámetros de la empresa, en la cual se incluyen dos campos para modificar los campos generales de la empresa, es decir, el nombre y el URL del logo de la empresa; asi como un botón resaltado en color naranja para actualizar estos datos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_parametros.png}
+    \caption{Diseño UX para el panel de configuración de parámetros de la empresa.}
+    \label{fig:ux_parametros}
+\end{figure}
+
+En la figura \ref{fig:ux_motor_ia} se observa la pantalla del panel de configuración del motor de IA, en la cual se incluyen 3 campos y 1 botón toggle, además de un boton resaltado en color naranja en la parte inferior. Los campos son para datos como el proveedor de IA, el modelo de IA especifico, el limite máximo de tokens; el botón toggle sirve para desactivar o activar el servicio de automatización de conversaciones. El boton que se encuentra en la parte inferior es para confirmar el guardado de los cambios.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_motor_ia.png}
+    \caption{Diseño UX para el panel de configuración del motor de IA.}
+    \label{fig:ux_motor_ia}
+\end{figure}
+
+En la figura \ref{fig:ux_canal_whatsapp} se observa la pantalla del panel de configuración del canal de WhatsApp, en la cual se incluyen 3 campos para ingresar datos como el número de WhatsApp de la empresa y sus tokens de acceso, 1 botón toggle para activar o desactivar dicho canal de comunicación y 1 botón resaltado en color naranja para guardar los cambios en los campos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_canal_whatsapp.png}
+    \caption{Diseño UX para el panel de configuración del canal de WhatsApp.}
+    \label{fig:ux_canal_whatsapp}
+\end{figure}
+
+En la figura \ref{fig:ux_canal_widget} se observa la pantalla del panel de configuración del canal de widget, en la cual se incluyen 4 campos para ingresar datos como el nombre del asistente de widget, el color principal del widget con un selector de color y el mensaje de bienvenida en el widget, además de un botón resaltado en color naranja para guardar los cambios en los datos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/figma/ux/ux_canal_widget.png}
+    \caption{Diseño UX para el panel de configuración del canal de widget.}
+    \label{fig:ux_canal_widget}
+\end{figure}
+
+\subsection{Diagramas del sistema}
+\label{sec:diagramas_sistema}
+
+En esta sección se presentan los diagramas del sistema, estos fueron realizados en el software dbdiagram.io para el diagrama de base de datos, mientras que los demás diagramas fueron hechos en el softwware Figjam de Figma. Se incluyen un diagrama de base de datos, diagramas de caso de uso, diagramas de secuencia y un diagrama de actividades. 
+
+\subsubsection{Diagrama de base de datos}
+\label{subsec:diagrama_base_datos}
+
+Actualmente, la base de datos del sistema cuenta con 13 tablas, las cuales se muestran en el diagrama de base de datos \ref{fig:diagrama_base_datos}. En este diagrama se puede observar la relación entre las tablas, así como los campos que componen cada una de ellas. A continuación se presenta una breve descripción de cada tabla:
+
+\begin{itemize}
+    \item \textbf{companies}: Almacena información de las empresas registradas en el sistema como nombre, URL del logo, numero de Whatspp, configuraciones de canales de comunicación, etc.
+    \item \textbf{users}: Almacena información de los usuarios registrados en el sistema como nombre, apellido, correo, telefono, contraseña y, si no es administrador general, el ID de la empresa a la que pertenece, etc.
+    \item \textbf{products}: Almacena información de los productos registrados en el sistema como nombre, descripcion, marca, precio, stock, URL de imagen, ID de la empresa a la que pertenece, ID de la categoria a la que pertenece, etc.
+    \item \textbf{categories}: Almacena información de las categorias registradas en el sistema como nombre, descripcion, ID de la empresa a la que pertenece, etc.
+    \item \textbf{conversations}: Almacena información de las conversaciones generadas en ambos canales de comunicacion como el ID de la empresa, el ID del cliente que generó la conversación, el canal de comunicación por el que se generó, etc. 
+    \item \textbf{messages}: Almacena información de los mensajes generados en las conversaciones como el ID de la conversación, el rol de quien envió el mensaje, el contenido del mensaje, etc.
+    \item \textbf{quotations}:Almacena información de las cotizaciones generadas de las conversaciones como el ID de la empresa, el ID de la conversación, el total de la cotización, etc.
+    \item \textbf{quotation\_products}: Almacena información de los productos que forman parte de una cotización como el ID de la cotización, el ID del producto, la cantidad de ese producto en la cotización, el subtotal de ese producto en la cotización, etc.
+    \item \textbf{audit\_logs}: Almacena información de los logs de auditoria del sistema como el ID del usuario que realizó la acción, el ID de la empresa a la que pertenece el usuario, la acción realizada, el tipo de objetivo (los logs de auditoria se modelan con relaciones polimorficas, por lo que el objetivo puede ser un producto, una empresa, una categoria, entre otros.), etc.
+    \item \textbf{ai\_error\_logs}: Almacena información de los errores generados por el modelo de IA como el ID de la empresa, el ID de la conversación, el modelo de IA que generó el error, la descripción del error, etc.
+    \item \textbf{roles}: Almacena información de los roles de usuario del sistema como el nombre del rol.
+    \item \textbf{model\_has\_roles}: Funciona como una tabla pivote para relacionar los roles con los usuarios, contiene el ID del usuario y el ID del rol.
+    \item \textbf{login\_attempts}: Almacena información de los intentos de inicio de sesión del sistema como el ID del usuario, el correo, la dirección IP, el estado del intento (exitoso o fallido), etc.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/base_datos.png}
+    \caption{Diagrama de base de datos.}
+    \label{fig:diagrama_base_datos}
+\end{figure}
+
+\subsubsection{Diagramas de caso de uso}
+\label{subsec:diagramas_caso_uso}
+
+El primer diagrama de caso de uso \ref{fig:diagrama_caso_uso_empresa} muestra los casos de uso relacionados con la gestión de empresas, se observa que tanto el administrador general como el administrador de empresa pueden editar, activar/desactivar y eliminar empresas (el administrador de empresa solo puede hacer esto con la empresa que le pertenece), asi como configurar el modelo de IA, además de que el administrador general puede crear nuevas empresas, y el administrador de empresa puede configurar los canales de comunicación (WhatsApp y Widget).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_empresa.jpg}
+    \caption{Diagrama de caso de uso para las empresas.}
+    \label{fig:diagrama_caso_uso_empresa}
+\end{figure}
+
+El segundo diagrama de caso de uso \ref{fig:diagrama_caso_uso_producto} muestra los casos de uso relacionados con la gestión de productos, en este se puede ver que tanto el administrador de empresa como el usuario de empresa pueden crear, editar, activar/desactivar, eliminar productos, gestionar categorias, importar productos por CSV y buscar productos. Es decir, en lo que a este modulo respecta, ambos tipos de usuarios tienen los mismos permisos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_producto.jpg}
+    \caption{Diagrama de caso de uso para los productos.}
+    \label{fig:diagrama_caso_uso_producto}
+\end{figure}
+
+El tercer diagrama de caso de uso \ref{fig:diagrama_caso_uso_conversacion} muestra los casos de uso relacionados con la gestión de conversaciones, se observa que tanto el administrador de empresa como el usuario de empresa pueden ver el historial de conversaciones, ver el detalle de una conversación y filtrar conversaciones para una búsqueda. Es decir, en lo que a este modulo respecta, ambos tipos de usuarios tienen los mismos permisos. Además, es importante mencionar que las conversaciones se crean a partir de la interacción del cliente con el sistema automatizado, por lo que no hay un caso de uso para crear o editar conversaciones.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_conversacion.jpg}
+    \caption{Diagrama de caso de uso para las conversaciones.}
+    \label{fig:diagrama_caso_uso_conversacion}
+\end{figure}
+
+El cuarto diagrama de caso de uso \ref{fig:diagrama_caso_uso_cotizacion} muestra los casos de uso relacionados con la gestión de cotizaciones, en este se puede ver que tanto el administrador de empresa como el usuario de empresa pueden ver el historial de cotizaciones y ver el detalle de una cotización. Al igual que las conversaciones, las cotizaciones se crean a partir de la interacción del cliente con el sistema automatizado, por lo que no hay un caso de uso para crear una cotización.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_cotizacion.jpg}
+    \caption{Diagrama de caso de uso para las cotizaciones.}
+    \label{fig:diagrama_caso_uso_cotizacion}
+\end{figure}
+
+El quinto diagrama de caso de uso \ref{fig:diagrama_caso_uso_reporte} muestra los casos de uso relacionados con la gestión de reportes, se observa que el administrador general y el administrador de empresa pueden ver reportes de consumo de tokens, conversaciones atendidas, productos consultados, cotizaciones generadas y exportar estos reportes. El administrador general puede ver reportes de todas las empresas, mientras que el administrador de empresa solo puede ver los reportes de la empresa a la que pertenece.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/caso_uso_reporte.jpg}
+    \caption{Diagrama de caso de uso para los reportes.}
+    \label{fig:diagrama_caso_uso_reporte}
+\end{figure}
+
+\subsubsection{Diagramas de secuencia}
+\label{subsec:diagramas_secuencia}
+
+Para el primer diagrama de secuencia \ref{fig:diagrama_secuencia_conversacion} se toma el proceso de una conversación en el sistema automatizado. Este proceso inicia con el cliente enviando un mensaje, tras esto se envia una solicitud al controlador del chat, aqui se aplica un filtro para determinar si el mensaje corresponde a un tema permitido, si no, se retorna una advertencia de seguridad y esa misma se manda como mensaje al cliente. En caso de que sea un mensaje permitido, se guarda el mensaje en la base de datos y se envia al modulo de SalesAssistantService, este modulo se encarga de recuperar el historial de la conversación y enviarlo al modelo de IA para que genere una respuesta, aqui se analiza la respuesta conforme a los guardrails, si pasa, se guarda la respuesta en la base de datos y se envia al cliente. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/secuencia_conversacion.jpg}
+    \caption{Diagrama de secuencia para las conversaciones.}
+    \label{fig:diagrama_secuencia_conversacion}
+\end{figure}
+
+En el segundo diagrama de secuencia \ref{fig:diagrama_secuencia_cotizacion} se toma el proceso de generar una cotización, este inicia con el cliente solicitando la cotización, tras esto se envia una solicitud al controlador del chat, este busca la conversación en la base de datos y valida que este activa, consulta los productos revisados por el cliente, verifica su precio y stock, calcula subtotales, total y fecha de expiración, genera una cotización y la guarda en la base de datos, se envia el ID de la cotización al controlador del chat y este lo envia al cliente, quien puede solicitar la descarga de la cotización, tras esto se envia una solicitud al controlador del chat, quien envia una solicitud al SalesAssistantService, quien llama al servicio de generación de PDF, este genera el PDF y devuelve la URL, de aca en adelante se envia la URL al controlador del chat y este la envia al cliente para su descarga.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/secuencia_cotizacion.jpg}
+    \caption{Diagrama de secuencia para las cotizaciones.}
+    \label{fig:diagrama_secuencia_cotizacion}
+\end{figure}
+
+En el tercer diagrama de secuencia \ref{fig:diagrama_secuencia_panel} se toma un proceso realizado desde el panel administrativo, tal como lo es el registro o edición de un producto. Este proceso inicia con el acceso al panel administrativo, una solicitud llega al middleware de autorización, aqui se valida la sesion activa y el rol del usuario, si no es valido se retorna un error de autorización, en caso de que sea valido se redirige la solicitud al controlador de producto, este valida los campos requeridos, guarda o actualiza el producto en la base de datos, crea el registro de auditoria, guarda la auditoria en la base de datos y retorna el mensaje de exito al usuario.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/secuencia_panel.jpg}
+    \caption{Diagrama de secuencia para el panel administrativo.}
+    \label{fig:diagrama_secuencia_panel}
+\end{figure}
+
+\subsubsection{Diagrama de actividades}
+\label{subsec:diagrama_actividades}
+
+En el diagrama de actividades se muestra el flujo de trabajo de la generación de una conversación. Para ello, se seleccionó específicamente esta actividad ya que es la principal en la que interactúan más partes del sistema y que cumple con el objetivo principal del sistema. En este diagrama se puede apreciar las 3 distintas partes que participan en este proceso: el cliente, el backend y el modelo de IA. Cada uno cumpliendo con partes especificas, siendo el backend el actor intermedio para gestionar la solicitud del usuario y regresar la respuesta del modelo de IA.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/actividad_conversacion.jpg}
+    \caption{Diagrama de actividades para las conversaciones.}
+    \label{fig:diagrama_actividad_conversacion}
+\end{figure}
+
+\subsection{Desarrollo del sistema}
+\label{sec:desarrollo_sistema}
+
+En esta seccion se describe la arquitectura tecnica del sistema, los patrones de diseño utilizado y la estructura general del código.
+
+\subsubsection{Arquitectura tecnica del sistema}
+\label{subsec:arquitectura_tecnica_sistema}
+
+Se trata de una arquitectura monolitica, en la cual el backend y el frontend se encunetran en un mismo proyecto, esto debido a que el proyecto es de tamaño pequeño y no se requiere de una arquitectura distribuida o algo similar.
+
+Para entrar mas a detalle con la arquitectura técnica del sistema, se puede dividir en los siguientes puntos con sus respectivas descripciones:
+
+\begin{itemize}
+    \item \textbf{Backend:} El backend fue desarrollado en el framework Laravel, en su versión de Laravel 13, esto basado en PHP 8.3. Este framework facilita diversos aspectos durante el desarrollo como la gestion de las rutas, la autenticacion, la gestion de roles, la interaccion con la base de datos. Todos los aspectos mencionados y mas han sido de gran ayuda para el correcto desarrollo del sistema.
+    \item \textbf{Frontend:} El frontend fue desarrollado con React, una libreria de JavaScript para la construcción de interfaces de usuario, comunicada con el backend a traves de Inertia.js, lo que permite mantener la experiencia de una aplicación de pagina única sin necesidad de construir una API separada. 
+    \item \textbf{Base de datos:} La persistencia de datos fue manejada con PostgreSQL, un sistema de gestión de bases de datos relacional. Su integración con Laravel facilita la definición del esquema mediante migraciones versionadas.
+    \item \textbf{Caché y sesiones:} Las sesiones de usuario y el caché del sistema son administrados mediante Redis, mejorando el rendimiento general del sistema en estas operaciones.
+    \item \textbf{Integración con IA:} La integración con modelos de lenguaje de gran escala fue desarrollada con soporte para dos proveedores: OpenAI, con el modelo \textit{GPT-5.4 Nano}, y Google, con el modelo \textit{Gemini 2.0 Flash}, siendo el proveedor y modelo a utilizar configurables por empresa.
+    \item \textbf{Canales de comunicación:} Para el canal de WhatsApp se integró la API de WhatsApp Business de Meta, este permite recibir y enviar mensajes en tiempo real. Ademas, el sistema cuenta con un widget web embebible que las empresas pueden insertar en su propio sitio web como canal adicional de atención al cliente.
+\end{itemize}
+
+\subsubsection{Patrones de Diseño}
+\label{subsubsec:patrones_diseno}
+
+El sistema fue desarrollado siguiendo distintos patrones de diseño que facilitan la organización, mantenimiento y escalabilidad del código.
+
+El patron principal utilizado es el \textbf{Modelo-Vista-Controlador (MVC)}, propio del framework Laravel. En este patron, los modelos se encargan de la interaccion con la base de datos, los controladores gestionan las solicitudes entrantes y coordinan la logica del sistema, mientras que los componentes de React actuan como la capa de presentacion que el usuario visualiza.
+
+Para la lógica de negocio mas compleja se implemento una \textbf{capa de servicios}, separando esta responsabilidad de los controladores. Dentro de esta capa destaca el servicio del asistente de ventas, que centraliza la interaccion con el modelo de IA: construye el contexto que se le envia, recupera el historial de la conversacion y valida las respuestas generadas antes de entregarlas al cliente. Estas validaciones, conocidas como \textit{guardrails}, aseguran que las respuestas del modelo sean coherentes con el catalogo de la empresa y no contengan informacion fuera de contexto.
+
+Adicionalmente, se implementó el \textbf{patron de interfaz} para la integracióm con los proveedores de IA, lo que permite al sistema cambiar de proveedor sin afectar la logica del asistente de ventas. Por ultimo, se utilizaron \textbf{middlewares} para validar las solicitudes entrantes en los distintos canales de comunicacion, verificando la autenticidad de cada petición antes de que esta fuera procesada.
+
+\subsubsection{Estructura del Código}
+\label{subsubsec:estructura_codigo}
+
+El código del sistema esta organizado siguiendo las convenciones de Laravel, manteniendo una estructura clara y predecible. En el directorio \texttt{app/} se encuentran los modelos, controladores, middlewares y servicios del backend, estos ultimos agrupados por dominio funcional dentro del directorio \texttt{app/Services/}. Los servicios relacionados con la inteligencia artificial se encuentran en su propio subdirectorio, separados del resto de la lógica del sistema.
+
+En cuanto al frontend, los componentes y paginas de React se encuentran dentro del directorio \texttt{resources/js/}, organizados por tipo de elemento. Las paginas del panel administrativo, los componentes reutilizables y la configuracion de estilos se mantienen separados, facilitando la navegación y el mantenimiento del código.
+
+Las migraciones de base de datos se encuentran en el directorio \texttt{database/migrations/}, donde cada archivo representa un cambio especifico en el esquema de la base de datos, permitiendo un control versionado de la estructura de la misma.
+
+\subsubsection{Pantallas finales del sistema}
+\label{subsubsec:pantallas_finales_sistema}
+
+En esta sección se muestran las pantallas finales del sistema, es decir, aquellas que fueron desarrolladas y que se encuentran en fases de pruebas y validación. 
+
+Iniciando por la pantalla de inicio de sesión \ref{fig:f_login}, se muestra un formulario con campos para ingresar correo y contraseña, un checkbox para recordar la sesión, un enlace para recuperar la cuenta en caso de olvido de contraseña y un botón para iniciar sesión.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_login.png}
+    \caption{Pantalla de inicio de sesión.}
+    \label{fig:f_login}
+\end{figure}
+
+Tras hacer clic en el enlace de recuperar cuenta, se muestra la pantalla correspondiente \ref{fig:f_recuperar_cuenta}, en la cual se solicita el correo del usuario para enviar un enlace de recuperación de contraseña. Debajo de este campo se encuentra un botón para enviar la solicitud de recuperación de cuenta y un enlace para regresar a la pantalla de inicio de sesión.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_recuperar_cuenta.png}
+    \caption{Pantalla para recuperar cuenta.}
+    \label{fig:f_recuperar_cuenta}
+\end{figure}
+
+En el panel de administración \ref{fig:f_admin_dashboard} se puede ver un resumen de las métricas más importantes del sistema, como la cantidad de empresas registradas (activas o invactivas), la cantidad de usuarios, la cantidad de conversaciones y la cantidad de cotizaciones generadas. Además, se muestran accesos directos a los distintos apartados del sistema como usuarios, conversaciones y reportes. Dos elementos importantes y recurrentes son la barra lateral izquierda, la cual contiene los accesos a los distintos apartados del sistema y la barra superior, la cual contiene el nombre del usuario y un botón para cambiar de tema de color (modo oscuro o modo claro).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_admin_dashboard.png}
+    \caption{Pantalla del panel de administración.}
+    \label{fig:f_admin_dashboard}
+\end{figure}
+
+La pantalla de gestión de empresas \ref{fig:f_empresas} muestra un botón para agregar una nueva empresa, un buscador para filtrar empresas por nombre y tarjetas que muestran información de cada empresa y acciones rapidas como editar, activar/desactivar y eliminar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_empresas.png}
+    \caption{Pantalla para el apartado de gestión de empresas.}
+    \label{fig:f_empresas}
+\end{figure}
+
+Al hacer clic en el botón de "Añadir Empresa" se muestra un modal \ref{fig:f_modal_nueva_empresa} con campos para ingresar el nombre de la empresa, el URL del logo, el número de WhatsApp y los tokens de acceso a la API de WhatsApp Business, además de un botón para cancelar y otro para guardar la nueva empresa.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_nueva_empresa.png}
+    \caption{Modal de nueva empresa.}
+    \label{fig:f_modal_nueva_empresa}
+\end{figure}
+
+En la pantalla de gestión de productos \ref{fig:f_productos_catalogo} se puede ver un buscador para filtrar productos por nombre, un botón para agregar un nuevo producto y el espacio donde se mostraran los productos registrados en el sistema, cada uno con su respectiva información y acciones rápidas como editar, activar/desactivar y eliminar. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_productos_catalogo.png}
+    \caption{Pantalla para el catálogo de productos.}
+    \label{fig:f_productos_catalogo}
+\end{figure}
+
+En la pantalla de gestión de categorías de productos \ref{fig:f_productos_categorias} se puede ver un buscador para filtrar categorías por nombre, un botón para agregar una nueva categoría y el espacio donde se mostraran las categorías registradas en el sistema, cada una con su respectiva información y acciones rápidas como editar, activar/desactivar y eliminar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_productos_categorias.png}
+    \caption{Pantalla para las categorías de productos.}
+    \label{fig:f_productos_categorias}
+\end{figure}
+
+Al dar clic en el botón de "Añadir Producto" una de las opciones es abrir un modal \ref{fig:f_modal_alta_manual_producto} para dar de alta un producto de manera manual, en el cual se incluyen campos para ingresar el nombre del producto, la descripción, la marca, el precio, el stock, la URL de la imagen y la categoría a la que pertenece, además de un botón para cancelar y otro para guardar el nuevo producto.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_alta_manual_producto.png}
+    \caption{Modal de alta manual de producto.}
+    \label{fig:f_modal_alta_manual_producto}
+\end{figure}
+
+Otra forma de importar productos es mediante un archivo CSV, para ello se muestra un modal \ref{fig:f_modal_importar_por_csv} con un campo para subir el archivo CSV.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_importar_por_csv.png}
+    \caption{Modal de importación de productos por CSV.}
+    \label{fig:f_modal_importar_por_csv}
+\end{figure}
+
+Al dar clic en el botón de "Añadir Categoría" se muestra un modal \ref{fig:f_modal_nueva_categoria} con campos para ingresar el nombre de la categoría y su descripción, además de un botón para cancelar y otro para guardar la nueva categoría.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_nueva_categoria.png}
+    \caption{Modal de nueva categoría.}
+    \label{fig:f_modal_nueva_categoria}
+\end{figure}
+
+En el panel de gestión de usuarios \ref{fig:f_usuarios} se puede ver un botón para agregar un nuevo usuario y, debajo de esto, la lista donde se mostraran los usuarios registrados en el sistema, cada uno con su respectiva información y acciones rápidas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_usuarios.png}
+    \caption{Pantalla para el panel de usuarios.}
+    \label{fig:f_usuarios}
+\end{figure}
+
+Al dar clic en el botón de "Añadir Usuario" se muestra un modal \ref{fig:f_modal_nuevo_usuario} con campos para ingresar el nombre, apellido, correo, teléfono, contraseña y rol del nuevo usuario, además de un botón para cancelar y otro para guardar el nuevo usuario.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_nuevo_usuario.png}
+    \caption{Modal de nuevo usuario.}
+    \label{fig:f_modal_nuevo_usuario}
+\end{figure}
+
+La pantalla de historial de chats \ref{fig:f_chats_historial} muestra un buscador para filtrar conversaciones por fecha, empresa y canal de comunicación, además de contar con los respectivos espacios donde se motraran el listado de conversaciones y el detalle de la conversación seleccionada.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_chats_historial.png}
+    \caption{Pantalla de historial de chats.}
+    \label{fig:f_chats_historial}
+\end{figure}
+
+La pantalla de logs \ref{fig:f_logs} cuenta por el momento con el espacio donde se mostraran los logs de auditoria con sus respectivo detalles.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_logs.png}
+    \caption{Pantalla para el panel de logs.}
+    \label{fig:f_logs}
+\end{figure}
+
+El widget embebible de chat \ref{fig:f_widget} muestra una barra superior con el nombre del asistente y un botón para cerrar el widget. Debajo de esta barra se encuentra el área de mensajes, donde se muestran los mensajes enviados por el cliente y las respuestas generadas por el modelo de IA. En la parte inferior del widget se encuentra un campo de texto para que el cliente ingrese su mensaje y un botón para enviar el mensaje.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_widget.jpeg}
+    \caption{Pantalla del widget web de chat.}
+    \label{fig:f_widget}
+\end{figure}
+
+La pantalla de reportes \ref{fig:f_reportes} cuenta por el momento con el espacio donde se mostraran los reportes de consumo de tokens, conversaciones atendidas, productos consultados y cotizaciones generadas. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_reportes.png}
+    \caption{Pantalla para el panel de reportes.}
+    \label{fig:f_reportes}
+\end{figure}
+
+La pantalla de configuración de reglas del modelo de IA \ref{fig:f_reglas} muestra un formulario con un campo para configurar las reglas base del modelo de IA, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_reglas.png}
+    \caption{Pantalla para el panel de configuración de reglas del modelo de IA.}
+    \label{fig:f_reglas}
+\end{figure}
+
+La pantalla de configuración de parámetros de la empresa \ref{fig:f_parametros} muestra un formulario con campos para configurar el nombre de la empresa y el URL del logo, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_parametros.png}
+    \caption{Pantalla para el panel de configuración de parámetros de la empresa.}
+    \label{fig:f_parametros}
+\end{figure}
+
+La pantalla de configuración del motor de IA \ref{fig:f_motor_ia} muestra un formulario con campos para configurar el proveedor de IA, el modelo de IA, el limite de tokens y el estado de la automatización de respuestas, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_motor_ia.png}
+    \caption{Pantalla para el panel de configuración del motor de IA.}
+    \label{fig:f_motor_ia}
+\end{figure}
+
+La pantalla de configuración del canal de WhatsApp \ref{fig:f_canal_whatsapp} muestra un formulario con campos para configurar el número de WhatsApp, los tokens de acceso a la API de WhatsApp Business y el estado del canal de comunicación, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_canal_whatsapp.png}
+    \caption{Pantalla para el panel de configuración del canal de WhatsApp.}
+    \label{fig:f_canal_whatsapp}
+\end{figure}
+
+La pantalla de configuración del canal de widget \ref{fig:f_canal_widget} muestra un formulario con campos para configurar el nombre del asistente, el color principal del widget, el mesnaje de bienvenida, el estado del canal de comunicación, etc. Además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_canal_widget.png}
+    \caption{Pantalla para el panel de configuración del canal de widget.}
+    \label{fig:f_canal_widget}
+\end{figure}
+
+\begin{comment}
 Los métodos y herramientas utilizadas son la descripción detallada de las etapas
 (o pasos, procedimiento) de desarrollo en que se dividió el proyecto y están
 íntimamente relacionadas con los objetivos operativos. Se compara con una
@@ -28,7 +812,7 @@ Por otra parte, la implementación de sistemas de información implica retos imp
 
 
 En la figura \ref{fig:my_label}, se muestra una pantalla de una aplicación para contar las calorías de la comida mexicana. (Si la figura se mueve a la siguiente página, es NORMAL, no muevan nada!).
-\begin{figure}[!tbh]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{img/calorias1.png}
     \caption{Aplicacion ``Mexican Food with Chilly'' \cite{Microsoft:Concepto}}
@@ -37,7 +821,7 @@ En la figura \ref{fig:my_label}, se muestra una pantalla de una aplicación para
 
 En la tabla \ref{tab:my_label}, se muestra una tabla con el listado de los mejores futbolistas del mundo mundial. 
 
-\begin{table}[!tbh]
+\begin{table}[H]
     \centering
     \begin{tabular}{c|c} \hline
          Estudiante &  Nacionalidad \\ \hline
@@ -49,3 +833,4 @@ En la tabla \ref{tab:my_label}, se muestra una tabla con el listado de los mejor
     \caption{Otro ejemplo de tabla}
     \label{tab:my_label}
 \end{table}
+\end{comment}
