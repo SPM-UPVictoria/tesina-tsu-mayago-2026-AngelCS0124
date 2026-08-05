@@ -539,13 +539,13 @@ En el tercer diagrama de secuencia \ref{fig:diagrama_secuencia_panel} se toma un
 \subsubsection{Diagrama de actividades}
 \label{subsec:diagrama_actividades}
 
-En el diagrama de actividades se muestra el flujo de trabajo de la generación de una cotización. Para ello, se seleccionó específicamente esta actividad ya que es la principal en la que interactúan más partes del sistema y que cumple con el objetivo principal del sistema. En este diagrama se puede apreciar las 3 distintas partes que participan en este proceso: el cliente, el backend y el modelo de IA. Cada uno cumpliendo con partes especificas, siendo el backend el actor intermedio para gestionar la solicitud del usuario y regresar las respuesta del modelo de IA.
+En el diagrama de actividades se muestra el flujo de trabajo de la generación de una conversación. Para ello, se seleccionó específicamente esta actividad ya que es la principal en la que interactúan más partes del sistema y que cumple con el objetivo principal del sistema. En este diagrama se puede apreciar las 3 distintas partes que participan en este proceso: el cliente, el backend y el modelo de IA. Cada uno cumpliendo con partes especificas, siendo el backend el actor intermedio para gestionar la solicitud del usuario y regresar la respuesta del modelo de IA.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/actividad_cotizacion.jpg}
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/diagramas/actividad_conversacion.jpg}
     \caption{Diagrama de actividades para las cotizaciones.}
-    \label{fig:diagrama_actividad_cotizacion}
+    \label{fig:diagrama_actividad_conversacion}
 \end{figure}
 
 \subsection{Desarrollo del sistema}
@@ -588,6 +588,200 @@ El código del sistema esta organizado siguiendo las convenciones de Laravel, ma
 En cuanto al frontend, los componentes y paginas de React se encuentran dentro del directorio \texttt{resources/js/}, organizados por tipo de elemento. Las paginas del panel administrativo, los componentes reutilizables y la configuracion de estilos se mantienen separados, facilitando la navegación y el mantenimiento del código.
 
 Las migraciones de base de datos se encuentran en el directorio \texttt{database/migrations/}, donde cada archivo representa un cambio especifico en el esquema de la base de datos, permitiendo un control versionado de la estructura de la misma.
+
+\subsubsection{Pantallas finales del sistema}
+\label{subsubsec:pantallas_finales_sistema}
+
+En esta sección se muestran las pantallas finales del sistema, es decir, aquellas que fueron desarrolladas y que se encuentran en fases de pruebas y validación. 
+
+Iniciando por la pantalla de inicio de sesión \ref{fig:f_login}, se muestra un formulario con campos para ingresar correo y contraseña, un checkbox para recordar la sesión, un enlace para recuperar la cuenta en caso de olvido de contraseña y un botón para iniciar sesión.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_login.png}
+    \caption{Pantalla de inicio de sesión.}
+    \label{fig:f_login}
+\end{figure}
+
+Tras hacer clic en el enlace de recuperar cuenta, se muestra la pantalla correspondiente \ref{fig:f_recuperar_cuenta}, en la cual se solicita el correo del usuario para enviar un enlace de recuperación de contraseña. Debajo de este campo se encuentra un botón para enviar la solicitud de recuperación de cuenta y un enlace para regresar a la pantalla de inicio de sesión.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_recuperar_cuenta.png}
+    \caption{Pantalla para recuperar cuenta.}
+    \label{fig:f_recuperar_cuenta}
+\end{figure}
+
+En el panel de administración \ref{fig:f_admin_dashboard} se puede ver un resumen de las métricas más importantes del sistema, como la cantidad de empresas registradas (activas o invactivas), la cantidad de usuarios, la cantidad de conversaciones y la cantidad de cotizaciones generadas. Además, se muestran accesos directos a los distintos apartados del sistema como usuarios, conversaciones y reportes. Dos elementos importantes y recurrentes son la barra lateral izquierda, la cual contiene los accesos a los distintos apartados del sistema y la barra superior, la cual contiene el nombre del usuario y un botón para cambiar de tema de color (modo oscuro o modo claro).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_admin_dashboard.png}
+    \caption{Pantalla del panel de administración.}
+    \label{fig:f_admin_dashboard}
+\end{figure}
+
+La pantalla de gestión de empresas \ref{fig:f_empresas} muestra un botón para agregar una nueva empresa, un buscador para filtrar empresas por nombre y tarjetas que muestran información de cada empresa y acciones rapidas como editar, activar/desactivar y eliminar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_empresas.png}
+    \caption{Pantalla para el apartado de gestión de empresas.}
+    \label{fig:f_empresas}
+\end{figure}
+
+Al hacer clic en el botón de "Añadir Empresa" se muestra un modal \ref{fig:f_modal_nueva_empresa} con campos para ingresar el nombre de la empresa, el URL del logo, el número de WhatsApp y los tokens de acceso a la API de WhatsApp Business, además de un botón para cancelar y otro para guardar la nueva empresa.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_nueva_empresa.png}
+    \caption{Modal de nueva empresa.}
+    \label{fig:f_modal_nueva_empresa}
+\end{figure}
+
+En la pantalla de gestión de productos \ref{fig:f_productos_catalogo} se puede ver un buscador para filtrar productos por nombre, un botón para agregar un nuevo producto y el espacio donde se mostraran los productos registrados en el sistema, cada uno con su respectiva información y acciones rápidas como editar, activar/desactivar y eliminar. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_productos_catalogo.png}
+    \caption{Pantalla para el catálogo de productos.}
+    \label{fig:f_productos_catalogo}
+\end{figure}
+
+En la pantalla de gestión de categorías de productos \ref{fig:f_productos_categorias} se puede ver un buscador para filtrar categorías por nombre, un botón para agregar una nueva categoría y el espacio donde se mostraran las categorías registradas en el sistema, cada una con su respectiva información y acciones rápidas como editar, activar/desactivar y eliminar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_productos_categorias.png}
+    \caption{Pantalla para las categorías de productos.}
+    \label{fig:f_productos_categorias}
+\end{figure}
+
+Al dar clic en el botón de "Añadir Producto" una de las opciones es abrir un modal \ref{fig:f_modal_alta_manual_producto} para dar de alta un producto de manera manual, en el cual se incluyen campos para ingresar el nombre del producto, la descripción, la marca, el precio, el stock, la URL de la imagen y la categoría a la que pertenece, además de un botón para cancelar y otro para guardar el nuevo producto.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_alta_manual_producto.png}
+    \caption{Modal de alta manual de producto.}
+    \label{fig:f_modal_alta_manual_producto}
+\end{figure}
+
+Otra forma de importar productos es mediante un archivo CSV, para ello se muestra un modal \ref{fig:f_modal_importar_por_csv} con un campo para subir el archivo CSV.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_importar_por_csv.png}
+    \caption{Modal de importación de productos por CSV.}
+    \label{fig:f_modal_importar_por_csv}
+\end{figure}
+
+Al dar clic en el botón de "Añadir Categoría" se muestra un modal \ref{fig:f_modal_nueva_categoria} con campos para ingresar el nombre de la categoría y su descripción, además de un botón para cancelar y otro para guardar la nueva categoría.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_nueva_categoria.png}
+    \caption{Modal de nueva categoría.}
+    \label{fig:f_modal_nueva_categoria}
+\end{figure}
+
+En el panel de gestión de usuarios \ref{fig:f_usuarios} se puede ver un botón para agregar un nuevo usuario y, debajo de esto, la lista donde se mostraran los usuarios registrados en el sistema, cada uno con su respectiva información y acciones rápidas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_usuarios.png}
+    \caption{Pantalla para el panel de usuarios.}
+    \label{fig:f_usuarios}
+\end{figure}
+
+Al dar clic en el botón de "Añadir Usuario" se muestra un modal \ref{fig:f_modal_nuevo_usuario} con campos para ingresar el nombre, apellido, correo, teléfono, contraseña y rol del nuevo usuario, además de un botón para cancelar y otro para guardar el nuevo usuario.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_modal_nuevo_usuario.png}
+    \caption{Modal de nuevo usuario.}
+    \label{fig:f_modal_nuevo_usuario}
+\end{figure}
+
+La pantalla de historial de chats \ref{fig:f_chats_historial} muestra un buscador para filtrar conversaciones por fecha, empresa y canal de comunicación, además de contar con los respectivos espacios donde se motraran el listado de conversaciones y el detalle de la conversación seleccionada.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_chats_historial.png}
+    \caption{Pantalla de historial de chats.}
+    \label{fig:f_chats_historial}
+\end{figure}
+
+La pantalla de logs \ref{fig:f_logs} cuenta por el momento con el espacio donde se mostraran los logs de auditoria con sus respectivo detalles.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_logs.png}
+    \caption{Pantalla para el panel de logs.}
+    \label{fig:f_logs}
+\end{figure}
+
+El widget embebible de chat \ref{fig:f_widget} muestra una barra superior con el nombre del asistente y un botón para cerrar el widget. Debajo de esta barra se encuentra el área de mensajes, donde se muestran los mensajes enviados por el cliente y las respuestas generadas por el modelo de IA. En la parte inferior del widget se encuentra un campo de texto para que el cliente ingrese su mensaje y un botón para enviar el mensaje.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_widget.jpeg}
+    \caption{Pantalla del widget web de chat.}
+    \label{fig:f_widget}
+\end{figure}
+
+La pantalla de reportes \ref{fig:f_reportes} cuenta por el momento con el espacio donde se mostraran los reportes de consumo de tokens, conversaciones atendidas, productos consultados y cotizaciones generadas. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_reportes.png}
+    \caption{Pantalla para el panel de reportes.}
+    \label{fig:f_reportes}
+\end{figure}
+
+La pantalla de configuración de reglas del modelo de IA \ref{fig:f_reglas} muestra un formulario con un campo para configurar las reglas base del modelo de IA, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_reglas.png}
+    \caption{Pantalla para el panel de configuración de reglas del modelo de IA.}
+    \label{fig:f_reglas}
+\end{figure}
+
+La pantalla de configuración de parámetros de la empresa \ref{fig:f_parametros} muestra un formulario con campos para configurar el nombre de la empresa y el URL del logo, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_parametros.png}
+    \caption{Pantalla para el panel de configuración de parámetros de la empresa.}
+    \label{fig:f_parametros}
+\end{figure}
+
+La pantalla de configuración del motor de IA \ref{fig:f_motor_ia} muestra un formulario con campos para configurar el proveedor de IA, el modelo de IA, el limite de tokens y el estado de la automatización de respuestas, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_motor_ia.png}
+    \caption{Pantalla para el panel de configuración del motor de IA.}
+    \label{fig:f_motor_ia}
+\end{figure}
+
+La pantalla de configuración del canal de WhatsApp \ref{fig:f_canal_whatsapp} muestra un formulario con campos para configurar el número de WhatsApp, los tokens de acceso a la API de WhatsApp Business y el estado del canal de comunicación, además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_canal_whatsapp.png}
+    \caption{Pantalla para el panel de configuración del canal de WhatsApp.}
+    \label{fig:f_canal_whatsapp}
+\end{figure}
+
+La pantalla de configuración del canal de widget \ref{fig:f_canal_widget} muestra un formulario con campos para configurar el nombre del asistente, el color principal del widget, el mesnaje de bienvenida, el estado del canal de comunicación, etc. Además de un botón para guardar los cambios realizados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/img_2430124/f/f_canal_widget.png}
+    \caption{Pantalla para el panel de configuración del canal de widget.}
+    \label{fig:f_canal_widget}
+\end{figure}
 
 \begin{comment}
 Los métodos y herramientas utilizadas son la descripción detallada de las etapas
