@@ -1,4 +1,6 @@
 \babel@toc {spanish}{}\relax 
+\contentsline {section}{Resumen}{\es@scroman {iii}}{Doc-Start}%
+\contentsline {section}{Abstract}{\es@scroman {iv}}{Doc-Start}%
 \contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Objetivos}{1}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Objetivo General}{1}{subsubsection.1.1.1}%
@@ -77,5 +79,9 @@
 \contentsline {subsubsection}{\numberline {4.4.2}Patrones de Diseño}{63}{subsubsection.4.4.2}%
 \contentsline {subsubsection}{\numberline {4.4.3}Estructura del Código}{64}{subsubsection.4.4.3}%
 \contentsline {subsubsection}{\numberline {4.4.4}Pantallas finales del sistema}{64}{subsubsection.4.4.4}%
-\contentsline {section}{Bibliografía}{76}{figure.caption.95}%
-\contentsline {section}{Anexos}{79}{figure.caption.95}%
+\contentsline {section}{\numberline {5}Conclusiones}{76}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Conclusión general del proyecto}{76}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Experiencia personal del proyecto}{76}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Trabajo futuro}{77}{subsection.5.3}%
+\contentsline {section}{Bibliografía}{78}{subsection.5.3}%
+\contentsline {section}{Anexos}{78}{subsection.5.3}%
