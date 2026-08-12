@@ -1,7 +1,31 @@
 \section{Conclusiones}
-Incluye:
-\begin{itemize}
-\item Resultados relevantes.
-\item Experiencia personal y profesional.
-\item Sugerencias de mejora.
-\end{itemize}
+\label{ch:conclusiones}
+
+\subsection{Conclusión general del proyecto}
+\label{sec:conclusion-general}
+
+El proyecto ha cumplido con su objetivo principal ya que se ha obtenido un sistema de cotización automatizado que permite a los usuarios obtener cotizaciones de manera rápida y eficiente basandose completamente en la información almacenada por los administradores de la empresa. Además, los administradores de empresa cuentan con acceso al panel administrativo que les ofrece distintas funcionalidades para gestionar la información de los productos y categorias, visualizar las conversaciones con los clientes y las cotizaciones generadas a partir de estas conversaciones, ver detalladamente metricas de interes, entre otras.\\
+Un detalle importante es la arquitectura multi-inquilino que permite ofrecer esta misma solución a distintas empresas siempre garantizando la privacidad de la información de cada una de ellas mediante una correcta gestión de base de datos y de permisos.\\
+Las empresas que en un futuro utilicen este sistema podrán ofrecer a sus clientes un servicio de cotización más rápido y eficiente, lo que se traduce en una mejor experiencia de usuario y en una mayor satisfacción del cliente.
+
+\subsection{Experiencia personal del proyecto}
+\label{sec:experiencia-personal}
+
+Durante el desarrollo del proyecto he adquirrido nuevos conocimientos en las distintas tecnologias utilizadas, si bien algunas de ellas ya las conocía y utilizaba como React y PostgreSQL, otras como Laravel y Redis eran nuevas para mí y gracias a este proyecto he podido aprenderlas y utilizarlas en un contexto real.
+
+De Laravel he aprendido lo grande que es el framework y las facilidades que ofrece para el desarrollo de aplicaciones web tales como el Eloquent ORM, el sistema de migraciones y seeders, la gestión de rutas y controladores, su interfaz de linea de comandos Artisan y su entorno interactivo Tinker, entre otras.
+
+De Redis he aprendido a utilizarlo como sistema de cache para la optimización de consultas a la base de datos, esto me ha permitido mejorar el rendimiento de la aplicación y reducir el tiempo de respuesta de las consultas.
+
+En general, considero que este proyecto me ha permitido conocer más a fondo herramientas que antes talvez solo escuchaba nombrar como las dos que ya mencioné, y me ha dado la oportunidad de aprender a utilizarlas en un contexto real, lo que me ha permitido mejorar mis habilidades.
+
+\subsection{Trabajo futuro}
+\label{sec:trabajo-futuro}
+
+A pesar de que considero que se ha cumplido con el trabajo establecido, hay aspectos que podrian trabajarse para implementarse en un futuro.
+
+El primero es que puede haber feedback para el modelo de IA, esto permitiria al modelo de IA aprender de los errores y mejorar su desempeño en base a los comentarios de los clientes o de los administradores de la empresa. Como beneficio de esto, se obtendrian cada vez mejores resultados en las interacciones con los clientes y una mayor satisfacción de los mismos. Cabe mencionar que al estar trbajando actualmente con un modelo de IA externo, esta mejora conllevaria un replanteamiento de la arquitectura.
+
+La segunda es que se puede implementar un sistema de pagos ya que hasta el momento el sistema solo permite generar cotizaciones, pero no permite realizar pagos. Esto incluiria otro proceso automatizado que permitiria a los clientes realizar pagos de manera rápida y segura, lo que mejoraria la experiencia de usuario y aumentaria la satisfacción del cliente. Aunque cabe mencionar que esta funcionalidad conllevaria una mayor complejidad pero seria un buen complemento.
+
+Por ultimo, puede implementarse un sistema de notificaciones para los administradores de la empresa, esto les permitiria recibir notificaciones en tiempo real sobre las interacciones con los clientes y las cotizaciones generadas, esto les permitiria estar más al tanto de lo que sucede.
